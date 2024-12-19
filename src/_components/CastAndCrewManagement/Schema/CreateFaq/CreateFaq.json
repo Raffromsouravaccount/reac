@@ -1,0 +1,30 @@
+[
+    {
+      "name": "question",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "Question",
+      "rowsMax":"14",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 1000,
+        "minLength": 5
+      }
+    },
+    {
+      "name": "answer",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "Answer",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 5000,
+        "minLength": 5
+      }
+    }
+    
+]

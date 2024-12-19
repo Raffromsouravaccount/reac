@@ -1,0 +1,125 @@
+.collection-assign-top-head .mark-done{
+  margin-left: 20px;
+  padding: 15px 7px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(153, 153, 153, 0.1);
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  line-height: 1.21;
+  display: flex;
+  cursor: pointer;
+}
+.collection-assign-top-head .mark-done span{
+  display: flex;
+  background-color: #d8d8d8;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+.collection-assign-top-head .filter-btn, .collection-assign-top-head .btn-create-user,
+.collection-assign-content-page .filter-btn, .collection-assign-content-page .btn-create-user
+{
+  height: 46px;
+}
+.ralated-tabs.cr-mov-tab .tabs{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 13px 15px;
+}
+.ralated-tabs.cr-mov-tab .tabs .MuiTab-root{
+  margin-right: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #999999;
+  text-transform: capitalize;
+  min-width: inherit;
+  min-height: inherit;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 6px 13px;
+  margin-left: 20px;
+  opacity: 1;
+}
+.ralated-tabs.cr-mov-tab .tabs .MuiTab-root:first-child{
+  margin-left: 0;
+}
+.ralated-tabs .tabs .MuiTabs-indicator{
+  display: none;
+}
+.ralated-tabs.cr-mov-tab .tabs .MuiTab-root.Mui-selected{
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f6e3ef;
+  color: #bb3e8c;
+}
+.ralated-tabs.cr-mov-tab{
+  margin-bottom: 25px;
+}
+.collection-assign-content-page{
+  padding: 18px 0;
+  border-radius: 0;
+}
+.collection-assign-list{
+  padding: 0 15px;
+}
+.collection-assign-list .whitebox{
+  padding: 10px 11px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.collection-assign-list .right-icon .list{
+  background: #e7f2fe;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.collection-assign-list .left-text{
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e0130;
+}
+.collection-assign-list .left-text span{
+  opacity: 0.5;
+}
+.collection-assign-list .zee-input-field.MuiFormControl-root{
+  margin-bottom: 0;
+}
+.collection-assign-block-content .assign-move-tab ul{
+  max-width: 820px;
+}
+.collection-assign-block.collection-assign-block-content .collection-assign-top-head{
+  margin: 0;
+}
+.collection-assign-block-content .assign-move-tab{
+  margin: 0 0 30px;
+}
+.collection-assign-block-content .collection-heading{
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #1e1e1e;
+  padding: 10px 16px;
+  margin-bottom: 15px;
+}
+.collection-assign-block.collection-assign-block-content .user-head{
+  margin-bottom: 15px;
+}
+
+.collection-assign-block.collection-assign-block-content .assign-move-tab .user-head{
+  margin-bottom: 0px;
+}

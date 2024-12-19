@@ -1,0 +1,54 @@
+name: dev-ms3-v2
+on:
+  workflow_dispatch:
+jobs:
+  infra-deploy:
+    runs-on: ubuntu-latest
+    environment: dev-ms3-v2
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ap-south-1
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: cms-frontend
+          fetch-depth: '0'
+          ref: dev-ms3-v2
+      - name: Setup SSH
+        uses: MrSquaare/ssh-setup-action@v1
+        with:
+          host: github.com
+          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '10.15.3'
+      - name: Deploy Images in ECR
+        shell: bash
+        run: |
+          sudo pip3 install awscli
+          aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+          aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+          aws configure set region $AWS_DEFAULT_REGION --profile default
+          aws configure set profile.default.role_arn "arn:aws:iam::963788245243:role/z5x_jenkins"
+          aws configure set profile.default.source_profile default
+          cd cms-frontend
+          touch .env
+          echo "${{ secrets.BACKEND_API_URL }}" >> .env
+          echo "${{ secrets.LOGINURL }}" >> .env
+          echo "${{ secrets.ADFS_LOGIN_URL }}" >> .env
+          echo "${{ secrets.GOOGLE_LOGIN_URL }}" >> .env
+          echo "${{ secrets.LOGOUT_URL }}" >> .env
+          echo "${{ secrets.ADFS_LOGOUT_URL }}" >> .env
+          echo "${{ secrets.IMAGE_BASE_URL }}" >> .env
+          echo "${{ secrets.LOGGING_MAIN_URL }}" >> .env
+          echo "${{ secrets.LOGGING_REPORTING_URL }}" >> .env
+          echo "${{ secrets.LOGGING_KEY }}" >> .env
+          echo "${{ secrets.BACKEND_API_PLACEHOLDER_URL }}" >> .env
+          npm install
+          npm run build
+          pip3 install awscli
+          aws s3 sync dist s3://dev-ms3-v2-ott-cms-frontend  --profile default
+          aws cloudfront create-invalidation --distribution-id "E28OY3AGATBOCZ" --paths "/*" --profile default
+          

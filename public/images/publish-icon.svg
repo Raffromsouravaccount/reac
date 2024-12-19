@@ -1,0 +1,31 @@
+<svg id="accept-reject_btn" data-name="accept-reject btn" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #34c38f;
+        stroke-width: 0.75px;
+      }
+
+      .cls-2 {
+        fill: #34c38f;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_32" data-name="Rectangle 32" class="cls-1">
+    <rect class="cls-3" width="17" height="17" rx="8.5"/>
+    <rect class="cls-4" x="0.375" y="0.375" width="16.25" height="16.25" rx="8.125"/>
+  </g>
+  <path id="Path_366" data-name="Path 366" class="cls-2" d="M7.065,51.184a.286.286,0,0,0-.4-.007l-.007.007L2,55.84.484,54.327a.286.286,0,0,0-.4.4L1.8,56.446a.286.286,0,0,0,.4,0l4.859-4.859A.286.286,0,0,0,7.065,51.184Z" transform="translate(5.066 -45.358)"/>
+</svg>

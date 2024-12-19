@@ -1,0 +1,19 @@
+.status-change .text {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1e1e1e;
+}
+.status-change .val{
+  margin-left: 10px;
+}
+.role-m-link {
+  margin-top: -28px;
+  margin-bottom: 12px;
+}
+.role-m-link a {
+  text-decoration: underline;
+  display: inline-block;
+  color: #BB3E8C;
+  font-size: 12px;
+}

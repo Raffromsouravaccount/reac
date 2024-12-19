@@ -1,0 +1,29 @@
+{
+  "sortingFilters": [
+      {
+        "name":"sortOrder",
+        "label":"By Last Modified",
+        "for": "All",
+        "display": true,
+        "value": "",
+        "data": [
+          { "value": "desc", "label": "Newest to Oldest" },
+          { "value": "asc", "label": "Oldest to Newest" }
+        ]
+      }
+    ],
+    "radioFilters": [
+      {
+        "name":"status",
+        "label":"Status",
+        "for": "All",
+        "display": true,
+        "value": "",
+        "data": [
+          { "value": "success", "label": "Success" },
+          { "value": "pending", "label": "Pending" },
+          { "value": "processing", "label": "Processing" }
+        ]
+      }
+    ]
+  }

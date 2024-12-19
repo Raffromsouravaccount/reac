@@ -1,0 +1,114 @@
+.nested-view .parent .icon {
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 28px;
+  width: 18px;
+  z-index: 1;
+}
+.nested-view .parent .icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.nested-view .parent .pos-rel {
+  padding-left: 26px;
+}
+.nested-view .child {
+  border-top: 1px solid #ececec;
+  padding-left: 36px;
+}
+.nested-view .child .m-tag {
+  left: 48px;
+}
+.seasons-row {
+  padding: 7px 12px;
+  border-top: 1px solid #ececec;
+}
+.seasons-row .tvshow-name,
+.seasons-row .tvshow-seasons {
+  margin-right: 70px;
+}
+.seasons-row .tvshow-release .val{
+  color: #2c0b2d;
+  text-decoration: none;
+  cursor: text;
+}
+.seasons-row .label, .seasons-row .val {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.75;
+  font-style: normal;
+}
+.seasons-row .label {
+  margin-right: 20px;
+  color: #999999;
+}
+.seasons-row .val {
+  color: #bb3e8c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.show-listing.mov-l-box .mov-info-box {
+  padding: 12px 10px 12px 38px;
+  position: relative;
+}
+.show-listing .left-area {
+  position: relative;
+}
+.show-listing .mov-info-box .movie-img,
+.show-listing .mov-info-box .movie-img img {
+  width: 54px;
+  height: 54px;
+}
+.search-with-select input{
+  float: left;
+  border-radius: 4px 0px 0px 4px !important;
+  box-shadow: 0 3px 6px 0 rgba(34, 37, 41, 0.16) !important;
+  border-right: none !important;
+}
+.search-with-select .dropdown-btn{
+  float: left;
+  width: 113px;
+}
+.search-with-select .dropdown-btn button{
+  height: 48px;
+  width: 100%;
+  border-radius: 0px 4px 4px 0px !important;
+  box-shadow: 6px 4px 7px 0 rgba(34, 37, 41, 0.16) !important;
+  border: solid 1px #999999;
+  background-color: #ffffff;
+  border-left: none;
+  float: left;
+}
+.search-with-select .dropdown-btn button::before{
+  border-color: #2c0b2d;
+}
+.search-with-select .dropdown-btn .drop-menu{
+  width: 113px;
+  box-shadow: 2px 4px 10px 3px #ccc;
+  border-radius: 4px;
+}
+.search-with-select .dropdown-btn .drop-menu .MuiPaper-elevation1{
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .seasons-row .tvshow-name, 
+  .seasons-row .tvshow-seasons {
+    margin-right: 30px;
+  }
+  .seasons-row .label {
+    margin-right: 10px;
+  }
+
+}
+@media (max-width: 767px) {
+  .user-head .search-with-select input[type="text"] {
+    width: calc(100% - 113px);
+  }
+  .user-head .search-with-select {
+    width: 100%;
+  }
+  
+}

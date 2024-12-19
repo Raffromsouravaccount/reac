@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-2{fill:#2c0b2d}
+        </style>
+    </defs>
+    <g id="Group_3854" transform="translate(-1239 -270)">
+        <g id="Group_1579" transform="translate(2 23)">
+            <g id="Group_1511" transform="translate(1210 247.5)">
+                <rect id="Rectangle_273" width="28" height="28" fill="#e7f2fe" rx="5" transform="translate(27 -.5)"/>
+            </g>
+            <g id="eye_2_" transform="translate(1242.999 150.338)">
+                <g id="Group_699" transform="translate(0 106.662)">
+                    <g id="Group_698">
+                        <path id="Path_433" d="M14.989 110.872c-.118-.172-2.966-4.21-7.467-4.21-3.862 0-7.3 4.015-7.449 4.186a.315.315 0 0 0 0 .4c.145.171 3.586 4.186 7.449 4.186s7.3-4.015 7.449-4.186a.313.313 0 0 0 .018-.376zm-7.467 3.939c-3.1 0-6.04-2.953-6.788-3.761.747-.809 3.687-3.761 6.788-3.761 3.623 0 6.18 2.948 6.8 3.744-.716.783-3.677 3.778-6.799 3.778z" class="cls-2" transform="translate(0 -106.662)"/>
+                    </g>
+                </g>
+                <g id="Group_701" transform="translate(5.015 108.543)">
+                    <g id="Group_700">
+                        <path id="Path_434" d="M173.169 170.662a2.507 2.507 0 1 0 2.507 2.507 2.51 2.51 0 0 0-2.507-2.507zm0 4.388a1.881 1.881 0 1 1 1.881-1.881 1.883 1.883 0 0 1-1.881 1.881z" class="cls-2" transform="translate(-170.662 -170.662)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <defs>
+        <filter id="Ellipse_209" width="31" height="31" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="1"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#2c0b2d}
+        </style>
+    </defs>
+    <g id="Group_1706" transform="translate(-948 -458)">
+        <g id="Group_1488" filter="url(#Ellipse_209)" transform="translate(947.999 458.005)">
+            <circle id="Ellipse_209-2" cx="12.5" cy="12.5" r="12.5" fill="#fff" transform="translate(3 1)"/>
+        </g>
+        <g id="random" transform="translate(958 467)">
+            <g id="Group_1464">
+                <g id="Group_1463">
+                    <path id="Path_1131" d="M11.788 53.019l-1.7-1.7a.425.425 0 0 0-.6.6l.976.976H8.083a2.981 2.981 0 0 0-2.978 2.978A2.13 2.13 0 0 1 2.978 58H.425a.425.425 0 1 0 0 .851h2.553a2.981 2.981 0 0 0 2.978-2.978 2.13 2.13 0 0 1 2.127-2.127h2.377l-.976.976a.425.425 0 0 0 .591.612l.01-.01 1.7-1.7a.425.425 0 0 0 .003-.605z" class="cls-2" transform="translate(0 -51.197)"/>
+                </g>
+            </g>
+            <g id="Group_1466" transform="translate(5.959 5.105)">
+                <g id="Group_1465">
+                    <path id="Path_1132" d="M244.865 257.82l-1.7-1.7a.425.425 0 0 0-.6.6l.976.976h-2.381a2.124 2.124 0 0 1-1.418-.542.425.425 0 0 0-.568.634 2.973 2.973 0 0 0 1.986.759h2.376l-.976.975a.425.425 0 1 0 .591.612l.01-.01 1.7-1.7a.425.425 0 0 0 .004-.604z" class="cls-2" transform="translate(-239.036 -255.998)"/>
+                </g>
+            </g>
+            <g id="Group_1468" transform="translate(0 1.697)">
+                <g id="Group_1467">
+                    <path id="Path_1133" d="M4.964 120.031a2.973 2.973 0 0 0-1.986-.759H.425a.425.425 0 0 0 0 .851h2.553a2.124 2.124 0 0 1 1.418.542.425.425 0 0 0 .568-.634z" class="cls-2" transform="translate(0 -119.272)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

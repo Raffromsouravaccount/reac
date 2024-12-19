@@ -1,0 +1,14 @@
+.c-box.role-box {
+  text-align: left;
+}
+.c-box.role-box .u-name {
+  width: calc(100% - 80px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+.c-box.role-box .u-date {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 1.75;
+}

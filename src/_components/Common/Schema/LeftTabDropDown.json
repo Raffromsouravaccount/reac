@@ -1,0 +1,25 @@
+[
+  {
+    "displayName": "Create Quick Filing",
+    "title": "quick",
+    "permissionKey": "movies",
+    "permissionSubKey": "quickFiling",
+    "permissionName": "canCreate",
+    "validFor": {
+      "movie": true,
+      "video": true,
+      "tvShow": true
+    }
+  },
+  {
+    "displayName": "Single Landing Page",
+    "title": "single",
+    "permissionKey": "movies",
+    "permissionSubKey": "singleLanding",
+    "permissionName": "canCreate",
+    "validFor": {
+      "movie": false,
+      "tvShow": false
+    }
+  }
+]

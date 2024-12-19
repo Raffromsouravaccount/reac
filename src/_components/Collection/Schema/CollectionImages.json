@@ -1,0 +1,108 @@
+[
+  {
+    "name": "setName",
+    "type": "text",
+    "placeHolder": "Set Name",
+    "required": true,
+    "minLengths": 0,
+    "maxLengths": 250
+  },
+  {
+    "name": "group",
+    "type": "dropDown",
+    "placeHolder": "Select Group",
+    "required": false,
+    "multiple": true,
+    "options": [
+      {
+        "DisplayName": "Sample1",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample2",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample3",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample4",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample5",
+        "CurrentStatus": "Active"
+      }
+    ]
+  },
+  {
+    "name": "platform",
+    "type": "dropDown",
+    "placeHolder": "Select Platform",
+    "required": false,
+    "multiple": true,
+    "options": [
+      {
+        "DisplayName": "Sample1",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample2",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample3",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample4",
+        "CurrentStatus": "Active"
+      },
+      {
+        "DisplayName": "Sample5",
+        "CurrentStatus": "Active"
+      }
+    ]
+  },
+  {
+    "name": "tag",
+    "type": "tagimage",
+    "placeHolder": "Image Tags",
+    "required": false
+  },
+  {
+    "name": "gender",
+    "type": "dropDown",
+    "placeHolder": "Gender",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "genre",
+    "type": "dropDown",
+    "placeHolder": "Geners",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "ageGroup",
+    "type": "dropDown",
+    "placeHolder": "Age Group",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "language",
+    "type": "dropDown",
+    "placeHolder": "Language",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "other",
+    "type": "text",
+    "placeHolder": "Other",
+    "required": false
+  }
+]

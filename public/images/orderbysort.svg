@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.065" height="16" viewBox="0 0 11.065 16">
+    <defs>
+        <style>
+            .cls-1{fill:#2c0b2d}
+        </style>
+    </defs>
+    <g id="Group_7961" transform="translate(-1156 -246)">
+        <path id="bx-sort" d="M11.541 4.262v12.819h1.508V6.524h3.016L11.541 2z" class="cls-1" transform="translate(1151 244.5)"/>
+        <circle id="Ellipse_290" cx="2" cy="2" r="2" class="cls-1" transform="translate(1156 246)"/>
+        <circle id="Ellipse_291" cx="2" cy="2" r="2" class="cls-1" transform="translate(1156 252)"/>
+        <circle id="Ellipse_292" cx="2" cy="2" r="2" class="cls-1" transform="translate(1156 258)"/>
+    </g>
+</svg>

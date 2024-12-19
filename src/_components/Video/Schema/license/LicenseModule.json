@@ -1,0 +1,348 @@
+
+  {
+    "manual_section": [
+      {
+        "name": "setName",
+        "type": "text",
+        "value": "",
+        "col": "col-md-7 col-lg-7",
+        "label": "Set Name",
+        "errorText": "",
+        "validation": {
+          "required": true,
+          "isAlphaNumericWithSpecialChars": true,
+          "maxLength":250
+        }
+      },
+      {
+        "name": "fromDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "License From Date",
+        "minDate": "sameOrAfter",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "toDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "License To Date",
+        "minDate": "sameOrAfter",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+    {
+      "name": "country",
+      "type": "dropdown",
+      "value": [],
+      "col": "col-md-6 col-lg-6",
+      "multiple": true,
+      "groupBy": "group",
+      "path": "user/country-group",
+      "keyText": "title",
+      "label": "Country / Group",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+      {
+        "name": "businessType",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/BusinessType",
+        "keyText": "title",
+        "label": "Business Type",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "billingType",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/BillingType",
+        "keyText": "title",
+        "label": "Billing Type",
+        "data": [],
+        "disabled": true,
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "platform",
+        "type": "conditionalDropdown",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "path": "/master/Platform",
+        "keyText": "title",
+        "label": "Platform",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "tvodTier",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/TVODTier",
+        "keyText": "title",
+        "label": "TVOD Tier",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "length":250
+        }
+      }
+    ],
+    "template_edit_section": [
+      {
+        "name": "country",
+        "type": "dropdown",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "groupBy": "group",
+        "path": "user/country-group",
+        "keyText": "title",
+        "label": "Country / Group",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "businessType",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/BusinessType",
+        "keyText": "title",
+        "label": "Business Type",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "billingType",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/BillingType",
+        "keyText": "title",
+        "label": "Billing Type",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "platform",
+        "type": "conditionalDropdown",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "path": "/master/Platform",
+        "keyText": "title",
+        "label": "Platform",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "tvodTier",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/TVODTier",
+        "keyText": "title",
+        "label": "TVOD Tier",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "template_section": [
+      {
+        "name": "setName",
+        "type": "text",
+        "value": "",
+        "col": "col-md-7 col-lg-7",
+        "label": "Set Name",
+        "errorText": "",
+        "validation": {
+          "required": true,
+          "maxLength":250
+        }
+      },
+      {
+        "name": "fromDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "License From Date",
+        "minDate": "sameOrAfter",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "toDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "License To Date",
+        "minDate": "sameOrAfter",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "search_filter_section": [
+      {
+        "name": "fromDate",
+        "placeholder": "from date",
+        "type": "date",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "label": "License From Date",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "toDate",
+        "type": "date",
+        "placeholder": "from date",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "label": "License To Date",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "businessType",
+        "type": "dropdown",
+        "value": null,
+        "col": "col-md-12 col-lg-12",
+        "multiple": false,
+        "path": "/master/BusinessType",
+        "label": "Business Type",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "billingType",
+        "type": "dropdown",
+        "value": null,
+        "col": "col-md-12 col-lg-12",
+        "multiple": false,
+        "path": "/master/BillingType",
+        "label": "Billing Type",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "platform",
+        "type": "dropdown",
+        "value": null,
+        "col": "col-md-12 col-lg-12",
+        "multiple": true,
+        "path": "/master/Platform",
+        "label": "Platform",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "display": true,
+        "col": "",
+        "name": "status",
+        "label": "Status",
+        "areaLabel": "status",
+        "labelPlacement": "end",
+        "value": null,
+        "type": "radio",
+        "data": [
+          {
+            "label": "Active",
+            "value": "1"
+          },
+          {
+            "label": "Inactive",
+            "value": "0"
+          }
+        ],
+        "validation": {}
+      }
+    ],
+    "commonmodel_section": [
+      {
+        "name": "reason",
+        "type": "dropdown",
+        "value": [],
+        "col": "col-md-12 col-lg-12",
+        "path": "/master/ReasonType",
+        "keyText": "title",
+        "multiple": false,
+        "label": "Reason",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ]
+  }

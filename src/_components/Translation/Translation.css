@@ -1,0 +1,536 @@
+.lang-list.listBox .icon {
+    margin-bottom: 10px;
+}
+.lang-list .lang-name {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: center;
+    color: #4b4b4b;
+    text-transform: capitalize;
+}
+.lang-list .lang-status {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #0081ef;
+}
+.completed {
+    color: #34c28f !important;
+}
+.noTranslation {
+    color: #f46a6a !important;
+}
+.markDone {
+    color: #34c28f !important;
+}
+.partiallyDone {
+    color: #f59526 !important;
+}
+.assigned-lang {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #2c0b2d;
+}
+.lang-select-wrap.whitebox {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.lang-select-wrap {
+    padding: 10px 15px;
+}
+.lang-select-wrap .left-area {
+    max-width: calc(100% - 160px);
+    width: 100%;
+}
+.lang-select-wrap .lang-text {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: normal;
+    color: #1e1e1e;
+    max-width: 150px;
+}
+.lang-select-wrap .lang-text span {
+    margin-right: 5px;
+}
+.lang-select-wrap .lang-text svg {
+    display: block;
+}
+.lang-select-wrap .lang-text.back-arrow {
+    margin-left: -15px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    height: 50px;
+    max-width: 180px;
+    width: 100%;
+    padding: 10px;
+    background: #f2f2f2;
+}
+.lang-select-wrap .lang-tab .lang-tab {
+    padding: 4px 15px 4px 28px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #999999;
+    cursor: pointer;
+}
+.lang-select-wrap .lang-tab .lang-tab:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #f59526;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+ }
+ .lang-select-wrap .lang-tab .lang-tab:last-child {
+    margin-right: 0;
+}
+.lang-select-wrap .lang-tab .lang-tab.active {
+    color: #bb3e8c;
+    font-weight: 600;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f6e3ef;
+ }
+ .lang-select-wrap .lang-tab .lang-tab.active:before {
+    background-color: #f46a6a;
+ }
+.lang-select-wrap .other-lang-btn {
+    padding: 0px 25px 0 15px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #2c0b2d;
+    position: relative;
+    cursor: pointer;
+}
+.lang-select-wrap .other-lang-btn:after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-bottom: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    transform: rotate(45deg);
+}
+.tabs.lang-tab {
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 4px;
+    min-height: 30px;
+    width: calc(100% - 180px);
+
+}
+.lang-tab.tabs .MuiTabs-indicator {
+    display: none !important;
+}
+.lang-tab.tabs .MuiTab-root {
+    min-height: 30px;
+    min-width: 75px;
+    padding: 4px 15px 4px 28px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #999999;
+    cursor: pointer;
+}
+.lang-tab.tabs .MuiTab-root.Mui-selected {
+    color: #bb3e8c;
+    font-weight: 600;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f6e3ef;
+}
+.lang-tab.tabs .MuiTab-root:after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #f59526;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.lang-tab.tabs .MuiTab-root.Mui-selected:after {
+    background-color: #f46a6a;
+}
+.lang-tab.tabs .MuiTab-root:last-child {
+    margin-right: 0;
+}
+.lang-head.ccm-head {
+    padding: 0;
+}
+.lang-head .lang-status {
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #f46a6a;
+}
+.lang-head .status-head {
+    padding: 10px 15px;
+}
+.lang-head .text {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #1e1e1e;
+    width: 120px;
+    padding-left: 15px;
+}
+.lang-head .tabs {
+    box-shadow: none;
+    border-radius: 0;
+}
+.lang-head .tabs .MuiTab-root {
+    min-height: 50px;
+    margin-right: 25px;
+}
+.lang-head .tabs .MuiTab-root:last-child {
+    margin-right: 0;
+}
+.lang-trans-view {
+    margin-bottom: 30px;
+}
+.lang-trans-view .label {
+    padding-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.75;
+    color: #999999;
+    width: 145px;
+}
+.lang-trans-view .text {
+    font-size: 14px;
+    line-height: 1.75;
+    color: #333333;
+    font-weight: 600;
+    width: calc(100% - 145px);
+}
+.lang-trans-view .text p:last-child {
+    margin-bottom: 0;
+}
+.lang-f-wrap .col-xl-5:nth-child(1), 
+.lang-f-wrap .col-xl-7:nth-child(2) {
+    padding-top: 30px;
+}
+.lang-f-wrap .col-xl-7 {
+    border-left: solid 1px #ececec;
+}
+.lang-global-text {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-top: solid 1px #ececec;
+    border-bottom: solid 1px #ececec;
+}
+.lang-global-text h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #1e1e1e;
+}
+.lang-f-half {
+    position: relative;
+    padding-right: 80px;
+}
+.lang-f-half .field-half {
+    width: 65%;
+}
+.actor-info-form .lang-f-half .field-half {
+    width: 100%;
+}
+.lang-f-half .lang-translate-link {
+    top: 14px;
+}
+.lang-f-half .lang-translate-link,
+.lang-f-full .lang-translate-link {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #bb3e8c;
+    display: none;
+}
+.lang-f-full .label-w  {
+    position: relative;
+    padding-right: 80px;
+}
+.other-lang-poupup.status-popup .MuiTypography-body1 {
+    text-align: initial;
+}
+.other-lang-poupup.status-popup .MuiDialog-paper {
+    max-width: 740px;
+}
+.other-lang-poupup .lang-name .MuiFormControl-root p:empty {
+    display: none;
+}
+.other-lang-poupup .lang-name .MuiTypography-root {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #0f1c21;
+}
+.other-lang-poupup .lang-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: solid 1px #ececec;
+}
+.other-lang-poupup.status-popup .MuiDialogContent-root {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.other-lang-poupup .trans-status {
+    padding-top: 3px;
+    padding-left: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0081ef;
+}
+.other-lang-poupup .trans-status .inner {
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+}
+.actor-info .lang-trans-view .label {
+    width: 90px;
+}
+.actor-info .lang-trans-view .text {
+    width: calc(100% - 90px);
+}
+.actor-info-form .p-remove:first-child .lang-f-half {
+    /* padding-right: 0;     */
+}
+.actor-info-form .lang-f-half { 
+    width: 100%;
+}
+/* .actor-info.m-minus-30,
+.actor-info-form.m-minus-30 {
+    margin-bottom: -30px;
+} */
+
+.actor-info .col-md-6.d-none {
+    display: none !important;
+}
+
+/* .lang-f-wrap .col-xl-5:last-child .actor-info.m-minus-30,
+.lang-f-wrap .col-xl-7:last-child .actor-info-form.m-minus-30  {
+    margin-bottom: -30px;
+}
+
+.lang-f-wrap .col-xl-5:nth-last-child(2) .actor-info.m-minus-30 .lang-trans-view {
+    margin-bottom: 0;
+}
+.lang-f-wrap .col-xl-7:last-child .actor-info.m-minus-30 .lang-trans-view {
+    margin-bottom: -30px;
+} */
+.mark-done-circle {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #34c28f;
+}
+.mark-done-circle .mark-green {
+    margin-right: 5px;
+}
+.other-lang-poupup .MuiDialogTitle-root h2 {
+    position: relative;
+}
+.other-lang-poupup .MuiDialogTitle-root h2 .mark-done-circle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.other-lang-poupup .trans-status .mark-green {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+    height: 11px;
+}
+.other-lang-poupup .trans-status .mark-green svg {
+    width: 6px;
+    height: 5px;
+}
+.trans-conf-popup .MuiButton-root:last-child {
+    margin: auto;
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.trans-conf-popup .MuiDialogActions-root::before, .trans-conf-popup .MuiDialogActions-root::after {
+    display: none;
+}
+.lang-list {
+    position: relative;
+    padding-top: 25px;
+}
+.lang-list .mark-done-circle {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3px 5px;
+    z-index: 1;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: rgba(153, 153, 153, 0.1);
+}
+.lang-list .mark-done-circle .mark-green {
+    width: 11px;
+    height: 11px;
+}
+
+.editSaveButton {
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    color: #bb3e8c;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.editSaveButton.f-save {
+    top: 14px;
+} 
+.masterDataExist .lang-trans-view .label {
+    display: none;
+}
+.edit-save-wrap .row .col-md-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.masterDataExist .edit-save-wrap .actor-info {
+    padding-top: 13px;
+    position: relative;
+}
+.masterDataExist .edit-save-wrap .editSaveButton  {
+    top: 15px;
+}
+.masterDataExist .lang-trans-view .text {
+    /* width: calc(100% - 80px); */
+    width: 100%;
+}
+.lang-f-wrap .col-xl-7.masterDataExist:nth-child(2) .editSaveButton {
+    top: 32px;
+}
+.lang-f-wrap .col-xl-7.masterDataExist:nth-child(2) .edit-save-wrap .editSaveButton,
+.lang-f-wrap .col-xl-7.masterDataExist:nth-child(2) .actor-info-form-cast .editSaveButton.save {
+    top: 15px;
+}
+.lang-f-wrap .col-xl-7.masterDataExist:nth-child(2) .actor-info-form-cast .editSaveButton {
+    top: 0;
+}
+
+.trans-conf-popup.status-popup .MuiTypography-body1 {
+    margin-bottom: 0;
+}
+@media (min-width: 992px) {
+    .other-lang-poupup .lang-name:nth-child(4n) {
+        border-right: none;
+    }    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .other-lang-poupup .lang-name:nth-child(3n) {
+        border-right: none;
+    }    
+}
+
+@media (max-width: 991px) {
+    .lang-f-half .field-half {
+        width: 100%;
+    }
+    .lang-f-wrap .col-xl-5 .actor-info .col-md-6,
+    .lang-f-wrap .col-xl-7 .actor-info .col-md-6,
+    .lang-f-wrap .col-xl-7 .actor-info-form .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .masterDataExist .edit-save-wrap .actor-info {
+        padding-top: 0;
+    }
+}
+@media (max-width: 767px) {  
+    .other-lang-poupup .lang-name:nth-child(2n) {
+        border-right: none;
+    } 
+    .lang-f-wrap .col-xl-7:nth-child(2) {
+        padding-top: 0px;
+    }
+    .lang-select-wrap .left-area {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .lang-select-wrap .lang-text {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .tabs.lang-tab {
+        width: 100%;
+    }
+    .lang-select-wrap .other-lang-btn {
+        padding-left: 0;
+    }
+    .lang-tab.tabs .MuiTabs-flexContainer,
+    .lang-head .tabs .MuiTabs-flexContainer {
+        display: inline-block;
+        flex-wrap: initial;
+    }
+    .lang-tab.tabs .MuiTab-root, 
+    .lang-head .tabs .MuiTab-root {
+        margin-right: 15px;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        max-width: initial;
+    }
+    .lang-tab.tabs .MuiTab-root .MuiTab-wrapper, 
+    .lang-head .tabs .MuiTab-root .MuiTab-wrapper {
+        justify-content: center;
+    }
+    .lang-select-wrap .lang-text.back-arrow {
+        margin-left: 0;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .lang-head .text {
+        width: 100%;
+        padding: 15px 15px 5px;
+        margin-right: 0;
+    }
+    .lang-head .tabs {
+        padding: 0 15px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,68 @@
+.colc-listing.mov-l-box .mov-info-box {
+  padding: 12px 10px 12px 38px;
+  position: relative;
+}
+.colc-listing .left-area {
+  position: relative;
+}
+.colc-listing .mov-info-box .movie-img,
+.colc-listing .mov-info-box .movie-img img {
+  width: 54px;
+  height: 54px; 
+}
+.colc-listing .icon {
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 18px;
+  z-index: 1;
+}
+.colc-listing .icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.colc-listing .colc-child {
+  padding-left: 18px;
+  position: relative;
+}
+.colc-listing .colc-child:before {
+  content: '';
+  display: block;
+  background: #ececec;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.colc-listing .colc-child .colc-child:before {
+  left: -18px;
+}
+.colc-listing .colc-child .colc-child .colc-child:before {
+  left: -36px;
+}
+.colc-listing .colc-child .colc-child .colc-child .colc-child:before {
+  left: -54px;
+}
+.colc-listing .colc-child .colc-child .colc-child .colc-child .colc-child:before {
+  left: -72px;
+}
+.colc-listing .colc-child .colc-child .colc-child .colc-child .colc-child .colc-child:before {
+  left: -90px;
+}
+.colc-listing .colc-child .colc-child .colc-child .colc-child .colc-child .colc-child .colc-child:before {
+  left: -108px;
+}
+.colc-listing .colc-child .colc-child .colc-child .colc-child .colc-child .colc-child .colc-child .colc-child:before {
+  left: -126px;
+}
+
+@media (max-width: 575px){
+.colc-listing .mov-info-box .movie-img,
+.colc-listing .mov-info-box .movie-img img {
+  width: 50px;
+  height: 50px; 
+}
+}
+

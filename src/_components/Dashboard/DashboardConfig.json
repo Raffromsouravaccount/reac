@@ -1,0 +1,58 @@
+[
+  {
+     "displayModuleName":"Cast Profile Management",
+     "icon":"images/cast-n-crew.svg",
+     "route":"/cast",
+     "permission":"cast",
+     "GridVisible":true
+  },
+  {
+     "displayModuleName":"Movie",
+     "icon":"images/movies-icon.svg",
+     "route":"/movie",
+     "permission":"movies",
+     "GridVisible":true
+  },
+  {
+     "displayModuleName":"Video",
+     "icon":"images/videos-icon.svg",
+     "route":"/video",
+     "permission":"always",
+     "GridVisible":true
+  },
+  {
+     "displayModuleName":"Collection",
+     "icon":"images/video-file.svg",
+     "route":"/collections",
+     "permission":"collections",
+     "GridVisible":false
+  },
+  {
+     "displayModuleName":"UID Mapping",
+     "icon":"images/transcoding.svg",
+     "route":"/transcoding",
+     "permission":"always",
+     "GridVisible":true
+  },
+  {
+     "displayModuleName":"TV Show",
+     "icon":"images/tv_show.svg",
+     "route":"/tvshow",
+     "permission":"always",
+     "GridVisible":true
+  },
+  {
+     "displayModuleName":"Ingestion",
+     "icon":"images/ingestion.svg",
+     "route":"/ingestion-dashboard",
+     "permission":"always",
+     "GridVisible":true
+  },
+{
+   "displayModuleName":"Bulk Update",
+   "icon":"images/bulk_update.svg",
+   "route":"/bulkupdate",
+   "permission":"always",
+   "GridVisible":true
+}
+]

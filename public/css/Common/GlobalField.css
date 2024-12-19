@@ -1,0 +1,84 @@
+.global-wrap .global-row:first-child .add-plush-row.top-title {
+  min-height: 28px;
+}
+.global-wrap .add-plush-row.top-title {
+  min-height: 38px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.global-wrap .add-plush-row.top-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #ececec;
+  height: 1px;
+  left: -15px;
+  right: -15px;
+  bottom: 0;
+}
+.global-wrap .add-another-f-btn {
+  margin-bottom: 0;
+  top: 0;
+}
+.global-wrap .add-another-f-btn .add-btn-field .plush-icon-btn {
+  margin-right: 0;
+}
+.global-wrap .top-title .top-text {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #1e1e1e;
+}
+.global-wrap .global-row {
+  position: relative;
+  padding-bottom: 10px;
+}
+.global-wrap .global-row:first-child:before {
+  display: none;
+}
+.global-wrap .global-row:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #ececec;
+  height: 1px;
+  left: -15px;
+  right: -15px;
+  top: -10px;
+}
+.placeholder-title {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #1e1e1e;
+}
+.placeholder-title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #ececec;
+  height: 1px;
+  left: -15px;
+  right: -15px;
+  top: 0px;
+}
+.episode-properties{
+  padding-bottom: 40px;
+}
+.placeholder-title.add-more-row {
+ position: relative;
+ padding-right: 30px;
+}
+.placeholder-title.add-more-row .add-another-f-btn {
+  top: 8px;
+  right: 0;
+}
+

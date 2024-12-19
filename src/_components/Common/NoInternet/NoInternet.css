@@ -1,0 +1,70 @@
+.no-internet {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 40px;
+  background-color: #fafcff;
+  width: 100%;
+  min-height: calc(100vh - 127px);
+}
+.ze-pos {
+  position: relative;
+  z-index: 2;
+}
+.no-internet .con-wrap {
+  padding-left: 60px;
+}
+.no-internet .title {
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #2c0b2d;
+}
+.no-internet .text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.75;
+  color: #333333;
+}
+
+.no-internet .try-again {
+  box-shadow: 0 2px 20px 0 rgba(44, 11, 45, 0.2);
+  min-width: 180px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 25px;
+}
+.no-internet .bootom-img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+@media (max-width: 991px) { 
+  .no-internet {
+    padding: 30px 15px;
+  }
+  .no-internet .con-wrap {
+    padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .no-internet {
+    min-height: calc(100vh - 180px);
+  }
+  .no-internet .title {
+    margin-bottom: 20px;
+    font-size: 30px; 
+  }
+  .no-internet .text {
+    font-size: 16px;
+  }
+}

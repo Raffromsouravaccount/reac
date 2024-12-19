@@ -1,0 +1,86 @@
+[
+  {
+    "name": "dashRootFolderName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Dash Root Folder",
+    "errorText": "",
+    "validation": {
+      "isAlphaNumericWithSpecialChars": true,
+      "required": true
+    }
+  },
+  {
+    "name": "dashManifestName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Dash Manifest",
+    "errorText": "",
+    "validation": {
+      "isAlphaNumericWithSpecialChars": true,
+      "required": true
+    }
+  },
+  {
+    "name": "hlsRootFolderName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "HLS Root Folder",
+    "errorText": "",
+    "validation": {
+      "isAlphaNumericWithSpecialChars": true,
+      "required": true
+    }
+  },
+  {
+    "name": "hlsManifestName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "HLS Manifest",
+    "errorText": "",
+    "validation": {
+      "isAlphaNumericWithSpecialChars": true,
+      "required": true
+    }
+  },
+  {
+    "name": "mediathekFileUid",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Mediathek File Uid",
+    "errorText": "",
+    "validation": {
+      "maxLength": 250,
+      "required": true,
+      "isAlphaNumericWithSpecialChars":true
+    }
+  },
+  {
+    "name": "thumbnail",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Thumbnail",
+    "errorText": "",
+    "validation": {
+      "isUrl": true,
+      "maxLength": 255,
+      "required": false
+    }
+  },
+  {
+    "name": "importdetails",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "sectionMultiple",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  }
+]

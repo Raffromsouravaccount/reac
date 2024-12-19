@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Main Content",
+    "type": "main",
+    "name": "mainContent",
+    "deleteTitle": "Delete Content",
+    "placeholder": "Search via Movie name",
+    "deleteModalDescription": "Do you want to remove this content from the assigned listing?",
+    "fetched": false
+  },
+  {
+    "label": "Link Content",
+    "type": "link",
+    "name": "linkContent",
+    "deleteTitle": "Delete Content",
+    "placeholder": "Search via Movie name",
+    "deleteModalDescription": "Do you want to remove this content from the assigned listing?",
+    "fetched": false
+  }
+]

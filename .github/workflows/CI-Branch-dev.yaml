@@ -1,0 +1,104 @@
+name: ci-branch-dev
+on:
+    workflow_dispatch:
+     inputs:
+      branch:
+        description: 'gitBranch'
+        required: true
+        default: 'dev'
+  # push:
+  #   branches: ["gcp-release-Azure"]
+
+jobs:
+  infra-deploy:
+    runs-on: ubuntu-latest
+    environment: dev
+    env:
+      environment: dev
+      # ADFS_CLIENT_ID: 'ADFS_CLIENT_ID=79dbb777-82e3-4fe7-bbdd-bd22c7690973'
+      # ADFS_AUTHORITY_URL: 'ADFS_AUTHORITY_URL=https://login.microsoftonline.com/56bd48cd-f312-49e8-b6c7-7b5b926c03d6'
+      # ADFS_LOGIN_URL: 'ADFS_LOGIN_URL=https://ott-test.auth.ap-south-1.amazoncognito.com/oauth2/authorize?identity_provider=adfs&redirect_uri=https://zee5np-endpoint-hsczh4c7f9ahg3cx.z01.azurefd.net/&response_type=code&client_id=2cea9a0a-1ec3-46db-b505-b4921ee45609&scope=openid+email'
+      # LOGOUT_URL: 'LOGOUT_URL=https://ott-test.auth.ap-south-1.amazoncognito.com/logout?client_id=6ikgvb8vps2speskpqn321k993&logout_uri=https://zee5np-endpoint-hsczh4c7f9ahg3cx.z01.azurefd.net/'
+      # LOGINURL: 'LOGINURL=https://apim-zee5-dev-ci1-csvc-0001.azure-api.net/cms/api/v1.0/user/login?env=localhost&code='
+      # BACKEND_API_URL: 'BACKEND_API_URL=https://apim-zee5-dev-ci1-csvc-0001.azure-api.net/cms/api/v1.0'
+      # BACKEND_API_PLACEHOLDER_URL: 'BACKEND_API_PLACEHOLDER_URL=https://apim-zee5-dev-ci1-csvc-0001.azure-api.net/cms/bulkops/api/v1.0'
+      # IMAGE_BASE_URL: 'IMAGE_BASE_URL=https://dev-vms-images-f3cxafgfe6emenba.z01.azurefd.net/az-zee5-dev-ott-draftimages-1/'
+      # SAS_TOKEN_STORAGE: 'SAS_TOKEN_STORAGE=?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-12-28T21:32:14Z&st=2023-12-28T13:32:14Z&spr=https,http&sig=4forUsh2UL9MKKNhUxw4VylVkFETyudslAL3WpFm3nA%3D'  
+
+      
+    permissions:
+      contents: read
+      id-token: write
+      packages: write
+      actions: read
+      security-events: write
+      
+    steps:
+      - uses: actions/checkout@v2
+        name: Clone repo using Commit SHA
+        with:
+          ref: '${{ github.event.inputs.branch }}'
+          path: cms-frontend
+          fetch-depth: "0"
+
+      # Authenticate with GCP
+      - name: Authenticating to gcloud
+        id: auth-gcloud
+        uses: google-github-actions/auth@v2
+        with:
+          token_format: 'access_token'
+          workload_identity_provider: projects/251360461095/locations/global/workloadIdentityPools/wifpool-zee5-nonprod-devops-gha/providers/wifprov-zee5-nonprod-devops-gha
+          service_account: sa-zee5-nonprod-devops-gha@prj-zee5-nonprod-secrets-bvvxm.iam.gserviceaccount.com
+          access_token_lifetime: 360s
+          project_id: 'prj-zee5-dev-metadata-svc-uy2e'
+
+      - name: 'Set up Cloud SDK'      
+        uses: 'google-github-actions/setup-gcloud@v2'     
+        with:
+          version: '460.0.0'
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "12.10.0"
+
+      - name: Deploy in StorageAccount
+        shell: bash
+        run: |
+          cd cms-frontend
+          git status
+          git branch
+          git log --format="%H" -n 1
+          touch .env
+          
+          echo "${{ secrets.BACKEND_API_URL }}" >> .env
+          echo "${{ secrets.LOGINURL }}" >> .env
+          echo "${{ secrets.ADFS_LOGIN_URL }}" >> .env
+          echo "${{ secrets.GOOGLE_LOGIN_URL }}" >> .env
+          echo "${{ secrets.LOGOUT_URL }}" >> .env
+          echo "${{ secrets.ADFS_LOGOUT_URL }}" >> .env
+          echo "${{ secrets.IMAGE_BASE_URL }}" >> .env
+          echo "${{ secrets.LOGGING_MAIN_URL }}" >> .env
+          echo "${{ secrets.LOGGING_REPORTING_URL }}" >> .env
+          echo "${{ secrets.LOGGING_KEY }}" >> .env
+          echo "${{ secrets.BACKEND_API_PLACEHOLDER_URL }}" >> .env
+          echo "${{ secrets.ADFS_CLIENT_ID }}" >> .env
+          echo "${{ secrets.ADFS_AUTHORITY_URL }}" >> .env
+          echo "${{ secrets.CLOUDINARY_BASE_URL }}" >> .env
+          
+          git status
+          git branch
+          git log --format="%H" -n 1
+          cat .env
+          npm install
+          npm run build
+          ls -lrt
+          cd dist
+          pwd
+          ls 
+          ls */*
+          cd ..
+          gcloud auth list
+          # gsutil cp README.md gs://gcs-zee5-dev-cms-frontend/
+          gsutil cp -r ./dist/* gs://gcs-zee5-dev-cms-frontend
+          

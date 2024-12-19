@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Main Content",
+    "type": "main",
+    "name": "mainContent",
+    "deleteTitle": "Delete Content",
+    "placeholder": "Search via Video name",
+    "deleteModalDescription": "Do you want to remove this content from the assigned listing?",
+    "fetched": false
+  }
+]

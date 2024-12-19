@@ -1,0 +1,111 @@
+.uid-item.mov-l-box .mov-info-box {
+  padding: 12px;
+}
+.uid-item .time-loc-row .status-text span {
+  margin-bottom: 0;
+}
+.uid-item .loc .text  {
+  margin-right: 0;
+}
+.uid-item .mov-info-box .l-chkbox {
+width: 28px;
+margin-right: 6px;
+}
+.uid-item .mov-info-box .info {
+  width: calc(100% - 34px);
+}
+.uid-item.mov-l-box .left-area {
+  width: calc(100% - 420px);
+}
+.uid-item.mov-l-box .right-area {
+  max-width: 420px;
+}
+.uid-checklist {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #bb3e8c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.uid-item.mov-l-box .mov-link {
+  margin-top: 15px;
+}
+
+
+.uid-map-table table {
+  table-layout: fixed;
+  min-width: 720px;
+}
+.uid-map-table td.uid-sec-name, 
+.uid-map-table td.uid-f-name {
+  font-weight: 600;
+  color: #2e0130;
+}
+.uid-map-table .uid-sec-name, 
+.uid-map-table .uid-f-name,
+.uid-map-table .uid-data, 
+.uid-map-table .uid-time {
+  min-width: 180px;
+}
+.uid-map-table table .listing table td:first-child {border-left: none;}
+.uid-map-table table .listing table td:last-child { border-right: none; }
+.uid-map-table table .listing table {
+  width: calc(100% + 40px);
+  margin: -9px -20px;
+  min-width: 10px;
+}
+.mov-map-st{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #2c0b2d;
+  text-align: right;
+  margin-top: 10px;
+}
+
+
+
+
+@media (min-width: 768px) {  
+  .uid-item .status-text .label {
+    max-width: 122px;
+  }
+  .uid-item .status-text .text {
+    width: calc(100% - 134px);
+  }
+}
+@media (min-width: 992px) {  
+  .uid-head .s-form .filter-btn { 
+    -ms-flex-order: 1;
+    order: 1;
+    margin-right: 15px;
+  }
+  .uid-head .s-form input[type="text"] {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+@media (max-width: 991px) {
+  .uid-item.mov-l-box .left-area {
+    width: 100%;
+  }
+  .uid-item.mov-l-box .right-area {
+    max-width: 100%;
+  }
+  .mov-link.ex-id-w-index {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+}
+@media (max-width: 767px) {
+  .uid-head .s-form .filter-btn { 
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .uid-head .s-form .btn-create-user { 
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}

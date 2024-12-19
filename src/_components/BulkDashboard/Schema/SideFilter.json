@@ -1,0 +1,89 @@
+{
+"sortingFilters": [
+    {
+      "name":"sortOrder",
+      "label":"By Modified",
+      "for": "All",
+      "display": true,
+      "value": "",
+      "data": [
+        { "value": "D", "label": "Newest to Oldest" },
+        { "value": "A", "label": "Oldest to Newest" }
+      ]
+    }
+  ],
+  "filterByDate": [
+    {
+      "name":"lastModifiedOn",
+      "label":"Created On",
+      "for": "All",
+      "withoutDate": true,
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "fromDate",
+        "endDateKey": "toDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    }
+  ],
+  "sideSelectFilters": [
+      {
+        "name": "actionType",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "type": "dropdown",
+        "display": true,
+        "label": "Action type",
+        "data": [
+          {"title":"Publish","id": 1},
+          {"title":"UnPublish","id": 0},
+          {"title":"Delete","id": 2}],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentType",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "type": "dropdown",
+        "display": true,
+        "label": "Content type",
+        "data": [
+          {"title":"Movie","id":"movie"},
+          {"title":"Video","id":"video"},
+          {"title":"TvShow","id":"tvShow"},
+          {"title":"Season","id":"season"},
+          {"title":"Episode","id":"episode"}
+        ],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "jobId",
+        "value": "",
+        "col": "",
+        "type": "text",
+        "label": "Job Id",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "externalId",
+        "value": "",
+        "col": "",
+        "type": "text",
+        "label": "External Id",
+        "validation": {
+          "required": false
+        }
+      }
+  ]
+}

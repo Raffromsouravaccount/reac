@@ -1,0 +1,29 @@
+[
+  {
+    "name": "setName",
+    "type": "text",
+    "value": "",
+    "col": "col-md-12 col-lg-12",
+    "label": "Set Name",
+    "errorText": "",
+    "validation": {
+      "required": true
+    }
+  },
+  {
+    "name": "country",
+    "type": "dropdownAsync",
+    "value": [],
+    "col": "col-md-12 col-lg-12",
+    "multiple": true,
+    "groupBy": "group",
+    "path": "user/country-group",
+    "keyText": "title",
+    "label": "Country / Group",
+    "data": [],
+    "errorText": "",
+    "validation": {
+      "required": true
+    }
+  }
+]

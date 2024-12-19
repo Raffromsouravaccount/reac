@@ -1,0 +1,281 @@
+{
+  "StatusTypes": [
+    {
+      "label": "All",
+      "displayName": "All",
+      "active": true
+    },
+    {
+      "label": "Draft",
+      "displayName": "Draft"
+    },
+    {
+      "label": "Changed",
+      "displayName": "Changed"
+    },
+    {
+      "label": "Published",
+      "displayName": "Published"
+    },
+    {
+      "label": "Unpublished",
+      "displayName": "Unpublished"
+    },
+    {
+      "label": "Need Work",
+      "displayName": "Need Work"
+    },
+    {
+      "label": "Scheduled",
+      "displayName": "Scheduled"
+    },
+    {
+      "label": "Submitted to Review",
+      "displayName": "Submitted to Review"
+    },
+    {
+      "label": "Archived",
+      "displayName": "Archived"
+    }
+  ],
+  "sortingFilters": [
+    {
+      "name":"sortType",
+      "for": "Draft",
+      "label":"By Created",
+      "sortKey":"sortKey",
+      "sortValue":"lastModifiedOn",
+      "display": true,
+      "value": "desc",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"sortType",
+      "label":"By Changed",
+      "sortKey":"sortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Changed",
+      "display": true,
+      "value": "desc",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"sortType",
+      "label":"By Published",
+      "sortKey":"sortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Published",
+      "display": true,
+      "value": "desc",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"sortType",
+      "label":"By Unpublished",
+      "sortKey":"sortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Unpublished",
+      "display": true,
+      "value": "desc",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"sortType",
+      "label":"By Archieved",
+      "sortKey":"sortKey",
+      "sortValue":"lastModifiedOn",
+      "for":"Archived",
+      "display": true,
+      "value": "desc",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"sortType",
+      "label":"By Modified",
+      "sortKey":"sortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "All",
+      "display": true,
+      "value": "desc",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    }
+  ],
+  "filterByDate": [
+    {
+      "name":"lastModifiedOn",
+      "label":"Modified On",
+      "for": "All",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Modified On",
+      "for": "Draft",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Changed On",
+      "for": "Changed",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Published On",
+      "for": "Published",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Unpublished On",
+      "for": "Unpublished",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Archived On",
+      "for": "Archived",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    }
+  ],
+  "sideSelectFilters": [
+      {
+        "name": "externalId",
+        "value": "",
+        "col": "",
+        "type": "text",
+        "label": "External Id",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "tags",
+        "type": "SearchableWithCreate",
+        "col": "",
+        "keyText": "title",
+        "value": null,
+        "createPrefix": "Use",
+        "multiple": false,
+        "label": "Tags",
+        "data": [],
+        "display": true,
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "licenseGroupCountries",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "groupBy":"group",
+        "label": "Group / Countries",
+        "path": "/master/CountryGroup",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "translationLanguage",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Translation Language",
+        "path": "/master/Language",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "translationStatus",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "type": "dropdownAsync",
+        "display": false,
+        "label": "Translation’s Language Status",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      }
+  ]
+}

@@ -1,0 +1,167 @@
+.bread-crumb {
+  margin-bottom: 10px;
+}
+.top-minus-20 {
+  margin-top: -20px;
+}
+.bread-crumb li {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #818181;
+}
+.bread-crumb li p {
+  font-size: 14px;
+  color: #1e1e1e;
+}
+.bread-crumb .MuiBreadcrumbs-separator {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.bread-crumb svg {
+  width: 18px;
+  height: 18px;
+  font-size: initial;
+  fill: #1e1e1e;
+}
+.profile-head {
+  margin-bottom: 25px;
+  min-height: 48px;
+}
+.profile-head .back-user-btn {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #2c0b2d;
+  margin-right: 10px;
+}
+.profile-head .back-user-btn svg {
+  margin-right: 15px;
+  cursor: pointer;
+ }
+.profile-head .edit-user-btn .MuiButton-root {
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(34, 37, 41, 0.16);
+  background-color: #2c0b2d;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  min-width: 195px;
+  padding: 13px 10px;
+}
+
+.p-detail-w {
+  border-radius: 4px;
+  box-shadow: 0 5px 8px 0 rgba(70, 78, 88, 0.15);
+  background-color: #ffffff;
+}
+
+.p-detail-head {
+  padding: 10px 20px;
+  border-bottom: solid 1px #ececec;
+}
+.p-detail-head .l-title {
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: #2c0b2d;
+}
+.p-detail-w .text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #999999;
+  display: inline-block;
+}
+.p-detail-w .val {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #333333;
+}
+.last-login {
+  margin-right: 35px;
+}
+.last-login .text, .p-status .text {
+  margin-right: 15px;
+}
+.p-status .val {
+  color: #34c38f;
+}
+.p-status .val.inactive {
+  color: #f46a6a;
+}
+.p-status .val svg {
+  margin-bottom: -2px;
+}
+.u-detail-info {
+  padding: 20px;
+}
+.u-detail-info .field-row:after, .u-detail-info .field-row:before {
+  content: '';
+  display: block;
+}
+.u-detail-info .field-row:after {
+  clear: both;
+}
+.u-detail-info .field-row .text {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 130px;
+  float: left;
+}
+.u-detail-info .field-row .val {
+  margin-left: 145px;
+  display: block;
+  width: calc(100% - 145px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.u-detail-info .field-row {
+  margin-bottom: 20px;
+}
+.u-detail-footer {
+  padding: 10px 20px;
+  border-top: solid 1px #ececec;
+}
+.u-detail-footer .text {
+  margin-right: 30px;
+}
+.created-by {
+  margin-right: 60px;
+}
+@media (max-width: 767px) { 
+  .created-by {
+    margin-right: 20px;
+  }
+  .u-detail-footer .text {
+    margin-right: 10px;
+  }
+  .last-login .text, .p-status .text {
+    margin-right: 10px;
+  }
+  .last-login {
+    margin-right: 20px;
+  }
+  .top-minus-20 {
+    margin-top: -15px;
+  }
+  .u-detail-info .field-row .text {
+    width: 100px;
+  }
+  .u-detail-info .field-row .val {
+    margin-left: 115px;
+    width: calc(100% - 115px);
+  }
+  .profile-head .edit-user-btn .MuiButton-root {
+    min-width: 150px;
+  }
+
+}
+
+

@@ -1,0 +1,25 @@
+.schedule-publish-btn{
+  margin-right: 15px !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+}
+
+.publish-btn:hover{
+  background-color: #2c0b2d !important;
+}
+
+.schedule-edit-btn{
+  margin-right: 15px !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+  min-width: 36px !important;
+  background-color: #e7f2fe !important;
+}
+
+.schedule-publish-btn.Mui-disabled{
+  background-color: #ccc !important;
+}
+
+.schedule-edit-btn.Mui-disabled{
+  background-color: #ccc !important;
+}

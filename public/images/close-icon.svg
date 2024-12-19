@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.742" height="15.742" viewBox="0 0 15.742 15.742">
+    <g id="Group_528" data-name="Group 528" transform="translate(660 -4925)">
+        <g id="accept-reject_btn" data-name="accept-reject btn" transform="translate(-660 4925)">
+            <g id="Rectangle_32" fill="#fff" stroke="#f46a6a" stroke-width="0.75px" data-name="Rectangle 32">
+                <rect width="15.742" height="15.742" stroke="none" rx="7.871"/>
+                <rect width="14.992" height="14.992" x=".375" y=".375" fill="none" rx="7.496"/>
+            </g>
+        </g>
+        <path id="Path_368" fill="#f46a6a" stroke="#f46a6a" stroke-width="0.25px" d="M-1.4-1.83l2.651-2.652A.3.3 0 0 0 1.34-4.7a.3.3 0 0 0-.089-.215A.3.3 0 0 0 1.036-5a.3.3 0 0 0-.215.089L-1.83-2.259l-2.652-2.652A.3.3 0 0 0-4.7-5a.3.3 0 0 0-.215.089A.3.3 0 0 0-5-4.7a.3.3 0 0 0 .089.215l2.652 2.655L-4.911.822A.3.3 0 0 0-5 1.036a.3.3 0 0 0 .089.215.3.3 0 0 0 .211.089.3.3 0 0 0 .215-.089L-1.83-1.4.821 1.251a.3.3 0 1 0 .43-.429z" data-name="Path 368" transform="translate(-650 4935)"/>
+    </g>
+</svg>

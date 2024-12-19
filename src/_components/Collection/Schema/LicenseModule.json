@@ -1,0 +1,82 @@
+{
+    "manual_section": [
+        {
+            "name": "country",
+            "type": "dropdown",
+            "value": [],
+            "col": "col-md-6 col-lg-6",
+            "multiple": true,
+            "groupBy": "group",
+            "path": "user/country-group",
+            "keyText": "title",
+            "label": "Country / Group",
+            "data": [],
+            "errorText": "",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "businessType",
+            "type": "dropdown",
+            "value": null,
+            "col": "col-md-6 col-lg-6",
+            "multiple": false,
+            "path": "/master/BusinessType",
+            "keyText": "title",
+            "label": "Business Type",
+            "data": [],
+            "errorText": "",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "billingType",
+            "type": "dropdown",
+            "value": null,
+            "col": "col-md-6 col-lg-6",
+            "multiple": false,
+            "path": "/master/BillingType",
+            "keyText": "title",
+            "label": "Billing Type",
+            "data": [],
+            "errorText": "",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "platform",
+            "type": "conditionalDropdown",
+            "value": [],
+            "col": "col-md-6 col-lg-6",
+            "multiple": true,
+            "path": "/master/Platform",
+            "keyText": "title",
+            "label": "Platform",
+            "data": [],
+            "errorText": "",
+            "validation": {
+                "required": false
+            }
+        }
+    ],
+    "commonmodel_section": [
+        {
+            "name": "reason",
+            "type": "dropdown",
+            "value": "",
+            "col": "col-md-12 col-lg-12",
+            "path": "/master/ReasonType",
+            "keyText": "title",
+            "multiple": false,
+            "label": "Reason",
+            "data": [],
+            "errorText": "",
+            "validation": {
+                "required": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "name": "audioLanguage",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Audio Track",
+    "errorText": "",
+    "validation": {
+      "maxLength": 250,
+      "isChar": true,
+      "required": false
+    }
+  },
+  {
+    "name": "subtitleLanguages",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Sub Title",
+    "errorText": "",
+    "validation": {
+      "maxLength": 200,
+      "isChar":  true,
+      "required": false
+    }
+  },
+  {
+    "name": "dashRootFolderName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Dash Root Folder",
+    "errorText": "",
+    "validation": {
+      "maxLength": 300,
+      "required": true
+    }
+  },
+  {
+    "name": "dashManifestName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Dash Manifest",
+    "errorText": "",
+    "validation": {
+      "maxLength": 50,
+      "required": true
+    }
+  },
+  {
+    "name": "hlsRootFolderName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "HLS Root Folder",
+    "errorText": "",
+    "validation": {
+      "maxLength": 300,
+      "required": true
+    }
+  },
+  {
+    "name": "hlsManifestName",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "HLS Manifest",
+    "errorText": "",
+    "validation": {
+      "maxLength": 50,
+      "required": true
+    }
+  },
+  {
+    "name": "drmKeyId",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "DRM Key Id",
+    "errorText": "",
+    "validation": {
+      "maxLength": 50,
+      "required": false
+    }
+  },
+  {
+    "name": "size",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Size",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "isAlphaNumeric": true
+    }
+  },
+  {
+    "name": "protected",
+    "value": false,
+    "col": "col-md-6 col-lg-6",
+    "type": "checkbox",
+    "disabled": true,
+    "label": "Protected",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "dashSuffixesId",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "dropdownAsync",
+    "path": "/master/VideoDASHSuffixes",
+    "keyText": "title",
+    "multiple": true,
+    "data": [],
+    "label": "Dash Suffixes",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "hlsSuffixesId",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "dropdownAsync",
+    "path": "/master/VideoHLSSuffixes",
+    "keyText": "title",
+    "multiple": true,
+    "data": [],
+    "label": "HLS Suffixes",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "subtitleManifest",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "dropdown",
+    "data": ["True", "False"],
+    "label": "Subtitle Manifest",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "spriteUrl",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Sprite",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "mediathekFileUid",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Mediathek File Uid",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "thumbnail",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "Thumbnail",
+    "errorText": "",
+    "validation": {
+      "isUrl": true,
+      "maxLength": 255,
+      "required": false
+    }
+  },
+  {
+    "name": "importdetails",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "sectionMultiple",
+    "validation": {
+      "required": false
+    }
+  }
+]

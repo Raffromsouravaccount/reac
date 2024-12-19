@@ -1,0 +1,147 @@
+{
+  "title_summary": [
+    {
+      "name": "title",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Title",
+      "charCountLimit": 250,
+      "maxTextLength": 300,
+      "required": false,
+      "text": false,
+      "numeric": false,
+      "isEditing": true,
+      "gId": ""
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "charCountLimit": 150,
+      "maxTextLength": 200,
+      "required": false,
+      "isEditing": true,
+      "gId": ""
+    },
+    {
+      "name": "webDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "Web Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "charCountLimit": 500,
+      "maxTextLength": 550,
+      "isEditing": true,
+      "gId": ""
+    },
+    {
+      "name": "appDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "App Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "charCountLimit": 500,
+      "maxTextLength": 550,
+      "isEditing": true,
+      "gId": ""
+    },
+    {
+      "name": "tvDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "TV Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "charCountLimit": 500,
+      "maxTextLength": 550,
+      "isEditing": true,
+      "gId": ""
+    },
+    {
+      "name": "upcomingPageText",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Upcoming Page Text",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true,
+      "gId": ""
+    }
+  ]
+}

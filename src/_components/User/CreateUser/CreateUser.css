@@ -1,0 +1,43 @@
+.create-u-form {
+  border-radius: 4px;
+  box-shadow: 0 5px 8px 0 rgba(70, 78, 88, 0.15);
+  background-color: #ffffff;
+}
+.create-u-head {
+  padding: 10px 20px;
+  border-bottom: solid 1px #ececec;
+}
+.create-u-head .l-title {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #1e1e1e;
+}
+.create-u-form .inner {
+   padding: 30px 15px;
+}
+.role-m-link {
+  margin-top: -28px;
+  margin-bottom: 12px;
+}
+.role-m-link a {
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 12px;
+}
+@media (min-width: 1200px) { 
+  .create-u-form .inner .row {
+    margin-left: -35px;
+    margin-right: -35px;
+  }
+  .create-u-form .inner .col-md-6 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+
+
+
+

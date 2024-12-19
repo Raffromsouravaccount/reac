@@ -1,0 +1,680 @@
+{
+  "SeoJson": [
+    {
+      "name": "sefUrl",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "URL Structure Edit",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 1000,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "titleTag",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "SEO Title Tag",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 150,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "metaDescription",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "textarea",
+      "label": "SEO Meta Description",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "metaSynopsis",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "textarea",
+      "label": "SEO Meta Synopsis for collection pages",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "redirectionType",
+      "type": "dropdownAsync",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "multiple": false,
+      "path": "/master/RedirectionType",
+      "keyText": "title",
+      "label": "Redirection Type",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "redirectionLink",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "textarea",
+      "label": "Redirection Link",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 300,
+        "isUrl": true
+      }
+    },
+    {
+      "name": "noIndexNoFollow",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "No Index No Follow",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "h1Heading",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "H1 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "h2Heading",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "H2 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "h3Heading",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "H3 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "h4Heading",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "H4 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "h5Heading",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "H5 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "h6Heading",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "H6 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "robotsMetaNoIndex",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Robots Meta - Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isChar": true
+      }
+    },
+    {
+      "name": "robotsMetaNoIndex",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Robots Meta - No Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isChar": true
+      }
+    },
+    {
+      "name": "robotsMetaImageIndex",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Robots Meta - Image Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isChar": true
+      }
+    },
+    {
+      "name": "robotsMetaImageNoIndex",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Robots Meta - Image No Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isChar": true
+      }
+    },
+    {
+      "name": "canonicalUrl",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Canonical URL",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "breadcrumbTitle",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Breadcrumb Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isChar": true
+      }
+    },
+    {
+      "name": "internalLinkBuilding",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Internal Link Building",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 550,
+        "isChar": true
+      }
+    },
+    {
+      "name": "videoObjectSchema",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Video Object Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "websiteSchema",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Website Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "breadcrumListSchema",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Breadcrum List Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "imageObjectSchema",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Image Object Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "organizationSchema",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Organization Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "imageGallerySchema",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Image Gallery Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "linkToStories",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "label": "Link to Stories",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "globalProperties": [    
+      {
+        "name": "country",
+        "value": [],
+        "col": "col-md-8 col-lg-8",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "groupBy": "group",
+        "label": "Country / Group",
+        "keyText": "title",
+        "path": "user/country-group",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "titleTag",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "SEO Title Tag",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 150,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "metaDescription",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "textarea",
+        "label": "SEO Meta Description",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "metaSynopsis",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "textarea",
+        "label": "SEO Meta Synopsis for collection pages",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550
+        }
+      },
+      {
+        "name": "redirectionType",
+        "type": "dropdownAsync",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "multiple": false,
+        "path": "/master/RedirectionType",
+        "keyText": "title",
+        "label": "Redirection Type",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "redirectionLink",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "textarea",
+        "label": "Redirection Link",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 300,
+          "isUrl": true
+        }
+      },
+      {
+        "name": "noIndexNoFollow",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "No Index No Follow",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "h1Heading",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "H1 Heading",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "h2Heading",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "H2 Heading",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "h3Heading",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "H3 Heading",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "h4Heading",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "H4 Heading",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "h5Heading",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "H5 Heading",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "h6Heading",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "H6 Heading",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "robotsMetaNoIndex",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Robots Meta - Index with Checkbox",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isChar": true
+        }
+      },
+      {
+        "name": "robotsMetaNoIndex",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Robots Meta - No Index with Checkbox",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isChar": true
+        }
+      },
+      {
+        "name": "robotsMetaImageIndex",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Robots Meta - Image Index with Checkbox",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isChar": true
+        }
+      },
+      {
+        "name": "robotsMetaImageNoIndex",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Robots Meta - Image No Index with Checkbox",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isChar": true
+        }
+      },
+      {
+        "name": "canonicalUrl",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Canonical URL",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isUrl": true
+        }
+      },
+      {
+        "name": "breadcrumbTitle",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Breadcrumb Title",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isChar": true
+        }
+      },
+      {
+        "name": "internalLinkBuilding",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Internal Link Building",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 550,
+          "isChar": true
+        }
+      },
+      {
+        "name": "videoObjectSchema",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Video Object Schema",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "websiteSchema",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Website Schema",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "breadcrumListSchema",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Breadcrum List Schema",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "imageObjectSchema",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Image Object Schema",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "organizationSchema",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Organization Schema",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "imageGallerySchema",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Image Gallery Schema",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "linkToStories",
+        "value": false,
+        "col": "col-md-8 col-lg-8",
+        "type": "checkbox",
+        "label": "Link to Stories",
+        "labelPlacement": "end",
+        "validation": {
+          "required": false
+        }
+      }
+    
+  ]
+}

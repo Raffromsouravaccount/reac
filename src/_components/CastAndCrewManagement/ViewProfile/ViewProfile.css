@@ -1,0 +1,139 @@
+.view-profile-desc{
+    padding: 5px 15px 25px;
+}
+.view-profile-desc .view-figure{
+    margin: 0;
+    width: 93px;
+}
+.view-profile-desc .view-figure figure {
+    width: 100%;
+    margin: 0;
+}
+.view-profile-desc .view-figure img{
+    display: block;
+    width: 100%;
+}
+.profile-desc{
+    width: calc(100% - 93px);
+    padding-left: 22px;
+}
+.profile-desc-list{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.71;
+    margin-bottom: 20px;
+}
+.profile-desc-list .label {
+    color: #999;
+    width: 125px;
+}
+.profile-desc-list .text-val strong {
+    font-weight: 600;
+}
+.profile-desc-list .text-val {
+    color: #333;
+    width: calc(100% - 125px);
+    padding-left: 10px;
+}
+.profile-desc-list:last-child{
+    margin-bottom: 0;
+}
+.profile-status{
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.57;
+  color: #333;
+  margin-right: 16px;
+}
+.publish{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.57;
+    text-transform: capitalize;
+    color: #34c38f;
+    align-items: center;
+    margin-right: 30px;
+}
+.publish-icon{
+    margin-right: 10px;
+}
+.edit-btn .zee-btn-field.MuiButton-root{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 26px;
+    line-height: 1.46;
+}
+.view-profile-page .whitebox{
+     margin-bottom: 12px;
+}
+.relation-block{
+    padding: 0 15px 20px;
+}
+.relation-list{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.71;
+}
+.relation-list span {
+    color: #999;
+    width: 128px;
+    min-width: 128px;
+    padding-bottom: 36px;
+}
+.relation-list span.padd-bott0{
+    padding-bottom: 0;
+}
+.relation-list span:last-child{
+    padding-bottom: 0;
+}
+.relation-block .relation-list strong {
+    color: #333;
+    width: 120px;
+    min-width: 120px;
+    font-weight: 600;
+    border-left: solid 2px #ececec;
+    text-align: center;
+    padding: 0 4px;
+}
+.relation-block .relation-list {
+    display: flex;
+    display: -ms-flexbox;
+}
+.relation-list strong:last-child{
+    padding-bottom: 0;
+}
+@media (max-width: 767px) { 
+    .view-profile-desc .view-figure{
+        width: 100%;
+    }
+    .view-profile-desc .view-figure figure {
+        max-width: 90px;
+        margin: 0 0 20px;
+    }
+    .profile-desc {
+        width: 100%;
+        padding-left: 0;
+    }
+    .profile-desc-list{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .relation-block{
+        display: flex;
+    }
+    .relation-list{
+        width: 50%;
+        padding-right: 10px;
+    }
+    .relation-list strong{
+        width: 100%;
+        border-left: 0;
+        text-align: left;
+        padding: 14px 0 0;
+    }
+    .relation-list span{
+        width: 100%;
+        padding-bottom: 0;
+    }
+}

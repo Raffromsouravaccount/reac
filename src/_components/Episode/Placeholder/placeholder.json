@@ -1,0 +1,218 @@
+{
+  "placeholderProperties": [
+    {
+      "name": "assetType",
+      "value": null,
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Asset Type",
+      "keyText": "title",
+      "path": "/master/EpisodeSubType",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "episodeNoStartFrom",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Asset No start from",
+      "helperText": "",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "isDigit": true
+      }
+    },
+    {
+      "name": "dayPart",
+      "value": null,
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdown",
+      "multiple": true,
+      "label": "Day Part",
+      "helperText": "",
+      "keyText": "title",
+      "groupBy":"group",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "numberOfAssets",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Number of Assets",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "maxValue": 50,
+        "isDigit": true
+      }
+    },
+    {
+      "name": "assetsPerDay",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Assets Per Day",
+      "disabled": true,
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxValue": 150,
+        "isDigit": true
+      }
+    },
+
+    {
+      "name": "telecastDate",
+      "type": "date",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Telecast Date",
+      "minDateValue": "",
+      "helperText": "",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "templateSet",
+      "value": null,
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdown",
+      "multiple": false,
+      "label": "Template Set",
+      "keyText": "title",
+      "display": false,
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "generateXml",
+      "value": true,
+      "col": "col-md-6 col-lg-6",
+      "type": "checkbox",
+      "labelPlacement": "end",
+      "label": "Generate XML",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "isBeforetvApplicable",
+      "value": false,
+      "col": "col-md-6 col-lg-6",
+      "type": "checkbox",
+      "labelPlacement": "end",
+      "label": "Apply Before TV Setting",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "placeholderGlobalFields": [
+    [
+      {
+        "name": "country",
+        "type": "dropdownAsync",
+        "col": "col-md-4 col-lg-4",
+        "value": [],
+        "multiple": true,
+        "label": "Group / Country",
+        "keyText": "title",
+        "path": "user/country-group",
+        "groupBy":"group",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "dayPart",
+        "value": null,
+        "col": "col-md-4 col-lg-4",
+        "type": "dropdown",
+        "multiple": true,
+        "label": "Day Part",
+        "groupBy":"group",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "globalEpisodeReleaseDate",
+        "type": "date",
+        "col": "col-md-4 col-lg-4",
+        "value": "",
+        "label": "Release Date",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ]
+  ],
+  "placeholderGlobalFieldsArr": [
+    {
+      "name": "country",
+      "type": "dropdown",
+      "col": "col-md-4 col-lg-4",
+      "value": [],
+      "multiple": true,
+      "label": "Group / Country",
+      "keyText": "title",
+      "path": "user/country-group",
+      "groupBy":"group",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "dayPart",
+      "value": null,
+      "col": "col-md-4 col-lg-4",
+      "type": "dropdown",
+      "multiple": true,
+      "groupBy":"group",
+      "label": "Day Part",
+      "keyText": "title",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "globalEpisodeReleaseDate",
+      "type": "date",
+      "col": "col-md-4 col-lg-4",
+      "value": "",
+      "label": "Release Date",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    }
+  ]
+}

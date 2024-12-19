@@ -1,0 +1,157 @@
+.back-arrow {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.create-images-list h4{
+  line-height: 1.57;
+  color: #4b4b4b;
+  margin: 0;
+}
+.create-images-list .answer-list, .create-images-list .question-list{
+  padding: 12px 15px;
+}
+.create-images-list .images-desc{
+  border-bottom: solid 1px rgba(207, 195, 202, 0.3);
+  margin: 0 -15px 15px;
+  padding: 0 15px;
+}
+.create-images-list .images-desc ul{
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+.create-images-list .images-desc ul li{
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.create-images-list .images-desc ul:last-child li{
+  justify-content: flex-end;
+}
+.create-images-list .images-desc ul strong, .create-images-list .images-desc ul span{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  color: #818181;
+}
+.create-images-list .images-desc ul strong{
+  white-space: nowrap;
+  margin-right: 12px;
+}
+.create-images-list .images-desc ul span{
+  color: #4b4b4b;
+  white-space: initial;
+}
+.create-images-list .item-box .item-img{
+  background: #ececec;
+  border-radius: 8px 8px 0 0;
+}
+.create-images-list .item-box .item-img img{
+  border-radius: 5px 5px 0 0;
+}
+.create-images-list .item-box .item-head{
+  margin-bottom: 10px;
+}
+.main-cover-text{
+  margin-bottom: 2px;
+}
+.main-cover-text strong{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  color: #bb3e8c;
+}
+.main-cover-text strong:first-child{
+  display: inline-block;
+  text-overflow: ellipsis;
+  width: calc(100% - 72px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+}
+.create-images-list .item-text{
+  color: #2c0b2d;
+}
+.create-movie-image-section .create-images-list .upload-block{
+  width: inherit;
+  margin-top: 25px;
+}
+.create-movie-image-section .create-images-list .upload-block .upload-btn{
+  border-radius: 4px;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  color: #2c0b2d;
+  border: solid 1px #2c0b2d;
+  cursor: pointer;
+  width: 100%;
+}
+.photo-popup .col-img img{
+  display: block;
+  width: 100%;
+  height: 178px;
+  object-fit: cover;
+  object-position: center center;
+}
+.photo-content .main-cover-text{
+  margin-bottom: 10px;
+}
+.photo-popup .photo-box{
+  padding-bottom: 0;
+}
+.photo-box .MuiFormControl-root.MuiTextField-root{
+  margin-bottom: 20px;
+}
+.photo-content .padd-bot20{
+  padding-bottom: 20px;
+}
+.photo-content .padd-bot20 p{
+  line-height: 1.57;
+}
+.photo-actions{
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+}
+.wrap-edit-img{
+  border: solid 1px #999999;
+  border-radius: 8px;
+  position: relative;
+}
+.photo-popup .col-img .wrap-edit-img img{
+  border-radius: 8px 8px 0 0;
+}
+.wrap-edit-img .upload-block{
+  background: #fff;
+  margin-top: -7px;
+  width: 100%;
+}
+.wrap-edit-img .upload-block .upload-btn{
+  background: transparent;
+  color: #2c0b2d;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+.wrap-edit-img .upload-block input[type=file]{
+  height: 36px;
+}
+.set-tag {
+  align-items: center;
+  margin-top: -20px;
+}
+.set-tag h4 {
+  margin-left: 10px;
+}
+.wrap-edit-img .invalid-image .info-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  left: auto;
+  bottom: auto;
+  z-index: 1;
+  cursor: pointer;
+}
+.photo-content .main-cover-text strong:first-child {
+  text-overflow: initial;
+  overflow: initial;
+  white-space: initial;
+}

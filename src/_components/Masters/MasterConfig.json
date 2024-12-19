@@ -1,0 +1,2251 @@
+{
+  "AgeGroup": {
+    "displayModuleName": "Manage Age Group",
+    "searchText": "Search AgeGroup",
+    "searchKey": ["title"],
+    "buttonText": "AgeGroup",
+    "apiKey": "AgeGroup",
+    "icon": "images/ManageAgeGroup.svg",
+    "tableConfig": [
+      {
+        "name": "Age Group",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Age Group",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "AudioLanguage": {
+    "displayModuleName": "Audio Languages",
+    "searchText": "Search Audio Language",
+    "searchKey": ["title"],
+    "buttonText": "Audio Language",
+    "apiKey": "AudioLanguage",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/audioLanguage.svg",
+    "tableConfig": [
+      {
+        "name": "Audio Language",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Audio Language",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": false,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "AwardCategory": {
+    "displayModuleName": "Award Category",
+    "searchText": "Search Award Category",
+    "searchKey": ["title"],
+    "buttonText": "Award Category",
+    "apiKey": "AwardCategory",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/awardCategory.svg",
+    "tableConfig": [
+      {
+        "name": "Award Category",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Award Category",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "BillingType": {
+    "displayModuleName": "Licensing - Billing Type",
+    "searchText": "Search Billing Type",
+    "searchKey": ["title"],
+    "buttonText": "Billing Type",
+    "apiKey": "BillingType",
+    "icon": "images/billingType.svg",
+    "tableConfig": [
+      {
+        "name": "Billing Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Billing Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "BusinessType": {
+    "displayModuleName": "Licensing - Business Type",
+    "searchText": "Search Business Type",
+    "searchKey": ["title"],
+    "buttonText": "Business Type",
+    "apiKey": "BusinessType",
+    "icon": "images/businessType.svg",
+    "tableConfig": [
+      {
+        "name": "Business Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Business Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "CastType": {
+    "displayModuleName": "Cast Type",
+    "searchText": "Search Cast Type",
+    "searchKey": ["title"],
+    "buttonText": "Cast Type",
+    "apiKey": "CastType",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/cast-n-crew.svg",
+    "tableConfig": [
+      {
+        "name": "Cast Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Cast Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 5,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Certification": {
+    "displayModuleName": "Certificate",
+    "searchText": "Search Certificate",
+    "searchKey": ["title"],
+    "buttonText": "Certificate",
+    "apiKey": "Certification",
+    "icon": "images/certificate.svg",
+    "tableConfig": [
+      {
+        "name": "Certification",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Certification",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 1,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Channel": {
+    "displayModuleName": "Channel",
+    "searchText": "Search Channel",
+    "searchKey": ["title"],
+    "buttonText": "Channel",
+    "apiKey": "Channel",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/channel.svg",
+    "tableConfig": [
+      {
+        "name": "Channel",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Channel",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentCategory": {
+    "displayModuleName": "Content Category",
+    "searchText": "Search Content Category",
+    "searchKey": ["title"],
+    "buttonText": "Category",
+    "apiKey": "ContentCategory",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/contentCategory.svg",
+    "tableConfig": [
+      {
+        "name": "Content Category",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Category",
+        "col": "col-md-4 col-lg-4",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentAgeRating": {
+    "displayModuleName": "Content Age Rating",
+    "searchText": "Search Content Age Rating",
+    "searchKey": ["title"],
+    "buttonText": "Content Age Rating",
+    "apiKey": "ContentAgeRating",
+    "icon": "images/ContentAgeRating.svg",
+    "tableConfig": [
+      {
+        "name": "Content Age Rating",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Age Rating",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "AgeRating": {
+    "displayModuleName": "Content Descriptor",
+    "searchText": "Search Content Descriptor",
+    "searchKey": ["title"],
+    "buttonText": "Content Descriptor",
+    "apiKey": "AgeRating",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/targetAge.svg",
+    "tableConfig": [
+      {
+        "name": "Content Descriptor",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Descriptor",
+        "name": "title",
+        "col": "col-md-4 col-lg-4",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 1,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentGrade": {
+    "displayModuleName": "Content Grade",
+    "searchText": "Search Content Grade",
+    "searchKey": ["title"],
+    "buttonText": "Content Grade",
+    "apiKey": "ContentGrade",
+    "icon": "images/contentGrade.svg",
+    "tableConfig": [
+      {
+        "name": "Content Grade",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Grade",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 1,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentOwner": {
+    "displayModuleName": "Content Owner",
+    "searchText": "Search Content Owner",
+    "searchKey": ["title"],
+    "buttonText": "Content Owner",
+    "apiKey": "ContentOwner",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/team.svg",
+    "tableConfig": [
+      {
+        "name": "Content Owner",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Owner",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentRating": {
+    "displayModuleName": "Content Rating",
+    "searchText": "Search Content Rating",
+    "searchKey": ["title"],
+    "buttonText": "Rating",
+    "apiKey": "ContentRating",
+    "icon": "images/rating.svg",
+    "tableConfig": [
+      {
+        "name": "Content Rating",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Rating",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 1,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentVersion": {
+    "displayModuleName": "Content Version",
+    "searchText": "Search Content Version",
+    "searchKey": ["title"],
+    "buttonText": "Content Version",
+    "apiKey": "ContentVersion",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/contentVersion.svg",
+    "tableConfig": [
+      {
+        "name": "Content Version",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Version",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Country": {
+    "displayModuleName": "Manage Country",
+    "searchText": "Search Country",
+    "searchKey": ["Code", "title"],
+    "buttonText": "Country",
+    "apiKey": "Country",
+    "icon": "images/CountryRegionGrouping.svg",
+    "tableConfig": [
+      {
+        "name": "Country Code",
+        "key": "code"
+      },
+      {
+        "name": "Country",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Country Code",
+        "name": "code",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true
+        }
+      },
+      {
+        "label": "Country Name",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "CountryGroup": {
+    "displayModuleName": "Country Grouping",
+    "searchText": "Search Group",
+    "searchKey": ["title"],
+    "buttonText": "Group",
+    "modalTitle": "Group",
+    "modalText": "Country Group",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/country-group",
+    "apiKey": "CountryGroup",
+    "icon": "images/CountryRegionGrouping.svg",
+    "tableConfig": [
+      {
+        "name": "Country Group",
+        "key": "title"
+      },
+      {
+        "name": "Total Countries",
+        "key": "countries"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "countField": "countries",
+    "Status": "status",
+    "GridVisible": true,
+    "isView": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ContentProduction": {
+    "displayModuleName": "Content Production",
+    "searchText": "Search Content Production",
+    "searchKey": ["title"],
+    "buttonText": "Content Production",
+    "apiKey": "ContentProduction",
+    "icon": "images/contentProduction.svg",
+    "tableConfig": [
+      {
+        "name": "Content Production",
+        "key": "title"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Content Production",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ERA": {
+    "displayModuleName": "ERA",
+    "searchText": "Search ERA",
+    "searchKey": ["title"],
+    "buttonText": "ERA",
+    "apiKey": "ERA",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/ERA.svg",
+    "tableConfig": [
+      {
+        "name": "ERA",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "ERA",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "EmotionTitle": {
+    "displayModuleName": "Emotion Title",
+    "searchText": "Search Emotion Title",
+    "searchKey": ["title"],
+    "buttonText": "Emotion Title",
+    "apiKey": "EmotionTitle",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/EmotionTitle.svg",
+    "tableConfig": [
+      {
+        "name": "Emotion Title",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Emotion Title",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "EpisodeSubType": {
+    "displayModuleName": "Episode SubType",
+    "searchText": "Search Episode SubType",
+    "searchKey": ["title"],
+    "buttonText": "SubType",
+    "apiKey": "EpisodeSubType",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/episodesubtype.svg",
+    "tableConfig": [
+      {
+        "name": "SubType",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "SubType",
+        "col": "col-md-4 col-lg-4",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isCharUnderscore": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      },
+      {
+        "name": "Asset Type Management",
+        "type": "sectionMultiple"
+      },
+      {
+        "label": "Before TV",
+        "col": "col-md-3 col-lg-3",
+        "name": "isApplicableForBeforetv",
+        "type": "checkbox",
+        "value": false,
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "label": "Template Creation",
+        "col": "col-md-3 col-lg-3",
+        "name": "isApplicableForTemplate",
+        "type": "checkbox",
+        "value": false,
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Genre": {
+    "displayModuleName": "Manage Genres",
+    "searchText": "Search Genre",
+    "searchKey": ["title"],
+    "buttonText": "Genre",
+    "apiKey": "Genre",
+    "icon": "images/ManageGeners.svg",
+    "tableConfig": [
+      {
+        "name": "Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Language": {
+    "displayModuleName": "Manage Languages",
+    "searchText": "Search Language",
+    "searchKey": ["code", "title"],
+    "buttonText": "Language",
+    "apiKey": "Language",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/ManageLanguages.svg",
+    "tableConfig": [
+      {
+        "name": "Language Code",
+        "key": "code"
+      },
+      {
+        "name": "Language Name",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Language Code",
+        "name": "code",
+        "type": "text",
+        "col": "col-md-3 col-lg-3",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "maxLength": 100,
+          "minLength": 1
+        }
+      },
+      {
+        "label": "Language Name",
+        "name": "title",
+        "type": "text",
+        "col": "col-md-3 col-lg-3",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "maxLength": 100,
+          "minLength": 1
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "MonthTranslation": {
+   "displayModuleName": "Month Translation",
+   "searchText": "Search Month Translation",
+   "searchKey": ["title"],
+   "buttonText": "Translation",
+   "apiKey": "MonthTranslation",
+   "isCustomAction": true,
+   "CustomPath": "/manage-masters/translation",
+   "icon": "images/contentCategory.svg",
+   "tableConfig": [
+     {
+       "name": "Month Translation",
+       "key": "title"
+     },
+     {
+       "name": "Created By",
+       "key": "created_by"
+     },
+     {
+       "name": "Updated By",
+       "key": "modified_by"
+     }
+   ],
+   "formConfig": [
+     {
+       "label": "Month Translation",
+       "col": "col-md-4 col-lg-4",
+       "name": "title",
+       "type": "text",
+       "value": "",
+       "validation": {
+         "required": true,
+         "isChar": true,
+         "minLength": 2,
+         "maxLength": 100
+       }
+     }
+   ],
+   "Status": "status",
+   "GridVisible": true,
+   "isEdit": true,
+   "isDelete": true
+ },
+  "MoviePrimaryGenre": {
+    "displayModuleName": "Movie Primary Genre",
+    "searchText": "Search Primary Genre",
+    "searchKey": ["title"],
+    "buttonText": "Primary Genre",
+    "apiKey": "MoviePrimaryGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/movieprimary.svg",
+    "tableConfig": [
+      {
+        "name": "Primary Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Primary Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "MovieSettingGenre": {
+    "displayModuleName": "Movie Setting Genre",
+    "searchText": "Search Genre",
+    "searchKey": ["title"],
+    "buttonText": "Setting Genre",
+    "apiKey": "MovieSettingGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/moviesetting.svg",
+    "tableConfig": [
+      {
+        "name": "Setting Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Setting Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "MovieSubtype": {
+    "displayModuleName": "Movie SubType",
+    "searchText": "Search Movie SubType",
+    "searchKey": ["title"],
+    "buttonText": "SubType",
+    "apiKey": "MovieSubtype",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/movieclapperboard.svg",
+    "tableConfig": [
+      {
+        "name": "Sub Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Sub Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "MovieThematicGenre": {
+    "displayModuleName": "Movie Thematic Genre",
+    "searchText": "Search Thematic Genre",
+    "searchKey": ["title"],
+    "buttonText": "Thematic Genre",
+    "apiKey": "MovieThematicGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/moviethematic.svg",
+    "tableConfig": [
+      {
+        "name": "Thematic Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Thematic Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Platform": {
+    "displayModuleName": "Platform",
+    "searchText": "Search Platform",
+    "searchKey": ["title"],
+    "buttonText": "Platform",
+    "apiKey": "Platform",
+    "icon": "images/platform.svg",
+    "tableConfig": [
+      {
+        "name": "Platform",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Platform",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 3,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ProductionCompany": {
+    "displayModuleName": "Production Company",
+    "searchText": "Search Production",
+    "searchKey": ["title"],
+    "buttonText": "Production",
+    "apiKey": "ProductionCompany",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/videoProduction.svg",
+    "tableConfig": [
+      {
+        "name": "Production",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Production",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "RcsCategory": {
+    "displayModuleName": "RCS Categories",
+    "searchText": "Search RCS Category",
+    "searchKey": ["title"],
+    "buttonText": "RCS Category",
+    "apiKey": "RcsCategory",
+    "icon": "images/rcs.svg",
+    "tableConfig": [
+      {
+        "name": "RCS Category",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "RCS Category",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 1,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "Relation": {
+    "displayModuleName": "Manage Relation",
+    "searchText": "Search Relation",
+    "searchKey": ["title"],
+    "buttonText": "Relation",
+    "apiKey": "Relation",
+    "icon": "images/ManageRelation.svg",
+    "tableConfig": [
+      {
+        "name": "Relation",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Relation",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "ReasonType": {
+    "displayModuleName": "Reason Type",
+    "searchText": "Search Reason Type",
+    "searchKey": ["title"],
+    "buttonText": "Reason Type",
+    "apiKey": "ReasonType",
+    "icon": "images/reasontype.svg",
+    "tableConfig": [
+      {
+        "name": "Reason Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Reason Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "SpecialCategory": {
+    "displayModuleName": "Special Category",
+    "searchText": "Search Category",
+    "searchKey": ["title"],
+    "buttonText": "Category",
+    "apiKey": "SpecialCategory",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/category.svg",
+    "tableConfig": [
+      {
+        "name": "Category",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Category",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "SubtitleLanguages": {
+    "displayModuleName": "Subtitle Languages",
+    "searchText": "Search Subtitle Language",
+    "searchKey": ["title"],
+    "buttonText": "Subtitle Language",
+    "apiKey": "SubtitleLanguages",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/subtitleLanguage.svg",
+    "tableConfig": [
+      {
+        "name": "Subtitle Language",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Subtitle Language",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": false,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TVODTier": {
+    "displayModuleName": "Licensing - TVOD_Tier",
+    "searchText": "Search TVOD_Tier",
+    "searchKey": ["title"],
+    "buttonText": "TVOD_Tier",
+    "apiKey": "TVODTier",
+    "icon": "images/TVOD.svg",
+    "tableConfig": [
+      {
+        "name": "TVOD_Tier",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "TVOD_Tier",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TagBadge": {
+    "displayModuleName": "Tag / Badge",
+    "searchText": "Search Tag",
+    "searchKey": ["title"],
+    "buttonText": "Tag",
+    "apiKey": "TagBadge",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/TagBadge.svg",
+    "tableConfig": [
+      {
+        "name": "Tag/Badge",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Tag Name",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TargetAudience": {
+    "displayModuleName": "Target Audience",
+    "searchText": "Search Target Audience",
+    "searchKey": ["title"],
+    "buttonText": "Target Audience",
+    "apiKey": "TargetAudience",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/targetAudience.svg",
+    "tableConfig": [
+      {
+        "name": "Target Audience",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Target Audience",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "LicenceTemplate": {
+    "displayModuleName": "Template Management",
+    "searchText": "Search Templates",
+    "searchKey": ["title"],
+    "buttonText": "Template",
+    "apiKey": "LicenceTemplate",
+    "icon": "images/template.svg",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/template",
+    "tableConfig": [
+      {
+        "name": "Template Title",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Template",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isView": true,
+    "isDelete": true
+  },
+  "Theme": {
+    "displayModuleName": "Theme",
+    "searchText": "Search Theme",
+    "searchKey": ["title"],
+    "buttonText": "Theme",
+    "apiKey": "Theme",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/theme.svg",
+    "tableConfig": [
+      {
+        "name": "Theme",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Theme",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 1,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TvShowBroadcast": {
+    "displayModuleName": "TVShow Broadcasted",
+    "searchText": "Search SubType",
+    "searchKey": ["title"],
+    "buttonText": "Broadcasted",
+    "apiKey": "TvShowBroadcast",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/tvshowbroadcasting.svg",
+    "tableConfig": [
+      {
+        "name": "Broadcasted",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Broadcasted",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TvShowPrimaryGenre": {
+    "displayModuleName": "TVShow Primary Genre",
+    "searchText": "Search Primary Genre",
+    "searchKey": ["title"],
+    "buttonText": "Primary Genre",
+    "apiKey": "TvShowPrimaryGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/tvshowgenre.svg",
+    "tableConfig": [
+      {
+        "name": "Primary Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Primary Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TvShowSettingGenre": {
+    "displayModuleName": "TVShow Setting Genre",
+    "searchText": "Search Genre",
+    "searchKey": ["title"],
+    "buttonText": "Setting Genre",
+    "apiKey": "TvShowSettingGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/tvshowsetting.svg",
+    "tableConfig": [
+      {
+        "name": "Setting Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Setting Genre",
+        "col": "col-md-4 col-lg-4",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TvShowSubType": {
+    "displayModuleName": "TVShow SubType",
+    "searchText": "Search SubType",
+    "searchKey": ["title"],
+    "buttonText": "SubType",
+    "apiKey": "TvShowSubType",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/tvshowsubtype.svg",
+    "tableConfig": [
+      {
+        "name": "Sub Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Sub Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "TvShowThematicGenre": {
+    "displayModuleName": "TVShow Thematic Genre",
+    "searchText": "Search Thematic Genre",
+    "searchKey": ["title"],
+    "buttonText": "Thematic Genre",
+    "apiKey": "TvShowThematicGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/tvshowthematic.svg",
+    "tableConfig": [
+      {
+        "name": "Thematic Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Thematic Genre",
+        "col": "col-md-4 col-lg-4",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoActivity": {
+    "displayModuleName": "Video Activity",
+    "searchText": "Search Video Activity",
+    "searchKey": ["title"],
+    "buttonText": "Activity",
+    "apiKey": "VideoActivity",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/activity.svg",
+    "tableConfig": [
+      {
+        "name": "Activity",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Activity",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoDASHSuffixes": {
+    "displayModuleName": "DASH Suffixes",
+    "searchText": "Search DASH Suffix",
+    "searchKey": ["title"],
+    "buttonText": "DASH Suffix",
+    "apiKey": "VideoDASHSuffixes",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/Dash.svg",
+    "tableConfig": [
+      {
+        "name": "DASH Suffix",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "DASH Suffix",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoDayPart": {
+    "displayModuleName": "Video Day Part",
+    "searchText": "Search Day Part",
+    "searchKey": ["title"],
+    "buttonText": "Day Part",
+    "apiKey": "VideoDayPart",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/dayPart.svg",
+    "tableConfig": [
+      {
+        "name": "Day Part",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Day Part",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoHLSSuffixes": {
+    "displayModuleName": "HLS Suffixes",
+    "searchText": "Search HLS Suffix",
+    "searchKey": ["title"],
+    "buttonText": "HLS Suffix",
+    "apiKey": "VideoHLSSuffixes",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/HLS.svg",
+    "tableConfig": [
+      {
+        "name": "HLS Suffix",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "HLS Suffix",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoPrimaryGenre": {
+    "displayModuleName": "Video Primary Genre",
+    "searchText": "Search Primary Genre",
+    "searchKey": ["title"],
+    "buttonText": "Primary Genre",
+    "apiKey": "VideoPrimaryGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/videoprimary.svg",
+    "tableConfig": [
+      {
+        "name": "Primary Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Primary Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoSettingGenre": {
+    "displayModuleName": "Video Setting Genre",
+    "searchText": "Search Genre",
+    "searchKey": ["title"],
+    "buttonText": "Setting Genre",
+    "apiKey": "VideoSettingGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/videosetting.svg",
+    "tableConfig": [
+      {
+        "name": "Setting Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Setting Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoStyle": {
+    "displayModuleName": "Video Style",
+    "searchText": "Search Style",
+    "searchKey": ["title"],
+    "buttonText": "Style",
+    "apiKey": "VideoStyle",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/videostyle.svg",
+    "tableConfig": [
+      {
+        "name": "Style",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Style",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoSubtype": {
+    "displayModuleName": "Video SubType",
+    "searchText": "Search SubType",
+    "searchKey": ["title"],
+    "buttonText": "SubType",
+    "apiKey": "VideoSubtype",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/TVOD.svg",
+    "tableConfig": [
+      {
+        "name": "Sub Type",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Sub Type",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "isChar": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  },
+  "VideoThematicGenre": {
+    "displayModuleName": "Video Thematic Genre",
+    "searchText": "Search Thematic Genre",
+    "searchKey": ["title"],
+    "buttonText": "Thematic Genre",
+    "apiKey": "VideoThematicGenre",
+    "isCustomAction": true,
+    "CustomPath": "/manage-masters/translation",
+    "icon": "images/videothematic.svg",
+    "tableConfig": [
+      {
+        "name": "Thematic Genre",
+        "key": "title"
+      },
+      {
+        "name": "Created By",
+        "key": "created_by"
+      },
+      {
+        "name": "Updated By",
+        "key": "modified_by"
+      }
+    ],
+    "formConfig": [
+      {
+        "label": "Thematic Genre",
+        "name": "title",
+        "type": "text",
+        "value": "",
+        "validation": {
+          "required": true,
+          "minLength": 2,
+          "maxLength": 100
+        }
+      }
+    ],
+    "Status": "status",
+    "GridVisible": true,
+    "isEdit": true,
+    "isDelete": true
+  }
+}

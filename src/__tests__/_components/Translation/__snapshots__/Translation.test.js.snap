@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Translation /> Should renders Translation component correctly 1`] = `
+<div
+  className="d-wrap c-n"
+>
+  <BreadcrumbsComp
+    links={
+      Array [
+        Object {
+          "color": "inherit",
+          "route": "/dashboard",
+          "text": "Dashboard",
+        },
+      ]
+    }
+    typography={
+      Array [
+        Object {
+          "color": "textPrimary",
+          "label": "primary",
+          "text": "Translations",
+        },
+      ]
+    }
+  />
+  <div
+    className="profile-head flex align-items-center justify-content-between"
+  >
+    <div
+      className="back-user-btn"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <test-file-stub />
+      </span>
+      <strong>
+        <span>
+          Translations
+        </span>
+      </strong>
+    </div>
+  </div>
+  <div
+    className="translation-wrapper"
+  >
+    <div
+      className="whitebox lang-select-wrap m-b-30"
+    >
+      <div
+        className="flex align-items-center justify-content-between"
+      >
+        <div
+          className="left-area flex align-items-center"
+        >
+          <div
+            className="lang-text"
+          >
+            Select Language
+          </div>
+          <LeftTab
+            className="tabs lang-tab"
+            handleChange={[Function]}
+            options={Array []}
+            orientation="horizontal"
+            selectedTab={0}
+            showIcon={false}
+            variant="scrollable"
+          />
+        </div>
+        <div
+          className="right-area other-lang-btn"
+          onClick={[Function]}
+        >
+          Other Languages
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

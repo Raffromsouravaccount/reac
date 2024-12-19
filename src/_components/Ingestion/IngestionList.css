@@ -1,0 +1,20 @@
+.ingestion-loading{
+  opacity: 0.5;
+  cursor: wait;
+}
+.actions-btn .ref-link{
+font-size: 14px;
+font-weight: 600;
+line-height: 1.5;
+color: #bb3e8c;
+cursor: pointer;
+text-decoration: underline;
+}
+.actions-btn .st-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.actions-btn .st-icon svg {
+  display: block;
+}
+

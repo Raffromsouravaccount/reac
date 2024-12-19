@@ -1,0 +1,120 @@
+.create-g-top {
+    padding: 10px 20px;
+    border-bottom: solid 1px #ececec;
+  }
+  .create-g-bottom {
+    padding: 10px 20px;
+    border-top: solid 1px #ececec;
+  }
+.countrygroup .l-title {
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #1e1e1e;
+  }
+  .countrygroup .l-value {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    color: #1e1e1e;
+  }
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+.ml-10{
+margin-left: 10px;
+}
+.countrygroup .create-u-form, .countrygroup .whitebox {
+  border-radius: 0;
+}
+.countrygroup .countrybox {
+  padding: 30px 15px 15px;
+}
+.countrygroup .countrylist {
+  padding: 15px;
+}
+.country-table-list {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 200px;
+}
+.countrylist.blank {
+  height: calc(100% - 45px);
+}
+.empty-counrty-list h4 {
+  margin: 0 0 15px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #999999;
+}
+.empty-counrty-list p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #999999;
+}
+.countrygroup .text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #999999;
+  display: inline-block;
+}
+.countrygroup .value {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #333333;
+}
+.countrygroup .countrylist .zee-input-field {
+  margin-bottom: 15px;
+}
+.country-table-list .MuiTableCell-root,
+.country-table-list .MuiTableCell-paddingCheckbox {
+  padding: 10px;
+}
+.country-table-list table tr th,
+.country-table-list table tr td {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: normal;
+  color: #333333;
+}
+.country-table-list table tr th {
+  background-color: #f8f0fc;
+  font-weight: bold;
+  color: #2c0b2d;
+}
+.country-table-list table tr th.table-g-coun-action{
+  width: 120px;
+}
+.country-table-list .MuiTableRow-root.Mui-selected, .country-table-list .MuiTableRow-root.Mui-selected:hover {
+  background-color: #ffffff;
+}
+.country-table-list .delete-con-btn {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #f46a6a;
+  cursor: pointer;
+}
+.country-table-list .delete-con-btn svg {
+  margin-right: 5px;
+}
+
+
+@media (max-width: 991px) {
+  .available-sec {
+    margin-bottom: 30px;
+  }
+  .country-table-list table tr th.table-g-coun-action{
+    width: 95px;
+  }
+}

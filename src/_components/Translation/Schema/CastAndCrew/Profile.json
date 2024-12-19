@@ -1,0 +1,167 @@
+{
+    "createProfile": [
+        {
+            "name": "castName",
+            "label": "Profile Name",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 250,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castKnownAs",
+            "label": "Also known as",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 250,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castTag",
+            "label": "Tag/Badge",
+            "type": "dropDown",
+            "path": "/master/TagBadge",
+            "data": [],
+            "keyText": "title",
+            "value": [],
+            "multiple": true,
+            "required": false,
+            "isEditing": false,
+            "isEditDisabled": true
+        },
+        {
+            "name": "castType",
+            "label": "Cast Type",
+            "type": "dropDown",
+            "path": "/master/CastType",
+            "data": [],
+            "keyText": "title",
+            "value": [],
+            "multiple": true,
+            "required": false,
+            "isEditing": false,
+            "isEditDisabled": true
+        },
+        {
+            "name": "castBirthPlace",
+            "label": "Birthplace",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 500,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castProfileBio",
+            "label": "Profile Bio",
+            "title": "This user will be responsible for creating/Curating the content",
+            "type": "texteditor",
+            "moduleOptions": { "toolbar": [["bold", "italic", "underline"], ["link"]] },
+            "formatOptions": ["bold", "italic", "underline", "link"],
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 500,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castBackground",
+            "label": "Background",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 500,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castCareer",
+            "label": "Career",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 500,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castAwards",
+            "label": "Awards & Notification",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 500,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        },
+        {
+            "name": "castTrivia",
+            "label": "Trivia",
+            "type": "text",
+            "value": "",
+            "required": false,
+            "minTextLength": 0,
+            "maxTextLength": 500,
+            "text": false,
+            "numeric": false,
+            "alphabetOnly": false,
+            "isEditing": true
+        }
+    ],
+    "relationShip": [
+        [
+            {
+                "name": "castRelatedTo",
+                "label": "Related To",
+                "type": "dropDown",
+                "path": "/castLists",
+                "data": [],
+                "keyText": "castName",
+                "value": null,
+                "multiple": false,
+                "required": false,
+                "isEditing": false,
+                "isEditDisabled": true
+            },
+            {
+                "name": "castRelation",
+                "label": "Relation",
+                "type": "dropDown",
+                "path": "/master/Relation",
+                "data": [],
+                "keyText": "relationTitle",
+                "value": null,
+                "multiple": false,
+                "required": false,
+                "isEditing": false,
+                "isEditDisabled": true
+            }
+        ]
+    ]
+}

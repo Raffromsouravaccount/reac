@@ -1,0 +1,200 @@
+{
+  "title_summary": [
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Collection Title",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "note",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Note",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isAlphaNumeric": true
+      }
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "description",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "longDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Long Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "tags",
+      "type": "SearchableWithCreate",
+      "keyText": "title",
+      "value": [],
+      "col": "col-md-6 col-lg-6",
+      "multiple": true,
+      "label": "Tags",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "languages",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "multiple": true,
+      "label": "Languages",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "autoPlay",
+      "value": false,
+      "col": "col-md-6 col-lg-6",
+      "type": "checkbox",
+      "labelPlacement": "end",
+      "label": "Auto Play",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "global": [
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "description",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "longDescriptionmobile",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Long Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "tvDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "TV Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    }
+  ]
+}

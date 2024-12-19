@@ -1,0 +1,851 @@
+{
+  "ContentProperties": {
+    "title_summary": [
+      {
+        "name": "title",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Title",
+        "errorText": "",
+        "validation": {
+          "maxLength": 200,
+          "required": true
+        }
+      },
+      {
+        "name": "shortDescription",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "type": "textEditor",
+        "label": "Short Description",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "errorText": "",
+        "validation": {
+          "required": true,
+          "maxLength": 200
+        }
+      },
+      {
+        "name": "subtype",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Sub Type",
+        "keyText": "title",
+        "path": "/master/VideoSubtype",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "category",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Content Category",
+        "keyText": "title",
+        "path": "/master/ContentCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "primaryGenre",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Primary Genre",
+        "keyText": "title",
+        "path": "/master/VideoPrimaryGenre",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "dateZee5Published",
+        "type": "date",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "ZEE5 Release Date",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "duration",
+        "type": "time",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "label": "Video Duration",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "audioLanguages",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": true,
+        "label": "Audio Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "primaryLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Primary Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "dubbedLanguageTitle",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Dubbed Language Title",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "originalLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Original Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentVersion",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Content Version",
+        "keyText": "title",
+        "path": "/master/ContentVersion",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "groupWiseTitle": [
+      [
+        {
+          "name": "groupCountry",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "label": "Group / Country",
+          "keyText": "title",
+          "path": "/master/Country",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "dateRelease",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "date",
+          "label": "ZEE5 Release Date",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "minDate": "sameOrAfter"
+          }
+        },
+        {
+          "name": "subtitleLanguage",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "label": "Subtitle Language",
+          "keyText": "title",
+          "path": "/master/Language",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ]
+    ],
+    "classification": [
+      {
+        "name": "contentOwner",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Content Owner",
+        "keyText": "title",
+        "path": "/master/ContentOwner",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "certification",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Certification",
+        "keyText": "title",
+        "path": "/master/Certification",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "groupWiseArr": [
+      {
+        "name": "groupCountry",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Group / Country",
+        "keyText": "title",
+        "path": "/master/Country",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "dateRelease",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "date",
+        "label": "ZEE5 Release Date",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate": "sameOrAfter"
+        }
+      },
+      {
+        "name": "subtitleLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Subtitle Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  },
+  "Video": [
+    {
+      "name": "dashRootFolderName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Dash Root Folder",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "required": true
+      }
+    },
+    {
+      "name": "dashManifestName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Dash Manifest",
+      "errorText": "",
+      "validation": {
+        "maxLength": 50,
+        "required": true
+      }
+    },
+    {
+      "name": "hlsRootFolderName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "HLS Root Folder",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "required": true
+      }
+    },
+    {
+      "name": "hlsManifestName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "HLS Manifest",
+      "errorText": "",
+      "validation": {
+        "maxLength": 50,
+        "required": true
+      }
+    },
+    {
+      "name": "mediathekFileUid",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Mediathek File Uid",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "thumbnail",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Thumbnail",
+      "errorText": "",
+      "validation": {
+        "isUrl": true,
+        "maxLength": 255,
+        "required": false
+      }
+    },
+    {
+      "name": "importdetails",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "sectionMultiple",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "License": [
+    {
+      "manual_section": [
+        {
+          "name": "setName",
+          "type": "text",
+          "value": "",
+          "col": "col-md-7 col-lg-7",
+          "label": "Set Name",
+          "errorText": "",
+          "validation": {
+            "required": true,
+            "maxLength":250
+          }
+        },
+        {
+          "name": "fromDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "License From Date",
+          "minDate": "sameOrAfter",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "toDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "License To Date",
+          "minDate": "sameOrAfter",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "country",
+          "type": "dropdown",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "groupBy": "group",
+          "path": "user/country-group",
+          "keyText": "title",
+          "label": "Country / Group",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "businessType",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/BusinessType",
+          "keyText": "title",
+          "label": "Business Type",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "isParentTypeTvod",
+          "value": false,
+          "col": "col-md-6 col-lg-6",
+          "type": "checkbox",
+          "label": "Parent Type TVOD",
+          "labelPlacement": "end",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "search_filter_section": [
+        {
+          "name": "fromDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-12 col-lg-12",
+          "label": "License From Date",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "toDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-12 col-lg-12",
+          "label": "License To Date",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "businessType",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-12 col-lg-12",
+          "multiple": false,
+          "path": "/master/BusinessType",
+          "keyText": "title",
+          "label": "Business Type",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "display": true,
+          "col": "",
+          "name": "status",
+          "label": "Status",
+          "areaLabel": "status",
+          "labelPlacement": "end",
+          "value": null,
+          "type": "radio",
+          "data": [
+            {
+              "label": "Active",
+              "value": "1"
+            },
+            {
+              "label": "Inactive",
+              "value": "0"
+            }
+          ],
+          "validation": {}
+        }
+      ],
+      "commonmodel_section": [
+        {
+          "name": "reason",
+          "type": "dropdown",
+          "value": null,
+          "col": "col-md-12 col-lg-12",
+          "path": "/master/ReasonType",
+          "keyText": "title",
+          "multiple": false,
+          "label": "Reason",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        }
+      ]
+    }
+  ],
+  "Images": {
+    "menuItems": [
+      {
+        "label": "View"
+      },
+      {
+        "label": "Edit"
+      },
+      {
+        "label": "Delete"
+      }
+    ],
+    "addEditImage": [
+      {
+        "name": "imageTitle",
+        "value": "",
+        "col": "",
+        "type": "text",
+        "label": "Image Title",
+        "errorText": "",
+        "validation": {
+          "maxLength": 250,
+          "required": true
+        }
+      },
+      {
+        "name": "imageDescription",
+        "value": "",
+        "col": "",
+        "type": "textarea",
+        "label": "Description",
+        "errorText": "",
+        "validation": {
+          "maxLength": 500
+        }
+      }
+    ],
+    "createSet": {
+      "fields": [
+        {
+          "name": "setName",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "label": "Set Name",
+          "errorText": "",
+          "validation": {
+            "required": true,
+            "maxLength": 250
+          }
+        },
+        {
+          "name": "GroupCountry",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "groupBy": "group",
+          "label": "Country / Group",
+          "keyText": "title",
+          "path": "user/country-group",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "Platform",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Select Platform",
+          "keyText": "title",
+          "path": "/master/Platform",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "gender",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Gender",
+          "keyText": "title",
+          "path": "/master/Gender",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "genre",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Genre",
+          "keyText": "title",
+          "path": "/master/Genre",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "ageGroup",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Age Group",
+          "keyText": "title",
+          "path": "/master/AgeGroup",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "language",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Language",
+          "keyText": "title",
+          "path": "/master/Language",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "others",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "label": "Others",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 150,
+            "isalphanumericValidateWithComma": true
+          }
+        }
+      ]
+    }
+  },
+  "Seo": [
+    {
+      "name": "sefUrl",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "URL Structure Edit",
+      "helperText": "",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 1000
+      }
+    },
+    {
+      "name": "titleTag",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "SEO Title Tag",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "metaDescription",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "SEO Meta Description",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "metaSynopsis",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "SEO Meta Synopsis for collection pages",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h1Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H1 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h2Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H2 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+
+    {
+      "name": "videoObjectSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Video Object Schema",
+      "labelPlacement": "end",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "websiteSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Website Schema",
+      "labelPlacement": "end",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "breadcrumListSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Breadcrum List Schema",
+      "labelPlacement": "end",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "imageObjectSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Image Object Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "organizationSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Organization Schema",
+      "labelPlacement": "end",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "MapContent": [
+    {
+      "label": "Main Content",
+      "type": "main",
+      "name": "mainContent",
+      "deleteTitle": "Delete Content",
+      "placeholder": "Search via Video name",
+      "deleteModalDescription": "Do you want to remove this content from the assigned listing?",
+      "fetched": false
+    }
+  ]
+}

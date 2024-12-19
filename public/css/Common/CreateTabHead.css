@@ -1,0 +1,84 @@
+.cr-mov-tab .tabs {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.add-another-f-btn {
+  margin-bottom: 20px;
+}
+.add-another-f-btn .add-btn-field {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.7;
+  color: #bb3e8c;
+}
+.add-another-f-btn .add-btn-field .plush-icon-btn {
+  margin-right: 10px;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border: solid 1px #bb3e8c;
+  display: block;
+  border-radius: 50%;
+}
+.add-another-f-btn .add-btn-field .plush-icon-btn:before, .add-another-f-btn .add-btn-field .plush-icon-btn:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: #bb3e8c;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.add-another-f-btn .add-btn-field .plush-icon-btn:before {
+  width: 12px;
+  height: 1px;
+}
+.add-another-f-btn .add-btn-field .plush-icon-btn:after {
+  width: 1px;
+  height: 12px;
+}
+.add-another-f-btn .add-btn-field.remove-btn .plush-icon-btn:after {
+  display: none;
+}
+.add-plush-row {
+  position: relative;
+  padding-right: 40px;
+}
+.add-plush-row .create-btn {
+  right: 0;
+}
+@media (max-width: 991px) {
+  .cr-mov-tab .tabs {
+      padding-left: 15px;
+      padding-right: 15px;
+ }
+}
+@media (max-width: 767px) {
+  .cr-mov-tab .tabs .MuiTabs-flexContainer {
+      display: inline-block;
+      flex-wrap: initial;
+ }
+  .cr-mov-tab .tabs .Mui-selected:after {
+      display: none;
+ }
+  .cr-mov-tab .tabs .MuiTabs-indicator {
+      display: block;
+ }
+  .cr-mov-tab .tabs .MuiTab-root {
+      margin-right: 15px;
+      min-height: 48px;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      max-width: initial;
+ }
+  .cr-mov-tab .tabs .MuiTab-root:last-child {
+      margin-right: 0;
+ }
+  .cr-mov-tab .tabs .MuiTab-wrapper {
+      justify-content: center;
+ }
+}

@@ -1,0 +1,164 @@
+{
+    "default": [
+        {
+            "name": "clip",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Clip Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "webisode",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Webisode Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250             
+            }
+        },
+        {
+            "name": "preview",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Preview Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "episode",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Episode Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "mobisode",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Mobisode Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "millennialCut",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Millennial Cut Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "trailer",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Trailer Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "promo",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Promo Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "teaser",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Teaser Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "music",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Music Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "recap",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Recap Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        },
+        {
+            "name": "seasonRecap",
+            "value": "",
+            "col": "col-md-4 col-lg-4",
+            "type": "text",
+            "label": "Season Recap Display Name",
+            "errorText": "",
+            "validation": {
+                "required": false,
+                "maxLength": 250
+            }
+        }
+    ],
+    "group": {
+        "name": "GroupCountry",
+        "value": [],
+        "col": "col-md-4 col-lg-4",
+        "type": "dropdownAsync",
+        "data": [],
+        "multiple": true,
+        "groupBy": "group",
+        "label": "Country / Group",
+        "keyText": "title",
+        "path": "user/country-group",
+        "errorText": "",
+        "validation": {
+            "required": true
+        }
+    }
+}

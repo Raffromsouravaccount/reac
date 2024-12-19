@@ -1,0 +1,14 @@
+[
+  {
+      "label": "Default Order",
+      "name": "defaultorder",
+      "contentIdKey": "episodeId",
+      "noItemsText": "No episodes have been found"
+  },
+  {
+    "label": "Set Ordering",
+    "name": "setordering",
+    "contentIdKey": "episodeId",
+    "noItemsText": "No sets have been found"
+  }
+]

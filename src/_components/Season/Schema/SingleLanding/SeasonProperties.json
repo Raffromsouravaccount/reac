@@ -1,0 +1,281 @@
+{
+  "title_summary": [
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Title",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "index",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Index",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "isDigit": true
+      }
+    },
+    {
+      "name": "dateZee5Published",
+      "type": "date",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "label": "ZEE5 Release Date",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "telecastDate",
+      "type": "date",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "label": "Original Telecast Date",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "isMultiAudio",
+      "value": false,
+      "col": "col-md-6 col-lg-6",
+      "type": "checkbox",
+      "labelPlacement": "end",
+      "label": "Is Multi-Audio?",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "audioLanguages",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "label": "Audio Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "classification": [
+    {
+      "name": "broadcastState",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Broadcast State",
+      "keyText": "title",
+      "path": "/master/TvShowBroadcast",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "upcomingPage",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Upcoming Page Text",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumeric": false
+      }
+    }
+  ],
+  "globalFields": [
+    [
+      {
+        "name": "title",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Title",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "dateZee5Published",
+        "type": "date",
+        "col": "col-md-8 col-lg-8",
+        "value": "",
+        "label": "ZEE5 Release Date",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "shortDescription",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "type": "textEditor",
+        "label": "Short Description",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 500
+        }
+      },
+      {
+        "name": "section",
+        "type": "sectionMultiple",
+        "multipleKey": "globalFieldClassification",
+        "label": "Global Field Classification"
+      },
+      {
+        "name": "broadcastState",
+        "value": null,
+        "col": "col-md-8 col-lg-8",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Broadcast State",
+        "keyText": "title",
+        "path": "/master/TvShowBroadcast",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "upcomingPage",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Upcoming Page Text",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250,
+          "isAlphaNumeric": false
+        }
+      }
+    ]
+  ],
+  "globalFieldsArr": [
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "dateZee5Published",
+      "type": "date",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "label": "ZEE5 Release Date",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "section",
+      "type": "sectionMultiple",
+      "multipleKey": "globalFieldClassification",
+      "label": "Global Field Classification"
+    },
+    {
+      "name": "broadcastState",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Broadcast State",
+      "keyText": "title",
+      "path": "/master/TvShowBroadcast",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "upcomingPage",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Upcoming Page Text",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumeric": false
+      }
+    }
+  ]
+}

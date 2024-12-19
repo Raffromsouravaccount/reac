@@ -1,0 +1,2816 @@
+{
+  "ContentProperties": {
+    "title_summary": [
+      {
+        "name": "note",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Note",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250
+        }
+      },
+      {
+        "name": "title",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Title",
+        "errorText": "",
+        "validation": {
+          "maxLength": 200,
+          "required": true
+        }
+      },
+      {
+        "name": "shortDescription",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "type": "textEditor",
+        "label": "Short Description",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "errorText": "",
+        "validation": {
+          "required": true,
+          "maxLength": 200
+        }
+      },
+      {
+        "name": "digitalLongDescriptionWeb",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "type": "textEditor",
+        "label": "Web Description",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 4000
+        }
+      },
+      {
+        "name": "digitalshortDescriptionmobile",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "type": "textEditor",
+        "label": "App Description",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 4000
+        }
+      },
+      {
+        "name": "digitalLongDescriptionTV",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "type": "textEditor",
+        "label": "TV Description",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 4000
+        }
+      },
+      {
+        "name": "subtype",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Sub Type",
+        "keyText": "title",
+        "path": "/master/MovieSubtype",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "category",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Content Category",
+        "keyText": "title",
+        "path": "/master/ContentCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "primaryGenre",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Primary Genre",
+        "keyText": "title",
+        "path": "/master/MoviePrimaryGenre",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "secondaryGenre",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Secondary Genre",
+        "keyText": "title",
+        "path": "/master/MoviePrimaryGenre",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "thematicGenre",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Thematic Genre",
+        "keyText": "title",
+        "path": "/master/MovieThematicGenre",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "settingGenre",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Setting Genre",
+        "keyText": "title",
+        "path": "/master/MovieSettingGenre",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "rcsCategory",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "RCS Category",
+        "keyText": "title",
+        "path": "/master/RcsCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "creativeTitle",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Creative Title",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "alternatetitle",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Alternative Title",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "pageTitle",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Page Title",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250
+        }
+      },
+      {
+        "name": "pageDescription",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "textarea",
+        "label": "Page Description",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 500
+        }
+      },
+      {
+        "name": "titleForSocialShare",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Title For Social Share",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250
+        }
+      },
+      {
+        "name": "descriptionForSocialShare",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "textarea",
+        "label": "Description For Social Share",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250
+        }
+      },
+      {
+        "name": "dateZee5Published",
+        "type": "date",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "ZEE5 Release Date",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "telecastDate",
+        "type": "date",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Original Telecast Date",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "duration",
+        "type": "time",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "label": "Video Duration",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "isMultiAudio",
+        "value": false,
+        "col": "col-md-6 col-lg-6",
+        "type": "checkbox",
+        "labelPlacement": "end",
+        "label": "Is Multi-Audio?",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "audioLanguages",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Audio Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "contentLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Content Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "primaryLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Primary Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "dubbedLanguageTitle",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Dubbed Language Title",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "originalLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Original Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "subtitleLanguages",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Subtitle Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentVersion",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "label": "Content Version",
+        "keyText": "title",
+        "path": "/master/ContentVersion",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "theme",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Theme",
+        "keyText": "title",
+        "path": "/master/Theme",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contractId",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Contract Id",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isAlphaNumeric": true
+        }
+      },
+      {
+        "name": "section",
+        "type": "sectionMultiple",
+        "multipleKey": "specialCategory",
+        "label": "Special Category"
+      }
+    ],
+    "specialCategory": [
+      [
+        {
+          "name": "specialCategory",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "label": "Special Category",
+          "keyText": "title",
+          "path": "/master/SpecialCategory",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "specialCategoryCountry",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "label": "Country/Group for Special Category",
+          "keyText": "title",
+          "path": "user/country-group",
+          "groupBy":"group",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "specialCategoryFrom",
+          "type": "datetime-local",
+          "withTime": true,
+          "placeholder": "DD/MM/YYYY HH:MM",
+          "col": "col-md-6 col-lg-6",
+          "value": "",
+          "multiple": true,
+          "label": "Special Category - From Timeline",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "minDate" :"sameOrAfter"
+          }
+        },
+        {
+          "name": "specialCategoryTo",
+          "type": "datetime-local",
+          "withTime": true,
+          "placeholder": "DD/MM/YYYY HH:MM",
+          "col": "col-md-6 col-lg-6",
+          "value": "",
+          "multiple": true,
+          "label": "Special Category - To Timeline",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "minDate" :"sameOrAfter"
+          }
+        }
+      ]
+    ],
+    "groupWiseTitle": [
+      [
+        {
+          "name": "groupCountry",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "label": "Group / Country",
+          "keyText": "title",
+          "path": "/master/Country",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "dateRelease",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "date",
+          "label": "ZEE5 Release Date",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "minDate" :"sameOrAfter"
+          }
+        },
+        {
+          "name": "subtitleLanguage",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "label": "Subtitle Language",
+          "keyText": "title",
+          "path": "/master/Language",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ]
+    ],
+    "classification": [
+      {
+        "name": "rating",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Content Rating",
+        "keyText": "title",
+        "path": "/master/ContentRating",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentOwner",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Content Owner",
+        "keyText": "title",
+        "path": "/master/ContentOwner",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "originCountry",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Origin Country",
+        "keyText": "title",
+        "path": "/master/Country",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "upcomingPage",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Upcoming Page Text",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250,
+          "isAlphaNumeric": true
+        }
+      },
+      {
+        "name": "ageRating",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "type": "dropdownAsync",
+        "label": "Content Descriptors",
+        "keyText": "title",
+        "path": "/master/AgeRating",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "certification",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Certification",
+        "keyText": "title",
+        "path": "/master/Certification",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "emotions",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": true,
+        "label": "Moods/Emotions",
+        "keyText": "title",
+        "path": "/master/EmotionTitle",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentGrade",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Content Grade",
+        "keyText": "title",
+        "path": "/master/ContentGrade",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "era",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Era",
+        "keyText": "title",
+        "path": "/master/ERA",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "targetAge",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Target Age Group",
+        "keyText": "title",
+        "path": "/master/AgeGroup",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "targetAudiences",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": true,
+        "label": "Target Audience",
+        "keyText": "title",
+        "path": "/master/TargetAudience",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "tags",
+        "type": "SearchableWithCreate",
+        "keyText": "title",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Tags",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "digitalKeywords",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Digital Keywords",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "adaptation",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Adaptation",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "events",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Event",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 100
+        }
+      },
+      {
+        "name": "productionCompany",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdownAsync",
+        "multiple": false,
+        "label": "Production Company",
+        "keyText": "title",
+        "path": "/master/ProductionCompany",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "popularityScore",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Popularity Score",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 2,
+          "isNumeric": true
+        }
+      },
+      {
+        "name": "trivia",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Trivia",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 4000
+        }
+      },
+      {
+        "name": "officialSite",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Official Site",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "awards": [
+      [
+        {
+          "name": "awardRecipient",
+          "type": "SearchableWithCreate",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "multiple": true,
+          "path": "",
+          "label": "Recipient Name",
+          "keyText": "castName",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "awardsCategory",
+          "col": "col-md-6 col-lg-6",
+          "value": [],
+          "type": "dropdownAsync",
+          "multiple": true,
+          "label": "Award Category",
+          "keyText": "title",
+          "path": "/master/AwardCategory",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "awardsandrecognition",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "label": "Award/Honour",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ]
+    ],
+    "player": [
+      {
+        "name": "skipAvailable",
+        "value": false,
+        "col": "col-md-6 col-lg-6",
+        "type": "checkbox",
+        "labelPlacement": "end",
+        "label": "Skip Available",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "introStartTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "Intro Start Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "introEndTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "Intro End Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "recapStartTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "Recap Start Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "recapEndTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "Recap End Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "endCreditsStartTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "End Credit Start Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "adMarker",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Ad Marker",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isNumericWithComma": true
+        }
+      }
+    ],
+    "skip_song": [
+      [
+        {
+          "name": "skipSongStartTime",
+          "value": null,
+          "col": "col-md-6 col-lg-6",
+          "type": "time",
+          "label": "Skip Song Start Time",
+  
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "skipSongEndTime",
+          "value": null,
+          "col": "col-md-6 col-lg-6",
+          "type": "time",
+          "label": "Skip Song End Time",
+  
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ]
+    ],
+    "awardFieldArr": [
+      {
+        "name": "awardRecipient",
+        "type": "SearchableWithCreate",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "path": "",
+        "label": "Recipient Name",
+        "keyText": "castName",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "awardsCategory",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "type": "dropdownAsync",
+        "multiple": true,
+        "label": "Award Category",
+        "keyText": "title",
+        "path": "/master/AwardCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "awardsandrecognition",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Award/Honour",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "skipFieldArr": [
+      {
+        "name": "skipSongStartTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "Skip Song Start Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "skipSongEndTime",
+        "value": null,
+        "col": "col-md-6 col-lg-6",
+        "type": "time",
+        "label": "Skip Song End Time",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "specialCategoryArr": [
+      {
+        "name": "specialCategory",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Special Category",
+        "keyText": "title",
+        "path": "/master/SpecialCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "specialCategoryCountry",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Country/Group for Special Category",
+        "keyText": "title",
+        "path": "user/country-group",
+        "groupBy":"group",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "specialCategoryFrom",
+        "type": "datetime-local",
+        "withTime": true,
+        "placeholder": "DD/MM/YYYY HH:MM",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "multiple": true,
+        "label": "Special Category - From Timeline",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate" :"sameOrAfter"
+        }
+      },
+      {
+        "name": "specialCategoryTo",
+        "type": "datetime-local",
+        "withTime": true,
+        "placeholder": "DD/MM/YYYY HH:MM",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "multiple": true,
+        "label": "Special Category - To Timeline",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate" :"sameOrAfter"
+        }
+      }
+    ],
+    "groupWiseArr": [
+      {
+        "name": "groupCountry",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Group / Country",
+        "keyText": "title",
+        "path": "/master/Country",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "dateRelease",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "date",
+        "label": "ZEE5 Release Date",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate" :"sameOrAfter"
+        }
+      },
+      {
+        "name": "subtitleLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Subtitle Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  },
+  "CastNCrew": {
+    "others": {
+      "attributes": [
+        {
+          "name": "42c1e2b7-0578-4e5f-b805-c2601fddee28",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Performer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "72dab561-6c03-4634-ab6f-f5268f716211",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Host/Anchorman",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "d7d7bdab-3a6e-47d6-8be1-50d99535a98e",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Singer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "88a65fb3-ee63-42ad-97ba-53e340120800",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Lyricist",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "37b661a0-c72a-4114-ae68-01e42dcbf149",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Director",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "e5293be6-f107-4e5f-83ce-4de5176a0638",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Cinematography/DOP",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "d1958a0d-9593-4b42-9aa4-45f21e4e008c",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Producer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "67d360dc-91a4-4076-97a8-6bcad057fbef",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Executive Producer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "ff299957-95e9-4893-8ddc-7773a19ca8f3",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Music Director",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "d6d9417c-487b-4721-b835-1c6bc8a26419",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Choreographer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "86bf9076-5e85-439b-8c56-72466547f4f6",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Title Theme Music",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "01f0b5bc-b4e0-47a9-a771-6d1441327051",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Background Score",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "36055682-92b5-4a06-8d1f-7bee5091a2e9",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Story Writer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "4b36aec2-b1d9-41a1-932d-afb4167e31ed",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Screen Play",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "f61f9a2c-06fe-46ba-873e-be8ec6250eee",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Dialogue Writer",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "7a54e245-1ed3-4cf3-8239-836e3e31c496",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Film Editing",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "72a18e11-afc7-4fde-a610-690b447e64b7",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Casting",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "cbe6285a-c4c9-4326-843e-19f4edcc6c80",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Production Design",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "ce6c59af-85bb-41b2-b39c-4fdb95571b14",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Art Direction",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "4cf637af-cd57-4f2d-9743-796fda296f64",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Set Decoration",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "99f58b87-fd54-48b4-8514-33c443cd0290",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Costume Design",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "8184d837-d622-4ac9-82bb-1b1a8fb7143f",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Production Co",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "afecd044-82ec-463f-a681-da564d2d9ab0",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Presenter",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "79c5dd74-6912-48f8-b0da-60c24b5fa917",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Guest",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "d9e1fb0d-b368-46df-a53e-49c1473ce8ff",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Participant",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "a7420fdc-43b8-49dc-98ea-2db61fdfa8db",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Judges",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "ba9e3b38-5269-43dc-ab50-701380281461",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Narrator",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 100,
+            "isChar": true
+          }
+        },
+        {
+          "name": "cdad2189-ffbe-41c2-914a-cb92ffb457a5",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "multiple": true,
+          "label": "Sponsor",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "305cb138-0ef4-4068-9a13-ab96eb7be36c",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Graphics",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        },
+        {
+          "name": "7a5893e2-b4ea-4c55-99af-f50cd7a949e2",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "label": "Vocalist",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true
+          }
+        }
+      ]
+    },
+    "actors": {
+      "label": "Actors",
+      "name": "3bb64421-f15f-4dda-adec-03c324c140a3",
+      "multiple": true,
+      "attributes": [
+        {
+          "actor": {
+            "name": "actor",
+            "type": "SearchableWithCreate",
+            "keyText": "castName",
+            "value": null,
+            "col": "col-md-6 col-lg-6",
+            "multiple": false,
+            "label": "Actor",
+            "data": [],
+            "errorText": "",
+            "validation": {
+              "required": false
+            }
+          },
+          "character": {
+            "name": "character",
+            "value": "",
+            "col": "col-md-6 col-lg-6",
+            "type": "text",
+            "multiple": false,
+            "maxLength": 250,
+            "label": "Character",
+            "errorText": "",
+            "validation": {
+              "required": false,
+              "isChar": true,
+              "maxLength": 250
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Video": [
+    {
+      "name": "audioLanguage",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Audio Track",
+      "errorText": "",
+      "validation": {
+        "maxLength": 250,
+        "isChar": true,
+        "required": false
+      }
+    },
+    {
+      "name": "subtitleLanguages",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Sub Title",
+      "errorText": "",
+      "validation": {
+        "maxLength": 200,
+        "isChar":  true,
+        "required": false
+      }
+    },
+    {
+      "name": "dashRootFolderName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Dash Root Folder",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "required": true
+      }
+    },
+    {
+      "name": "dashManifestName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Dash Manifest",
+      "errorText": "",
+      "validation": {
+        "maxLength": 50,
+        "required": true
+      }
+    },
+    {
+      "name": "hlsRootFolderName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "HLS Root Folder",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "required": true
+      }
+    },
+    {
+      "name": "hlsManifestName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "HLS Manifest",
+      "errorText": "",
+      "validation": {
+        "maxLength": 50,
+        "required": true
+      }
+    },
+    {
+      "name": "mssRootFolderName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "MSS Root Folder",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true,
+        "required": false
+      }
+    },
+    {
+      "name": "mssManifestName",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "MSS Manifest",
+      "errorText": "",
+      "validation": {
+        "maxLength": 50,
+        "isAlphaNumericWithSpecialChars": true,
+        "required": false
+      }
+    },
+    {
+      "name": "mp4Url",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "MP4 URL",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true,
+        "required": false
+      }
+    },
+    {
+      "name": "stickerUrl",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Sticker URL",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true,
+        "required": false
+      }
+    },
+    {
+      "name": "drm4kKeyId",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "4K DRM Key Id",
+      "errorText": "",
+      "validation": {
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true,
+        "required": false
+      }
+    },
+    {
+      "name": "drmKeyId",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "DRM Key Id",
+      "errorText": "",
+      "validation": {
+        "maxLength": 50,
+        "required": false
+      }
+    },
+    {
+      "name": "size",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Size",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isAlphaNumeric": true
+      }
+    },
+    {
+      "name": "protected",
+      "value": false,
+      "col": "col-md-6 col-lg-6",
+      "type": "checkbox",
+      "disabled": true,
+      "label": "Protected",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "dashSuffixesId",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdownAsync",
+      "path": "/master/VideoDASHSuffixes",
+      "keyText": "title",
+      "multiple": true,
+      "data": [],
+      "label": "Dash Suffixes",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "hlsSuffixesId",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdownAsync",
+      "path": "/master/VideoHLSSuffixes",
+      "keyText": "title",
+      "multiple": true,
+      "data": [],
+      "label": "HLS Suffixes",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "mssSuffixesId",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdownAsync",
+      "path": "/master/VideoMssSuffixes",
+      "keyText": "title",
+      "multiple": true,
+      "data": [],
+      "label": "MSS Suffixes",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "subtitleManifest",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdown",
+      "data": ["True", "False"],
+      "label": "Subtitle Manifest",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "spriteUrl",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Sprite",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "mediathekFileUid",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Mediathek File Uid",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "thumbnail",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Thumbnail",
+      "errorText": "",
+      "validation": {
+        "isUrl": true,
+        "maxLength": 255,
+        "required": false
+      }
+    },
+    {
+      "name": "importdetails",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "sectionMultiple",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "License": [
+    {
+      "manual_section": [
+        {
+          "name": "setName",
+          "type": "text",
+          "value": "",
+          "col": "col-md-7 col-lg-7",
+          "label": "Set Name",
+          "errorText": "",
+          "validation": {
+            "required": true,
+            "maxLength":250
+          }
+        },
+        {
+          "name": "fromDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "License From Date",
+          "minDate": "sameOrAfter",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "toDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "License To Date",
+          "minDate": "sameOrAfter",
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "country",
+          "type": "dropdown",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "groupBy": "group",
+          "path": "user/country-group",
+          "keyText": "title",
+          "label": "Country / Group",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "businessType",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/BusinessType",
+          "keyText": "title",
+          "label": "Business Type",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "billingType",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/BillingType",
+          "keyText": "title",
+          "label": "Billing Type",
+          "data": [],
+          "disabled": true,
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "platform",
+          "type": "conditionalDropdown",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "path": "/master/Platform",
+          "keyText": "title",
+          "label": "Platform",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "tvodTier",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/TVODTier",
+          "keyText": "title",
+          "label": "TVOD Tier",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "isParentTypeTvod",
+          "value": false,
+          "col": "col-md-6 col-lg-6",
+          "type": "checkbox",
+          "label": "Parent Type TVOD",
+          "labelPlacement": "end",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "template_edit_section": [
+        {
+          "name": "country",
+          "type": "dropdown",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "groupBy": "group",
+          "path": "user/country-group",
+          "keyText": "title",
+          "label": "Country / Group",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "businessType",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/BusinessType",
+          "keyText": "title",
+          "label": "Business Type",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "billingType",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/BillingType",
+          "keyText": "title",
+          "label": "Billing Type",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "platform",
+          "type": "conditionalDropdown",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "multiple": true,
+          "path": "/master/Platform",
+          "keyText": "title",
+          "label": "Platform",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "tvodTier",
+          "type": "dropdown",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "path": "/master/TVODTier",
+          "keyText": "title",
+          "label": "TVOD Tier",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "template_section": [
+        {
+          "name": "setName",
+          "type": "text",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "Set Name",
+          "errorText": "",
+          "validation": {
+            "required": true,
+            "maxLength":250
+          }
+        },
+        {
+          "name": "isParentTypeTvod",
+          "value": false,
+          "col": "col-md-6 col-lg-6",
+          "type": "checkbox",
+          "label": "Parent Type TVOD",
+          "labelPlacement": "end",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "fromDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "License From Date",
+          "minDate": "sameOrAfter",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        },
+        {
+          "name": "toDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "label": "License To Date",
+          "minDate": "sameOrAfter",
+          "disablePast": true,
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        }
+      ],
+      "search_filter_section": [
+        {
+          "name": "fromDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-12 col-lg-12",
+          "label": "License From Date",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "toDate",
+          "type": "date",
+          "value": "",
+          "col": "col-md-12 col-lg-12",
+          "label": "License To Date",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "businessType",
+          "type": "dropdown",
+          "value": null,
+          "col": "col-md-12 col-lg-12",
+          "multiple": false,
+          "path": "/master/BusinessType",
+          "label": "Business Type",
+          "keyText": "title",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "billingType",
+          "type": "dropdown",
+          "value": null,
+          "col": "col-md-12 col-lg-12",
+          "multiple": false,
+          "path": "/master/BillingType",
+          "label": "Billing Type",
+          "keyText": "title",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "platform",
+          "type": "dropdown",
+          "value": null,
+          "col": "col-md-12 col-lg-12",
+          "multiple": true,
+          "path": "/master/Platform",
+          "label": "Platform",
+          "keyText": "title",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "display": true,
+          "col": "",
+          "name": "status",
+          "label": "Status",
+          "areaLabel": "status",
+          "labelPlacement": "end",
+          "value": null,
+          "type": "radio",
+          "data": [
+            {
+              "label": "Active",
+              "value": "1"
+            },
+            {
+              "label": "Inactive",
+              "value": "0"
+            }
+          ],
+          "validation": {}
+        }
+      ],
+      "commonmodel_section": [
+        {
+          "name": "reason",
+          "type": "dropdown",
+          "value": null,
+          "col": "col-md-12 col-lg-12",
+          "path": "/master/ReasonType",
+          "keyText": "title",
+          "multiple": false,
+          "label": "Reason",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": true
+          }
+        }
+      ]
+    }
+  ],
+  "Images": {
+    "menuItems": [
+      {
+        "label": "View"
+      },
+      {
+        "label": "Edit"
+      },
+      {
+        "label": "Delete"
+      }
+    ],
+    "addEditImage": [
+      {
+        "name": "imageTitle",
+        "value": "",
+        "col": "",
+        "type": "text",
+        "label": "Image Title",
+        "errorText": "",
+        "validation": {
+          "maxLength": 250,
+          "required": true
+        }
+      },
+      {
+        "name": "imageDescription",
+        "value": "",
+        "col": "",
+        "type": "textarea",
+        "label": "Description",
+        "errorText": "",
+        "validation": {
+          "maxLength": 500
+        }
+      }
+    ],
+    "createSet": {
+      "fields": [
+        {
+          "name": "setName",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "label": "Set Name",
+          "errorText": "",
+          "validation": {
+            "required": true,
+            "maxLength": 250
+          }
+        },
+        {
+          "name": "GroupCountry",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "groupBy": "group",
+          "label": "Country / Group",
+          "keyText": "title",
+          "path": "user/country-group",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "Platform",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Select Platform",
+          "keyText": "title",
+          "path": "/master/Platform",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "gender",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Gender",
+          "keyText": "title",
+          "path": "/master/Gender",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "genre",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Genre",
+          "keyText": "title",
+          "path": "/master/Genre",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "ageGroup",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Age Group",
+          "keyText": "title",
+          "path": "/master/AgeGroup",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "language",
+          "value": [],
+          "col": "col-md-6 col-lg-6",
+          "type": "dropdown",
+          "data": [],
+          "multiple": true,
+          "label": "Language",
+          "keyText": "title",
+          "path": "/master/Language",
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "others",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "label": "Others",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "maxLength": 150
+          }
+        }
+      ]
+    }
+  },
+  "Seo": [
+    {
+      "name": "sefUrl",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "URL Structure Edit",
+      "helperText":"",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 1000
+      }
+    },
+    {
+      "name": "titleTag",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "SEO Title Tag",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "metaDescription",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "SEO Meta Description",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "metaSynopsis",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "SEO Meta Synopsis for collection pages",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "redirectionType", 
+      "type": "dropdownAsync",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "multiple": false, 
+      "path": "/master/RedirectionType", 
+      "keyText": "title", 
+      "label": "Redirection Type", 
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "redirectionLink",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "Redirection Link",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isUrl": true
+      }
+    },
+    {
+      "name": "noIndexNoFollow",
+      "value": false,
+      "col": "col-md-6 col-lg-6",
+      "type": "checkbox",
+      "label": "No Index No Follow",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "h1Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H1 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h2Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H2 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h3Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H3 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h4Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H4 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h5Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H5 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "h6Heading",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "H6 Heading",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "robotsMetaNoIndex",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Robots Meta - Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isChar": true
+      }
+    },
+    {
+      "name": "robotsMetaNoIndex",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Robots Meta - No Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isChar": true
+      }
+    },
+    {
+      "name": "robotsMetaImageIndex",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Robots Meta - Image Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isChar": true
+      }
+    },
+    {
+      "name": "robotsMetaImageNoIndex",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Robots Meta - Image No Index with Checkbox",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isChar": true
+      }
+    },
+    {
+      "name": "canonicalUrl",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Canonical URL",
+      "helperText":"",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "breadcrumbTitle",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Breadcrumb Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isChar": true
+      }
+    },
+    {
+      "name": "internalLinkBuilding",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Internal Link Building",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isChar": true
+      }
+    },
+    {
+      "name": "videoObjectSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Video Object Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "websiteSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Website Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "breadcrumListSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Breadcrum List Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "imageObjectSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Image Object Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "organizationSchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Organization Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "imageGallerySchema",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Image Gallery Schema",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "linkToStories",
+      "value": false,
+      "col": "col-md-6 col-lg-6 col-xl-4",
+      "type": "checkbox",
+      "label": "Link to Stories",
+      "labelPlacement": "end",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "MapContent": [
+    {
+      "label": "Main Content",
+      "type": "main",
+      "name": "mainContent",
+      "deleteTitle": "Delete Content",
+      "placeholder": "Search via Movie name",
+      "deleteModalDescription": "Do you want to remove this content from the assigned listing?",
+      "fetched": false
+    },
+    {
+      "label": "Link Content",
+      "type": "link",
+      "name": "linkContent",
+      "deleteTitle": "Delete Content",
+      "placeholder": "Search via Movie name",
+      "deleteModalDescription": "Do you want to remove this content from the assigned listing?",
+      "fetched": false
+    }
+  ]
+}

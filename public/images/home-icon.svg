@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.858" height="12.858" viewBox="0 0 12.858 12.858">
+    <defs>
+        <style>
+            .cls-1{fill:#999}
+        </style>
+    </defs>
+    <g id="bx-home-circle" transform="translate(-2 -2)">
+        <path id="Path_344" d="M2.643 9.072h.643v4.5a1.287 1.287 0 0 0 1.286 1.286h7.715a1.287 1.287 0 0 0 1.286-1.286v-4.5h.643a.643.643 0 0 0 .455-1.1L8.883 2.188a.642.642 0 0 0-.909 0L2.188 7.974a.643.643 0 0 0 .455 1.1zm5.786-5.52l3.857 3.857v6.162H4.571V7.41z" class="cls-1" data-name="Path 344"/>
+        <path id="Path_345" d="M10.572 14.143A2.572 2.572 0 1 0 8 11.572a2.574 2.574 0 0 0 2.572 2.571zm0-3.857a1.286 1.286 0 1 1-1.286 1.286 1.287 1.287 0 0 1 1.286-1.286z" class="cls-1" data-name="Path 345" transform="translate(-2.143 -2.5)"/>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+[
+    {
+        "label": "Assign Movies",
+        "name": "movies",
+        "fetched": false,
+        "apipath":"movie"
+    },
+    {
+        "label": "Assign Videos",
+        "name": "videos",
+        "fetched": false,
+        "apipath":"video"
+    },
+    {
+        "label": "Assign Episodes",
+        "name": "episodes",
+        "fetched": false,
+        "apipath":"episode"
+    }
+   
+]

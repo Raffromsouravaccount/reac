@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="bx-message-square-dots" width="13.229" height="12.568" viewBox="0 0 13.229 12.568">
+    <defs>
+        <style>
+            .cls-1{fill:#2e0130}
+        </style>
+    </defs>
+    <path id="Path_349" d="M11.261 2H5.969A3.973 3.973 0 0 0 2 5.969v7.938a.661.661 0 0 0 .661.661h8.6a3.973 3.973 0 0 0 3.968-3.968V5.969A3.973 3.973 0 0 0 11.261 2zm2.646 8.6a2.649 2.649 0 0 1-2.646 2.646H3.323V5.969a2.649 2.649 0 0 1 2.646-2.646h5.292a2.649 2.649 0 0 1 2.646 2.646z" class="cls-1" data-name="Path 349" transform="translate(-2 -2)"/>
+    <circle id="Ellipse_216" cx="1" cy="1" r="1" class="cls-1" data-name="Ellipse 216" transform="translate(4 5)"/>
+    <circle id="Ellipse_217" cx="1" cy="1" r="1" class="cls-1" data-name="Ellipse 217" transform="translate(7 5)"/>
+</svg>

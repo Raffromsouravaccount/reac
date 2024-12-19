@@ -1,0 +1,89 @@
+.actor-wrap .actor-row:first-child .add-plush-row.topH {
+  min-height: 28px;
+}
+.actor-wrap .actor-row:first-child .add-plush-row.topH {
+  margin-top: 0;
+}
+.actor-wrap .actor-row .add-plush-row.topH {
+  margin-top: -10px;
+}
+.add-plush-row.topH {
+  min-height: 38px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.add-plush-row.topH:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #ececec;
+  height: 1px;
+  left: -15px;
+  right: -15px;
+  bottom: 0;
+}
+.actor-wrap .add-another-f-btn { 
+  margin-bottom: 0;
+  top: 0;
+}
+.actor-wrap .add-another-f-btn .add-btn-field .plush-icon-btn {
+  margin-right: 0;
+}
+.topH .top-text {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #1e1e1e;
+}
+.actor-wrap .actor-row:after {
+  bottom: 20px;
+}
+
+.f-view-mode .val {
+  padding-right: 45px;
+  position: relative;
+}
+.f-edit-mode .val {
+  margin-bottom: -16px;
+  padding-right: 100px;
+  position: relative;
+}
+.f-view-mode .link-btn-wrap,
+.f-edit-mode .link-btn-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.f-view-mode .edit-save-b,
+.f-edit-mode .edit-save-b {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #bb3e8c;
+  display: block;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.f-edit-mode .cancel-b {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #999999;
+  display: block;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.f-edit-mode .val .data-note-info {
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
+.f-edit-mode .val .editor-label {
+  display: none;
+}

@@ -1,0 +1,21 @@
+{
+    "label": "Collection Assignment",
+    "name": "collections",
+    "contentIdKey": "id",
+    "noItemsText": "No collection have been assigned",
+    "showInputFieldListing": false,
+    "showFilterButtonListing": false,
+    "showInputField": true,
+    "searchPlaceholder": "Search Via Collections",
+    "deleteTitle": "Delete Collection",
+    "deleteModalDescription": "Do you want to remove this collection from the assigned listing?",
+    "selectedItemsTitle": "Assign Collections",
+    "selectedItemsButtonText": "Assign to Collections",
+    "itemButtonText": "Assign to Collection",
+    "showAddButton": true,
+    "addPageTitle": "Add Collections",
+    "availableText": "Available Collections",
+    "assignedText": "Assigned Collections",
+    "showFilterButton": true,
+    "showMarkDone": true
+}

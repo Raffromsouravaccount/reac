@@ -1,0 +1,401 @@
+{
+  "Profile": {
+    "profile": [
+      {
+        "name": "section",
+        "type": "sectionMultiple",
+        "multipleKey": "file",
+        "label": "Uplaod Profile Image"
+      },
+      {
+        "name": "castName",
+        "type": "text",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Profile Name",
+        "errorText": "",
+        "validation": {
+          "isChar": true,
+          "required": true,
+          "minLength": 5,
+          "maxLength": 250
+        }
+      },
+      {
+        "name": "castKnownAs",
+        "type": "text",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Also known as",
+        "errorText": "",
+        "validation": {
+          "required": true,
+          "isCharWithComma": true
+        }
+      },
+      {
+        "name": "castTag",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "path": "/master/TagBadge",
+        "multiple": true,
+        "label": "Tag/Badge",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "castType",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "path": "/master/CastType",
+        "multiple": true,
+        "label": "Cast Type",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "castBirthday",
+        "type": "date",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Date Of Birth",
+        "minDate":"sameOrBefore",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "castBirthPlace",
+        "type": "text",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Birthplace",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar":true
+        }
+      },
+      {
+        "name": "castCareer",
+        "type": "text",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Career",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 500
+        }
+      },
+      {
+        "name": "castAwards",
+        "type": "text",
+        "col": "col-md-6 col-lg-6",
+        "value": "",
+        "label": "Awards & Notification",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 500
+        }
+      },
+      {
+        "name": "castTrivia",
+        "type": "textEditor",
+        "col": "col-md-12 col-lg-12",
+        "value": "",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "placeHolder": "This user will be responsible for creating/Curating the content",
+        "label": "Trivia",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "castBackground",
+        "type": "textEditor",
+        "col": "col-md-12 col-lg-12",
+        "value": "",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "placeHolder": "This user will be responsible for creating/Curating the content",
+        "label": "Background",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 500
+        }
+      },
+      {
+        "name": "castProfileBio",
+        "type": "textEditor",
+        "col": "col-md-12 col-lg-12",
+        "value": "",
+        "moduleOptions": {
+          "toolbar": [["bold", "italic", "underline"], ["link"]]
+        },
+        "formatOptions": ["bold", "italic", "underline", "link"],
+        "placeHolder": "This user will be responsible for creating/Curating the content",
+        "label": "Profile Bio",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "relation": [
+      [
+        {
+          "name": "castProfileId",
+          "type": "autocreate",
+          "col": "col-md-6 col-lg-6",
+          "value": null,
+          "multiple": false,
+          "path": "",
+          "label": "Related To",
+          "keyText": "castName",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "name": "relation",
+          "type": "dropdownAsync",
+          "col": "col-md-6 col-lg-6",
+          "value": null,
+          "multiple": false,
+          "path": "/master/Relation",
+          "label": "Relation",
+          "keyText": "title",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false
+          }
+        }
+      ]
+    ],
+    "relationArr": [
+      {
+        "name": "castProfileId",
+        "type": "autocreate",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "path": "",
+        "label": "Related To",
+        "keyText": "castName",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "relation",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "path": "/master/Relation",
+        "label": "Relation",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  },
+  "PhotoDetails": [
+    {
+      "name": "title",
+      "col": "photo-col",
+      "type": "text",
+      "label": "Image Title",
+      "value": "",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "minLength": 5,
+        "maxLength": 100
+      }
+    },
+    {
+      "name": "description",
+      "col": "photo-col",
+      "type": "textarea",
+      "label": "Description",
+      "value": "",
+      "errorText": "",
+      "validation": {
+        "minLength": 0
+      }
+    },
+    {
+      "name": "tag",
+      "type": "sectionMultiple",
+      "label": "Image Tags"
+    },
+    {
+      "name": "gender",
+      "col": "photo-col",
+      "type": "dropdownAsync",
+      "label": "Gender",
+      "data": [],
+      "value": "",
+      "multiple":true,
+      "keyText": "title",
+      "path": "/master/Gender",
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "genre",
+      "col": "photo-col",
+      "type": "dropdownAsync",
+      "label": "Genre",
+      "data": [],
+      "value": "",
+      "multiple":true,
+      "keyText": "title",
+      "path": "/master/Genre",
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "ageGroup",
+      "col": "photo-col",
+      "type": "dropdownAsync",
+      "label": "Age Group",
+      "data": [],
+      "value": "",
+      "multiple":true,
+      "keyText": "title",
+      "path": "/master/AgeGroup",
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "language",
+      "col": "photo-col",
+      "type": "dropdownAsync",
+      "label": "Language",
+      "data": [],
+      "value": "",
+      "multiple":true,
+      "keyText": "title",
+      "path": "/master/Language",
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "others",
+      "col": "photo-col",
+      "type": "text",
+      "label": "Others",
+      "value": "",
+      "errorText": "",
+      "validation": {
+        "maxLength": 150,
+        "isCharWithComma": true
+      }
+    }
+  ],
+  "Faq": [
+    {
+      "name": "question",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "Question",
+      "rowsMax": "14",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 1000,
+        "minLength": 5
+      }
+    },
+    {
+      "name": "answer",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "Answer",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 5000,
+        "minLength": 5
+      }
+    }
+  ],
+  "sideSelectFilters": [
+    {
+      "name": "castType",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Cast Type",
+      "path": "/master/CastType",
+      "data": [],
+      "validation": {}
+    },
+    {
+      "name": "castTag",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Tag/Badge",
+      "path": "/master/TagBadge",
+      "data": [],
+      "validation": {}
+    },
+    {
+      "display": true,
+      "col": "",
+      "name": "castBirthday",
+      "label": "Birthday",
+      "areaLabel": "birthday",
+      "labelPlacement": "end",
+      "value": null,
+      "type": "radio",
+      "data": [
+        {"label": "Today", "value": "1"}, 
+        {"label": "This Week", "value": "2"},
+        {"label": "This Month", "value": "3"}
+      ],
+      "validation": {}
+    }
+  ]
+}

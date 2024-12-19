@@ -1,0 +1,465 @@
+{
+  "title_summary": [
+    {
+      "name": "title",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Title",
+      "maxTextLength": 250,
+      "required": false,
+      "text": false,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "maxTextLength": 500,
+      "required": false,
+      "isEditing": true
+    },
+    {
+      "name": "webDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "Web Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "maxTextLength": 500,
+      "isEditing": true
+    },
+    {
+      "name": "appDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "App Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "maxTextLength": 500,
+      "isEditing": true
+    },
+    {
+      "name": "tvDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "texteditor",
+      "label": "TV Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "maxTextLength": 500,
+      "isEditing": true
+    },
+    {
+      "name": "subType",
+      "type": "dropDown",
+      "value": null,
+      "originalValue": null,
+      "multiple": false,
+      "label": "Sub Type",
+      "required": false,
+      "path": "/master/VideoSubtype",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "contentCategory",
+      "type": "dropDown",
+      "value": null,
+      "originalValue": null,
+      "multiple": false,
+      "label": "Content Category",
+      "required": false,
+      "path": "/master/ContentCategory",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "primaryGenre",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Primary Genre",
+      "path": "/master/VideoPrimaryGenres",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "secondaryGenre",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Secondary Genre",
+      "path": "/master/VideoPrimaryGenres",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "thematicGenre",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Thematic Genre",
+      "path": "/master/VideoThematicGenre",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "settingGenre",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Setting Genre",
+      "path": "/master/VideoSettingGenre",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "rcsCategory",
+      "type": "dropDown",
+      "value": null,
+      "originalValue": null,
+      "multiple": false,
+      "required": false,
+      "label": "RCS Category",
+      "path": "/master/RcsCategory",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "style",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Style",
+      "path": "/master/VideoStyle",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "activity",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Activity",
+      "path": "/master/VideoActivity",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "dayPart",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Day Part",
+      "path": "/master/VideoDayPart",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "creativeTitle",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Creative Title",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "alternativeTitle",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Alternative Title",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "pageTitle",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Page Title",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "pageDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Page Description",
+      "multiline": true,
+      "maxTextLength": 500,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "socialShareTitle",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Title For Social Share",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "socialShareDescription",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "multiline": true,
+      "label": "Description For Social Share",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "audioLanguages",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Audio Language",
+      "path": "/master/Language",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "contentLanguage",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "label": "Content Language",
+      "path": "/master/Language",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "primaryLanguage",
+      "type": "dropDown",
+      "value": null,
+      "originalValue": null,
+      "multiple": false,
+      "required": false,
+      "label": "Primary Language",
+      "path": "/master/Language",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "dubbedLanguageTitle",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Dubbed Language Title",
+      "path": "/master/Language",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "originalLanguage",
+      "type": "dropDown",
+      "value": null,
+      "originalValue": null,
+      "multiple": false,
+      "required": false,
+      "label": "Original Language",
+      "path": "/master/Language",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "subtitleLanguages",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "label": "Subtitle Language",
+      "path": "/master/Language",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "contentVersion",
+      "type": "dropDown",
+      "value": null,
+      "originalValue": null,
+      "multiple": false,
+      "required": false,
+      "label": "Content Version",
+      "path": "/master/ContentVersion",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "upcomingPageText",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Upcoming Page Text",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    },
+    {
+      "name": "certification",
+      "type": "dropDown",
+      "value": [],
+      "originalValue": [],
+      "multiple": true,
+      "required": false,
+      "label": "Certification",
+      "path": "/master/Certification",
+      "data": [],
+      "keyText": "title",
+      "isEditing": false,
+      "isEditDisabled": true
+    },
+    {
+      "name": "trivia",
+      "value": "",
+      "originalValue": "",
+      "type": "text",
+      "label": "Trivia",
+      "maxTextLength": 250,
+      "text": true,
+      "numeric": false,
+      "isEditing": true
+    }
+  ]
+}

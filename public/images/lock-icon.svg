@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+  <g id="Group_1729" data-name="Group 1729" transform="translate(-649 -316)">
+    <circle id="Ellipse_241" data-name="Ellipse 241" cx="34" cy="34" r="34" transform="translate(649 316)" fill="rgba(239,83,83,0.14)"/>
+    <path id="password" d="M22.726,11.272h-.939V7.515a7.515,7.515,0,1,0-15.029,0v3.757H5.818A2.821,2.821,0,0,0,3,14.09V27.24a2.821,2.821,0,0,0,2.818,2.818H22.726a2.821,2.821,0,0,0,2.818-2.818V14.09A2.821,2.821,0,0,0,22.726,11.272ZM9.262,7.515a5.01,5.01,0,1,1,10.019,0v3.757H9.262Zm6.262,13.429V23.8a1.252,1.252,0,0,1-2.5,0V20.943a2.5,2.5,0,1,1,2.5,0Z" transform="translate(669 335)" fill="#f46a6a"/>
+  </g>
+</svg>

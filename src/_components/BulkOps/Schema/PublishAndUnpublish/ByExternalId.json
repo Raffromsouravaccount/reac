@@ -1,0 +1,15 @@
+[{
+  "name":"byExternalID",
+  "value":"",
+  "col":"col-md-12 col-lg-12 h-235-textarea",
+  "type":"textarea",
+  "label":"External Id's",
+  "errorText":"",
+  "helperText":"",
+  "validation":{
+     "maxLength":10000,
+     "isalphanumericWithCommaHyphenUnderscore": true,
+     "required": true
+  }
+}
+]

@@ -1,0 +1,49 @@
+[
+    {
+      "name": "SEOTitle",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "SEO Title",
+      "errorText": "",
+      "validation": {
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "metaTitle",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Meta Title",
+      "errorText": "",
+      "validation": {
+        "isAlphaNumericWithSpecialChars": true,
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "metaDescription",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "textarea",
+      "label": "Meta Description",
+      "errorText": "",
+      "validation": {
+        "isAlphaNumericWithSpecialChars": true,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "metaKeywords",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Meta Keywords",
+      "errorText": "",
+      "validation": {
+        "isAlphaNumericWithSpecialChars": true,
+        "maxLength": 250
+      }
+    }
+]

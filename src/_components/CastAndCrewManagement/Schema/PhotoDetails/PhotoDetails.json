@@ -1,0 +1,58 @@
+[
+  {
+    "name": "title",
+    "type": "text",
+    "placeHolder": "Image Title",
+    "required": true,
+    "minLengths": 5,
+    "maxLengths": 100
+  },
+  {
+    "name": "description",
+    "type": "textArea",
+    "placeHolder": "Description",
+    "required": false,
+    "minLengths": 0,
+    "maxLengths": 500
+  },
+  {
+    "name": "tag",
+    "type": "tagimage",
+    "placeHolder": "Tag",
+    "required": false
+  },
+  {
+    "name": "gender",
+    "type": "dropDown",
+    "placeHolder": "Gender",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "genre",
+    "type": "dropDown",
+    "placeHolder": "Geners",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "ageGroup",
+    "type": "dropDown",
+    "placeHolder": "Age Group",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "language",
+    "type": "dropDown",
+    "placeHolder": "Language",
+    "required": false,
+    "options": []
+  },
+  {
+    "name": "others",
+    "type": "text",
+    "placeHolder": "Others",
+    "required": false
+  }
+]

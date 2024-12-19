@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.045" height="8.776" viewBox="0 0 15.045 8.776">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c0b2d;
+      }
+    </style>
+  </defs>
+  <g id="eye_2_" data-name="eye (2)" transform="translate(0 -106.662)">
+    <g id="Group_699" data-name="Group 699" transform="translate(0 106.662)">
+      <g id="Group_698" data-name="Group 698" transform="translate(0 0)">
+        <path id="Path_433" data-name="Path 433" class="cls-1" d="M14.989,110.872c-.118-.172-2.966-4.21-7.467-4.21-3.862,0-7.3,4.015-7.449,4.186a.315.315,0,0,0,0,.4c.145.171,3.586,4.186,7.449,4.186s7.3-4.015,7.449-4.186A.313.313,0,0,0,14.989,110.872Zm-7.467,3.939c-3.1,0-6.04-2.953-6.788-3.761.747-.809,3.687-3.761,6.788-3.761,3.623,0,6.18,2.948,6.8,3.744C13.606,111.816,10.645,114.811,7.523,114.811Z" transform="translate(0 -106.662)"/>
+      </g>
+    </g>
+    <g id="Group_701" data-name="Group 701" transform="translate(5.015 108.543)">
+      <g id="Group_700" data-name="Group 700" transform="translate(0 0)">
+        <path id="Path_434" data-name="Path 434" class="cls-1" d="M173.169,170.662a2.507,2.507,0,1,0,2.507,2.507A2.51,2.51,0,0,0,173.169,170.662Zm0,4.388a1.881,1.881,0,1,1,1.881-1.881A1.883,1.883,0,0,1,173.169,175.05Z" transform="translate(-170.662 -170.662)"/>
+      </g>
+    </g>
+  </g>
+</svg>

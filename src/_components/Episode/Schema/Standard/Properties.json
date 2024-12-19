@@ -1,0 +1,1195 @@
+{
+  "title_summary": [
+    {
+      "name": "note",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Note",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Title",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "digitalLongDescriptionWeb",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Web Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "digitalshortDescriptionmobile",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "App Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "digitalLongDescriptionTV",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "TV Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "indexNumber",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Index",
+      "note": "If sub-type is changed then indexing will also be according to the selected sub-type",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "isDigit": true
+      }
+    },
+    {
+      "name": "type",
+      "value": "TV show",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Type",
+      "readOnly": true,
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "subtype",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "Sub Type",
+      "keyText": "title",
+      "path": "/master/EpisodeSubType",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "category",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "Content Category",
+      "keyText": "title",
+      "path": "/master/ContentCategory",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "primaryGenre",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Primary Genre",
+      "keyText": "title",
+      "path": "/master/TvShowPrimaryGenre",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "secondaryGenre",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Secondary Genre",
+      "keyText": "title",
+      "path": "/master/TvShowPrimaryGenre",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "thematicGenre",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Thematic Genre",
+      "keyText": "title",
+      "path": "/master/TvShowThematicGenre",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "settingGenre",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Setting Genre",
+      "keyText": "title",
+      "path": "/master/TvShowSettingGenre",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "rcsCategory",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "RCS Category",
+      "keyText": "title",
+      "path": "/master/RcsCategory",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "creativeTitle",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Creative Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "alternatetitle",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Alternative Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "pageTitle",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Page Title",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "pageDescription",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "textarea",
+      "label": "Page Description",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 500,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "titleForSocialShare",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Title For Social Share",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "descriptionForSocialShare",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "textarea",
+      "label": "Description For Social Share",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 500,
+        "maxLength": 550,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "dateZee5Published",
+      "type": "date",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "label": "ZEE5 Release Date",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "telecastDate",
+      "type": "date",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "label": "Original Telecast Date",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "videoDuration",
+      "type": "time",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "label": "Video Duration",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "isMultiAudio",
+      "value": false,
+      "col": "col-md-8 col-lg-8",
+      "type": "checkbox",
+      "labelPlacement": "end",
+      "label": "Is Multi-Audio?",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "audioLanguages",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "Audio Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "contentLanguage",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Content Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "primaryLanguage",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "Primary Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "dubbedLanguageTitle",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Dubbed Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "originalLanguage",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "Original Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "subtitleLanguages",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Subtitle Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentVersion",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": false,
+      "label": "Content Version",
+      "keyText": "title",
+      "path": "/master/ContentVersion",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "theme",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Theme",
+      "keyText": "title",
+      "path": "/master/Theme",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contractId",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Contract Id",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isAlphaNumeric": true
+      }
+    },
+    {
+      "name": "section",
+      "type": "sectionMultiple",
+      "multipleKey": "specialCategory",
+      "label": "Special Category"
+    }
+  ],
+  "specialCategory": [
+    [
+      {
+        "name": "specialCategory",
+        "type": "dropdownAsync",
+        "col": "col-md-8 col-lg-8",
+        "value": [],
+        "multiple": true,
+        "label": "Special Category",
+        "keyText": "title",
+        "path": "/master/SpecialCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "specialCategoryCountry",
+        "type": "dropdownAsync",
+        "col": "col-md-8 col-lg-8",
+        "value": [],
+        "multiple": true,
+        "label": "Country/Group for Special Category",
+        "keyText": "title",
+        "path": "user/country-group",
+        "groupBy":"group",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "specialCategoryFrom",
+        "type": "datetime-local",
+        "withTime": true,
+        "placeholder": "DD/MM/YYYY HH:MM",
+        "col": "col-md-8 col-lg-8",
+        "value": "",
+        "multiple": true,
+        "label": "Special Category - From Timeline",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate" :"sameOrAfter"
+        }
+      },
+      {
+        "name": "specialCategoryTo",
+        "type": "datetime-local",
+        "withTime": true,
+        "placeholder": "DD/MM/YYYY HH:MM",
+        "col": "col-md-8 col-lg-8",
+        "value": "",
+        "multiple": true,
+        "label": "Special Category - To Timeline",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate" :"sameOrAfter"
+        }
+      }
+    ]
+  ],
+  "specialCategoryArr": [
+    {
+      "name": "specialCategory",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "label": "Special Category",
+      "keyText": "title",
+      "path": "/master/SpecialCategory",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "specialCategoryCountry",
+      "type": "dropdownAsync",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "multiple": true,
+      "label": "Country/Group for Special Category",
+      "keyText": "title",
+      "path": "user/country-group",
+      "groupBy":"group",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "specialCategoryFrom",
+      "type": "datetime-local",
+      "withTime": true,
+      "placeholder": "DD/MM/YYYY HH:MM",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "multiple": true,
+      "label": "Special Category - From Timeline",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "minDate" :"sameOrAfter"
+      }
+    },
+    {
+      "name": "specialCategoryTo",
+      "type": "datetime-local",
+      "withTime": true,
+      "placeholder": "DD/MM/YYYY HH:MM",
+      "col": "col-md-8 col-lg-8",
+      "value": "",
+      "multiple": true,
+      "label": "Special Category - To Timeline",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "minDate" :"sameOrAfter"
+      }
+    }
+  ],
+  "classification": [
+    {
+      "name": "rating",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Content Rating",
+      "keyText": "title",
+      "path": "/master/ContentRating",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentOwner",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Content Owner",
+      "keyText": "title",
+      "path": "/master/ContentOwner",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "originCountry",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Origin Country",
+      "keyText": "title",
+      "path": "/master/Country",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentProduction",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Content Production",
+      "keyText": "title",
+      "path": "/master/ContentProduction",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "upcomingPage",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Upcoming Page Text",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "isAlphaNumeric": false
+      }
+    },
+    {
+      "name": "ageRating",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "multiple": true,
+      "type": "dropdownAsync",
+      "label": "Content Descriptors",
+      "keyText": "title",
+      "path": "/master/AgeRating",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "certification",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": true,
+      "label": "Certification",
+      "keyText": "title",
+      "path": "/master/Certification",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "emotions",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": true,
+      "label": "Moods/Emotions",
+      "keyText": "title",
+      "path": "/master/EmotionTitle",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentGrade",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Content Grade",
+      "keyText": "title",
+      "path": "/master/ContentGrade",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "era",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Era",
+      "keyText": "title",
+      "path": "/master/ERA",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "targetAge",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Target Age Group",
+      "keyText": "title",
+      "path": "/master/AgeGroup",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "targetAudiences",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": true,
+      "label": "Target Audience",
+      "keyText": "title",
+      "path": "/master/TargetAudience",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "tags",
+      "type": "SearchableWithCreate",
+      "keyText": "title",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "multiple": true,
+      "label": "Tags",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 300,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "digitalKeywords",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Digital Keywords",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    },
+    {
+      "name": "adaptation",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Adaptation",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumeric": true
+      }
+    },
+    {
+      "name": "events",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Event",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "productionCompany",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Production Company",
+      "keyText": "title",
+      "path": "/master/ProductionCompany",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "popularityScore",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Popularity Score",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isNumeric": true
+      }
+    },
+    {
+      "name": "trivia",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Trivia",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "epgprogramid",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Epg Program Id",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "isChar": true
+      }
+    },
+    {
+      "name": "showAirTime",
+      "type": "time",
+      "col": "col-md-8 col-lg-8",
+      "value": null,
+      "label": "Show Air Time",
+      "format": "HH:MM:SS",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "showAirTimeDays",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "keyText": "title",
+      "multiple": true,
+      "label": "Show Air Time Days",
+      "data": [{"id": "1", "title": "Monday"}, {"id": "2", "title": "Tuesday"}, {"id": "3", "title": "Wednesday"},
+        {"id": "4", "title": "Thursday"}, {"id": "5", "title": "Friday"}, {"id": "6", "title": "Saturday"},
+        {"id": "7", "title": "Sunday"}],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "showOnAir",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "keyText": "title",
+      "multiple": false,
+      "label": "Show On Air",
+      "data": [{"id": "Yes", "title": "Yes"}, {"id": "No", "title": "No"}],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "showOnApp",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "dropdownAsync",
+      "keyText": "title",
+      "multiple": false,
+      "label": "Show On App",
+      "data": [{"id": "Yes", "title": "Yes"}, {"id": "No", "title": "No"}],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "damBmsId",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Dam BMS ID",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "awards": [
+    [
+      {
+        "name": "awardRecipient",
+        "type": "SearchableWithCreate",
+        "col": "col-md-8 col-lg-8",
+        "value": [],
+        "multiple": true,
+        "path": "",
+        "label": "Recipient Name",
+        "keyText": "castName",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "awardsCategory",
+        "col": "col-md-8 col-lg-8",
+        "value": [],
+        "type": "dropdownAsync",
+        "multiple": true,
+        "label": "Award Category",
+        "keyText": "title",
+        "path": "/master/AwardCategory",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "awardsandrecognition",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "label": "Award/Honour",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 300,
+          "ischaracterValidateWithComma": true
+        }
+      }
+    ]
+  ],
+  "awardFieldArr": [
+    {
+      "name": "awardRecipient",
+      "type": "SearchableWithCreate",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "multiple": true,
+      "path": "",
+      "label": "Recipient Name",
+      "keyText": "castName",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "awardsCategory",
+      "col": "col-md-8 col-lg-8",
+      "value": [],
+      "type": "dropdownAsync",
+      "multiple": true,
+      "label": "Award Category",
+      "keyText": "title",
+      "path": "/master/AwardCategory",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "awardsandrecognition",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Award/Honour",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 250,
+        "ischaracterValidateWithComma": true
+      }
+    }
+  ],
+  "player": [
+    {
+      "name": "introStartTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "Intro Start Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "introEndTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "Intro End Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "recapStartTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "Recap Start Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "recapEndTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "Recap End Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "endCreditStartTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "End Credit Start Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "adMarker",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "label": "Ad Marker",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isNumericWithComma": true
+      }
+    }
+  ],
+  "skipSong": [
+    [
+      {
+        "name": "skipSongStartTime",
+        "value": null,
+        "col": "col-md-8 col-lg-8",
+        "type": "time",
+        "label": "Skip Song Start Time",
+
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "skipSongEndTime",
+        "value": null,
+        "col": "col-md-8 col-lg-8",
+        "type": "time",
+        "label": "Skip Song End Time",
+
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  ],
+  "skipFieldArr": [
+    {
+      "name": "skipSongStartTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "Skip Song Start Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "skipSongEndTime",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "type": "time",
+      "label": "Skip Song End Time",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

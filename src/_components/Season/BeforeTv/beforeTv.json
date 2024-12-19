@@ -1,0 +1,100 @@
+{
+    "beforeTvProperties": 
+    [
+             {
+                "name": "episodeSetName",
+                "value": "",
+                "col": "col-md-6 col-lg-6",
+                "type": "text",
+                "label": "Episode Set Name",
+                "errorText": "",
+                "validation": {
+                  "required": false,
+                  "maxLength": 250,
+                  "isAlphaNumericWithSpecialChars": true
+                }
+            },
+            {
+              "name": "group",
+              "keyText": "title",
+              "value": [],
+              "col": "col-md-6 col-lg-6",
+              "multiple": true,
+              "limitTags": 1,
+              "type": "dropdownAsync",
+              "display": true,
+              "label": "Country Group",
+              "groupBy":"group",
+              "path": "",
+              "data": [],
+              "validation": {}
+            },
+            {
+              "name": "startTime",
+              "value": null,
+              "col": "col-md-6 col-lg-6",
+              "type": "time",
+              "label": "Start Time",
+              "errorText": "",
+              "validation": {
+                "required": false
+              }
+            },
+            {
+              "name": "endTime",
+              "value": null,
+              "col": "col-md-6 col-lg-6",
+              "type": "time",
+              "label": "End Time",
+              "errorText": "",
+              "validation": {
+                "required": false
+              }
+            },
+            {
+              "name": "priorTvTx",
+              "value": null,
+              "col": "col-md-6 col-lg-6",
+              "type": "time",
+              "label": "Prior Tv Tx",
+              "errorText": "",
+              "validation": {
+                "required": false
+              }
+            },
+            {
+              "name": "businessType",
+              "type": "dropdown",
+              "value": "",
+              "col": "col-md-6 col-lg-6",
+              "multiple": false,
+              "path": "/master/BusinessType",
+              "keyText": "title",
+              "label": "Business Type",
+              "data": [],
+              "errorText": "",
+              "validation": {
+                "required": true
+              }
+            },
+            {
+              "name": "billingType",
+              "type": "dropdown",
+              "value": "",
+              "col": "col-md-6 col-lg-6",
+              "multiple": false,
+              "path": "/master/BillingType",
+              "keyText": "title",
+              "label": "Billing Type",
+              "data": [],
+              "disabled": true,
+              "errorText": "",
+              "validation": {
+                "required": false
+              }
+            }
+        
+    ]
+    
+  }
+  

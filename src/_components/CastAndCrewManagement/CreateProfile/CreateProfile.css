@@ -1,0 +1,160 @@
+.whitebox-bg{
+    border-radius: 4px;
+    box-shadow: 0 5px 8px 0 rgba(70, 78, 88, 0.15);
+    -webkit-box-shadow: 0 5px 8px 0 rgba(70, 78, 88, 0.15);
+    background-color: #fff;
+    margin-bottom: 25px;
+    padding: 0 15px 15px;
+}
+.mar-bott30{
+    margin-bottom: 30px;
+}
+
+.MuiFormControl-root{
+    width: 100%;
+}
+.profile-title{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.57;
+    color: #2c0b2d;
+    margin: 0 0 8px;
+}
+.title-border{
+    border-bottom: solid 1px #ececec;
+    padding: 0 15px 14px;
+    margin: 0 -15px 20px -15px;
+}
+.whitebox-bg .k-editor{
+    border: 1px solid #cfc3ca;
+    border-radius: 4px;
+    border-color:#cfc3ca;
+}
+.whitebox-bg .k-editor > .k-toolbar{
+    background: #f6f6f6;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #cfc3ca;
+}
+.whitebox-bg .k-button{
+    font-size: 10px;
+}
+.whitebox-bg .k-toolbar .k-button, .whitebox-bg .k-toolbar .k-button-secondary {
+    background-color: transparent;
+}
+.whitebox-bg .k-toolbar{
+    padding: 0 6px;
+    box-shadow: inherit;
+}
+.whitebox-bg .k-content{
+    height: 170px !important;
+}
+.whitebox-bg .k-editor .k-editable-area{
+    overflow-y: auto !important;
+    font-size: 14px;
+    line-height: 1.35;
+}
+.create-btn .MuiButton-root{
+    padding: 0;
+    border: solid 1px #bb3e8c;
+    width: 28px;
+    height: 28px;
+    min-width: inherit;
+    border-radius: 50%;
+    color: #bb3e8c;
+    font-size: 22px;
+    font-weight: normal;
+    outline: none;
+    cursor: pointer;
+}
+.create-btn .MuiButton-label{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-weight: normal;
+    line-height: 28px;
+    display: block;
+}
+.add-btn.create-btn .MuiButton-label{
+    line-height: 28px;
+}
+.repeat-box{
+    width: 100%;
+    position: relative;
+    padding-right: 40px;
+}
+.create-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.k-dialog-wrapper .k-dialog-buttongroup{
+    position: relative;
+    padding: 8px;
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+.k-dialog-wrapper .k-dialog-buttongroup .k-button{
+    width: 50%;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2c0b2d;
+    line-height: 1.22;
+    text-transform: none;
+    padding: 6px 8px;
+    background: transparent !important;
+}
+
+.k-dialog-wrapper .k-window-titlebar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 12px 20px;
+}
+.k-dialog-wrapper .k-window-title{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #0f1c21;
+    margin: 0;
+}
+.k-dialog-wrapper .k-window-titlebar + .k-window-content{
+    margin-top: 18px;
+    padding-bottom: 7px;
+}
+.k-dialog-wrapper .k-dialog-buttongroup::after {
+    content: '';
+    display: block;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    bottom: 8px;
+    background: rgba(0, 0, 0, 0.16);
+}
+.k-dialog-wrapper input.k-textbox{
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    margin-top: 7px;
+    padding: 8px 10px;
+}
+.k-dialog-wrapper .k-edit-label{
+    font-size: 14px;
+}
+.full-width{
+    width: 100%;
+}
+.upload-section.flex{
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+    .repeat-box {
+        position: relative;
+        border: solid 1px #ececec;
+        padding: 20px 40px 30px 0;
+        margin: 0 15px 20px;
+    }
+    .create-btn{
+        top: 30px;
+    }
+  }

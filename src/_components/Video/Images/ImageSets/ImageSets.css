@@ -1,0 +1,19 @@
+.MuiIconButton-edgeEnd {
+  margin-left: -12px !important;
+  margin-right: 0px !important;
+}
+.MuiAccordionSummary-root {
+  flex-direction: row-reverse;
+}
+.item-box .item-img img {
+  min-height: 140px;
+}
+.set-f-wrap {
+  margin: 15px;
+}
+.movieForm-tab {
+  padding-bottom: 1px;
+}
+.ans-ques-block {
+  margin: 15px 0;
+}

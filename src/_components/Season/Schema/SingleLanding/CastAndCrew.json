@@ -1,0 +1,83 @@
+{
+  "actors": [
+    [
+      {
+        "name": "actor",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": null,
+        "col": "col-md-8 col-lg-8",
+        "multiple": false,
+        "label": "Actor",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "character",
+        "value": "",
+        "col": "col-md-8 col-lg-8",
+        "type": "text",
+        "multiple": false,
+        "label": "Character",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true,
+          "maxLength": 250
+        }
+      }
+    ]
+  ],
+  "actorsData": [
+    {
+      "name": "actor",
+      "type": "SearchableWithCreate",
+      "keyText": "castName",
+      "value": null,
+      "col": "col-md-8 col-lg-8",
+      "multiple": false,
+      "label": "Actor",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isChar": true
+      }
+    },
+    {
+      "name": "character",
+      "value": "",
+      "col": "col-md-8 col-lg-8",
+      "type": "text",
+      "multiple": false,
+      "label": "Character",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isChar": true,
+        "maxLength": 250
+      }
+    }
+  ],
+  "others": [
+    {
+      "name": "37b661a0-c72a-4114-ae68-01e42dcbf149",
+      "type": "SearchableWithCreate",
+      "keyText": "castName",
+      "value": [],
+      "col": "col-md-8 col-lg-8",
+      "multiple": true,
+      "label": "Director",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isChar": true
+      }
+    }
+  ]
+}

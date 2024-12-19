@@ -1,0 +1,27 @@
+.lang-st-table {
+    margin-top: 15px;
+    max-width: 500px;
+   
+  }
+  .lang-st-table.table-100{
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  .lang-st-table table, .lang-st-table table td, .lang-st-table table th {
+    border: solid 1px #ececec;
+  }
+  .lang-st-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .lang-st-table table th, .lang-st-table table td {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #333333;
+  }
+  .lang-st-table table th {
+    color: #2e0130;
+    background-color: #ededed;
+  }

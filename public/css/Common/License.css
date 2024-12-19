@@ -1,0 +1,229 @@
+.lice-head .s-form .btn-create-user {
+  min-width: 132px;
+}
+.lice-list .lice-box:last-child {
+  margin-top: 0;
+}
+.lice-box {
+  margin-top: 12px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  box-shadow: 0 3px 20px 0 rgba(70, 78, 88, 0.06);
+  background-color: #ffffff;
+}
+.lice-box .left-area {
+  padding-right: 10px;
+  width: calc(100% - 185px);
+}
+.lice-box .right-area {
+  width: 100%;
+  max-width: 185px;
+  text-align: right;
+}
+.col-md-5.lice-search {
+  padding-left: 0;
+}
+.default-edit-btn {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e7f2fe;
+}
+.lice-box .default-edit-btn {
+  margin-left: 20px;
+}
+.default-delete-btn {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fef0f0;
+}
+.lice-box .default-delete-btn {
+  margin-left: 20px;
+}
+.lice-box .s-badge.license {
+  margin: 20px 0 0;
+}
+.lice-box .s-badge.license svg {
+  margin-right: 10px;
+}
+.lice-box .text-data {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.lice-box .text-data .label {
+  width: 100%;
+  max-width: 135px;
+  padding-right: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.8;
+  color: #999999;
+}
+.lice-box .text-data .text {
+  width: calc(100% - 135px);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.8;
+  color: #2c0b2d;
+}
+.no-lice-box {
+  padding: 20px 0;
+  width: 100%;
+  height: 200px;
+}
+.no-lice-box svg {
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ccm-head .back-user-btn {
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #1e1e1e;
+}
+.ccm-head .back-user-btn span {
+  margin-right: 15px;
+}
+.ccm-head .back-user-btn span svg {
+  display: block;
+  cursor: pointer;
+}
+.lice-radio-tab {
+  padding-bottom: 30px;
+}
+.lice-radio-tab .zee-radio-field {
+  flex-direction: row;
+}
+.lice-radio-tab .zee-radio-field .MuiFormControlLabel-root:last-child {
+  margin-right: 0;
+}
+.lice-radio-tab .zee-radio-field .MuiFormControlLabel-root {
+  margin-left: 0;
+  margin-right: 30px;
+}
+.lice-box .error-text {
+  margin-left: 10px;
+}
+.error-text {
+  color: #f46a6a;
+}
+.lice-box .edit-btn-row > div:first-child {
+  margin-left: 0;
+}
+.lice-template .lice-box .left-area {
+  width: calc(100% - 100px);
+}
+.lice-template .lice-box .right-area {
+  max-width: 100px;
+}
+.red-text{
+  color: #f46a6a;
+  display: inline-block;
+}
+.reason-test{
+  margin-left: 23px;
+}
+.no-lice-box .flex {
+  padding-left: 55px;
+  position: relative;
+}
+.lice-title-head {
+  border-bottom: solid 1px #ececec;
+  padding: 0 10px 12px;
+  margin: 0 -10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1e1e1e;
+  width: calc(100% + 20px);
+}
+@media (max-width: 1199px) {
+  .col-md-5.lice-search {
+      padding: 0 0 15px;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+ }
+  .lice-head .s-form .short-btn {
+      margin-left: 0;
+ }
+  .lice-head .s-form {
+      width: 100%;
+ }
+  .lice-head .s-form .filter-w {
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+ }
+  .lice-box .left-area {
+      padding-right: 0;
+      margin-top: 20px;
+      width: 100%;
+      -ms-flex-order: 2;
+      order: 2;
+ }
+  .lice-box .right-area {
+      max-width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-order: 1;
+      order: 1;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+ }
+  .lice-box .s-badge.license {
+      margin: 0 10px 0 0;
+      -ms-flex-order: 1;
+      order: 1;
+ }
+  .lice-box .edit-btn-row {
+      -ms-flex-order: 2;
+      order: 2;
+ }
+  .lice-box .default-edit-btn {
+      margin-left: 10px;
+ }
+ .lice-template .lice-box .left-area {
+  width: 100%;
+  }
+  .lice-template .lice-box .right-area {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .lice-template .lice-box .left-area {
+      width: 100%;
+      padding-right: 0px;
+      margin-top: 10px;
+      -ms-flex-order: 2;
+      order: 2;
+ }
+  .lice-template .lice-box .right-area {
+      width: 100%;
+      max-width: 100%;
+      -ms-flex-order: 1;
+      order: 1;
+ }
+}
+@media (max-width: 575px) {
+  .lice-head .s-form .short-btn, .lice-head .s-form .filter-btn, .lice-head .s-form .btn-create-user {
+      margin-bottom: 6px;
+ }
+}

@@ -1,0 +1,78 @@
+{"select_action_type":[
+  {
+    "label":"Publish",
+    "name":"Publish",
+    "keyName":"publish"
+    
+  },{
+    "label":"Unpublish",
+    "name":"Unpublish",
+    "keyName":"unpublish"
+  },{
+    "label":"Delete",
+    "name":"Delete",
+    "keyName":"delete"
+  }
+],
+"select_externalId_mode": [
+  {
+    "label":"Multiple",
+    "name":"multiple"
+  },{
+    "label":"Single",
+    "name":"single"
+  }
+],
+"select_content_type_status": [
+  {
+    "label": "Movies",
+    "name": "movies",
+    "contentType":"movie"
+  },
+  {
+    "label": "Videos",
+    "name": "videos",
+    "contentType":"video"
+  },
+  {
+    "label": "Tv Shows",
+    "name": "tvShows",
+    "contentType":"tvshow"
+  },
+  {
+    "label": "Seasons",
+    "name": "seasons",
+    "contentType":"season"
+  },
+
+  {
+    "label": "Episode",
+    "name": "episodes",
+    "contentType":"episode"
+    
+  }
+
+],
+"publishSection":[
+  {"id":8,"name":"All","label":"All"},
+  {"id":9,"name":"Published","label":"Published"},
+  {"id":1,"name":"Draft","label":"Draft"},
+  {"id":2,"name":"Changed","label":"Changed"},
+  {"id":3,"name":"Unpublished","label":"Unpublished"},
+  {"id":4,"name":"Need Work","label":"Need Work"},
+  {"id":5,"name":"Scheduled","label":"Scheduled"},
+  {"id":6,"name":"Submitted to Review","label":"Submitted to Review"}
+],
+"unpublishSection":[
+  {"id":1,"name":"Published","label":"Published"},
+  {"id":2,"name":"Changed","label":"Changed"}
+],
+"deleteSection":[
+  {"id":1,"name":"Draft","label":"Draft"},
+  {"id":2,"name":"Unpublished","label":"Unpublished"},
+  {"id":3,"name":"Need Work","label":"Need Work"},
+  {"id":4,"name":"Submitted to Review","label":"Submitted to Review"}
+]
+
+
+}

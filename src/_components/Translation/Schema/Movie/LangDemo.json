@@ -1,0 +1,44 @@
+[
+    {
+        "label": "Arabic",
+        "Code": "ar",
+        "status": "Completed",
+        "image": "images/Arabic-icon.svg"
+    },
+    {
+        "label": "Assamese",
+        "Code": "as",
+        "status": "No Translation",
+        "image": "images/Assamese-icon.svg"
+    },
+    {
+        "label": "Bahasa (Indonesia)",
+        "Code": "id",
+        "status": "Mark as Done",
+        "image": "images/Assamese-icon.svg"
+    },
+    {
+        "label": "Bengali",
+        "Code": "bn",
+        "status": "Partially Done",
+        "image": "images/Bahasa-icon.svg"
+    },
+    {
+        "label": "Bhojpuri",
+        "Code": "hr",
+        "status": "No Translation",
+        "image": "images/Bhojpuri-icon.svg"
+    },
+    {
+        "label": "French",
+        "Code": "fr",
+        "status": "No Translation",
+        "image": "images/French-icon.svg"
+    },
+    {
+        "label": "German",
+        "Code": "de",
+        "status": "No Translation",
+        "image": "images/German-icon.svg"
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "label": "All",
+        "displayName": "All",
+        "count": null,
+        "statusText": "Last Modified By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true,
+            "castAndCrew": true,
+            "collection": true
+        }
+    },
+    {
+        "label": "Draft",
+        "displayName": "Draft",
+        "count": null,
+        "statusText": "Last Modified By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true,
+            "castAndCrew": true,
+            "collection": true
+        }
+    },
+    {
+        "label": "Changed",
+        "displayName": "Changed",
+        "count": null,
+        "statusText": "Last Modified By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true,
+            "castAndCrew": true,
+            "collection": true
+        }
+    },
+    {
+        "label": "Published",
+        "displayName": "Published",
+        "count": null,
+        "statusText": "Published By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true,
+            "castAndCrew": true,
+            "collection": true
+        }
+    },
+    {
+        "label": "Unpublished",
+        "displayName": "Unpublished",
+        "count": null,
+        "statusText": "Unpublished By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true,
+            "castAndCrew": true,
+            "collection": true
+        }
+    },
+    {
+        "label": "Need Work",
+        "displayName": "Need Work",
+        "count": null,
+        "statusText": "Reviewed By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true
+        }
+    },
+    {
+        "label": "Scheduled",
+        "displayName": "Scheduled",
+        "count": null,
+        "statusText": "Scheduled By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true
+        }
+    },
+    {
+        "label": "Submitted to Review",
+        "displayName": "Submitted to Review",
+        "count": null,
+        "statusText": "Submitted By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true
+        }
+    },
+    {
+        "label": "Archived",
+        "displayName": "Archived",
+        "count": null,
+        "statusText": "Archived By",
+        "castAndCrew": true,
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true,
+            "collection": true,
+            "castAndCrew": true
+        }
+    },
+    {
+        "label": "Published Queue",
+        "displayName": "Published Queue",
+        "count": null,
+        "statusText": "Last Modified By",
+        "validFor": {
+            "movie": true,
+            "video": true,
+            "tvShow": true
+        }
+    }
+]

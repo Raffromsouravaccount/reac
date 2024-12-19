@@ -1,0 +1,93 @@
+.status-popup .MuiDialog-paper {
+  width: 100%;
+  max-width: 450px;
+}
+.status-popup .MuiDialogContentText-root {
+ margin-bottom: 0px;
+}
+.status-popup .MuiTypography-h6 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #0f1c21;
+}
+.status-popup .MuiDialogTitle-root {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+.status-popup .MuiTypography-body1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: #0f1c21;
+}
+.status-popup .MuiAvatar-colorDefault {
+  background-color: transparent;
+  width: 68px;
+  height: 68px;
+  margin: 0 auto 20px;
+}
+.status-popup .MuiDialogContent-root {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.status-popup .MuiDialogContent-root p.error{
+  padding-top: 10px;
+  color: red;
+}
+.status-popup .MuiDialogActions-root {
+  padding: 0;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+.status-popup .MuiDialogActions-root::before {
+  content: '';
+  display: block;
+  width: 1px;
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  bottom: 8px;
+  background: rgba(0, 0, 0, 0.16);
+}
+.status-popup .MuiButton-root {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  text-transform: capitalize;
+}
+.status-popup .MuiButton-root:last-child {
+  margin-left: 0;
+}
+.status-popup.movie-edit-popup .zee-radio-field label {
+  width: 100%;
+  margin: 8px 0;
+}
+.status-popup.movie-edit-popup .zee-radio-field .MuiTypography-root {
+  color: #0f1c21;
+  font-size: 16px;
+}
+
+.show-button{
+  width: 100%;
+  flex: unset !important;
+  display: block !important;
+  max-width: 100%;
+}
+.show-button button{
+  width: 100% !important;
+  flex: unset !important;
+  max-width: 100% !important;
+}
+.show-button::before{
+  display: none !important;
+}
+
+.show-button::after{
+  display: none !important;
+}

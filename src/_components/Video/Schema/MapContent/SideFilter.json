@@ -1,0 +1,765 @@
+{
+  "videoStatusTypes": [
+    {
+      "label": "All",
+      "displayName": "All"
+    },
+    {
+      "label": "Draft",
+      "displayName": "Draft"
+    },
+    {
+      "label": "Changed",
+      "displayName": "Changed"
+    },
+    {
+      "label": "Published",
+      "displayName": "Published"
+    },
+    {
+      "label": "Unpublished",
+      "displayName": "Unpublished"
+    },
+    {
+      "label": "Need Work",
+      "displayName": "Need Work"
+    },
+    {
+      "label": "Scheduled",
+      "displayName": "Scheduled"
+    },
+    {
+      "label": "Submitted to Review",
+      "displayName": "Submitted to Review"
+    },
+    {
+      "label": "Archived",
+      "displayName": "Archived"
+    }
+  ],
+  "sortingFilters": [
+    {
+      "name": "mainReleaseDate",
+      "label": "Main Release Date",
+      "for": [
+        "All",
+        "Draft",
+        "Changed",
+        "Published",
+        "Unpublished",
+        "Need Work",
+        "Scheduled",
+        "Submitted to Review",
+        "Archive"
+      ],
+      "display": true,
+      "value": "AtD",
+      "data": [
+        {
+          "value": "AtD",
+          "label": "Ascending to Descending"
+        },
+        {
+          "value": "DtA",
+          "label": "Descending to Ascending"
+        }
+      ]
+    },
+    {
+      "name": "dateCreated",
+      "for": [
+        "Draft"
+      ],
+      "label": "By Created",
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "dateChanged",
+      "label": "By Changed",
+      "for": [
+        "Changed"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "datePublished",
+      "label": "By Published",
+      "for": [
+        "Published"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "dateUnpublished",
+      "label": "By Unpublished",
+      "for": [
+        "Unpublished"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "dateReviewed",
+      "label": "By Reviewed",
+      "for": [
+        "Need Work"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "dateScheduled",
+      "label": "By Scheduled",
+      "for": [
+        "Scheduled"
+      ],
+      "display": true,
+      "value": "",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "dateSubmitted",
+      "label": "By Submitted",
+      "for": [
+        "Submited to Review"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "dateArchieved",
+      "label": "By Archieved",
+      "for": [
+        "Archive"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "datePublished",
+      "label": "Published Queue",
+      "for": [
+        "Published Queue"
+      ],
+      "display": true,
+      "value": "",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    },
+    {
+      "name": "lastModified",
+      "label": "By Last Modified",
+      "for": [
+        "All"
+      ],
+      "display": true,
+      "value": "LTO",
+      "data": [
+        {
+          "value": "LTO",
+          "label": "Latest to Oldest"
+        },
+        {
+          "value": "OTL",
+          "label": "Oldest to Latest"
+        }
+      ]
+    }
+  ],
+  "filterByDate": [
+    {
+      "name": "lastModifiedOn",
+      "label": "Modified On",
+      "for": "All",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Modified On",
+      "for": "Draft",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Changed On",
+      "for": "Changed",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Published On",
+      "for": "Published",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Unpublished On",
+      "for": "Unpublished",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Reviewed On",
+      "for": "Need Work",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Scheduled On",
+      "for": "Scheduled",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Submitted On",
+      "for": "Submitted to Review",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name": "lastModifiedOn",
+      "label": "Archived On",
+      "for": "Archived",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    }
+  ],
+  "sideSelectFilters": [
+    {
+      "name": "primaryGenre",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Primary Genre",
+      "path": "/master/VideoPrimaryGenre",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "secondaryGenre",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Secondary Genre",
+      "path": "/master/VideoPrimaryGenre",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "thematicGenre",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Thematic Genre",
+      "path": "/master/VideoThematicGenre",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "settingGenre",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Setting Genre",
+      "path": "/master/VideoSettingGenre",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "VideoActivity",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Activity",
+      "path": "/master/VideoActivity",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "VideoStyle",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Style",
+      "path": "/master/VideoStyle",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "actor",
+      "type": "SearchableWithCreate",
+      "keyText": "castName",
+      "data": [],
+      "errorText": "",
+      "col": "",
+      "value": null,
+      "createPrefix": "Use",
+      "path": "",
+      "display": true,
+      "label": "Actor",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "subType",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "path": "/master/VideoSubtype",
+      "display": true,
+      "label": "Sub Type",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentCategory",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Content Category",
+      "path": "/master/ContentCategory",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "rcsCategory",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "RCS Category",
+      "path": "/master/RcsCategory",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "theme",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Theme",
+      "path": "/master/Theme",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "targetAudience",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Target Audience",
+      "path": "/master/TargetAudience",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "licenseGroupCountries",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "groupBy": "group",
+      "label": "License Group/Countries",
+      "path": "/master/CountryGroup",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "ageRating",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Content Descriptor",
+      "path": "/master/AgeRating",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "businessType",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Business Type",
+      "path": "/master/BusinessType",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "externalId",
+      "value": "",
+      "col": "",
+      "type": "text",
+      "label": "External Id",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentRating",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "path": "/master/ContentRating",
+      "display": true,
+      "label": "Content Rating",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "contentOwner",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "path": "/master/ContentOwner",
+      "display": true,
+      "label": "Content Owner",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "audioLanguage",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "path": "/master/Language",
+      "display": true,
+      "label": "Audio Language",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "originalLanguage",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Original Language",
+      "path": "/master/Language",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "tags",
+      "type": "SearchableWithCreate",
+      "col": "",
+      "keyText": "title",
+      "value": null,
+      "createPrefix": "Use",
+      "multiple": false,
+      "label": "Tags",
+      "data": [],
+      "display": true,
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "translationLanguage",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Translation Language",
+      "path": "/master/Language",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "translationStatus",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "type": "dropdownAsync",
+      "display": false,
+      "label": "Translation’s Language Status",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "moodEmotion",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Mood/Emotion",
+      "path": "/master/EmotionTitle",
+      "data": [],
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

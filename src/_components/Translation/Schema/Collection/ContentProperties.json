@@ -1,0 +1,48 @@
+{
+    "CreateSummary": [
+        {
+            "name": "title",
+            "value": "",
+            "originalValue": "",
+            "type": "text",
+            "label": "Collection Title",
+            "maxTextLength": 250,
+            "required": false,
+            "text": false,
+            "numeric": false
+          },
+          {
+            "name": "shortDescription",
+            "value": "",
+            "originalValue": "",
+            "type": "texteditor",
+            "label": "Short Description",
+            "moduleOptions": { "toolbar": [["bold", "italic", "underline"], ["link"]]},
+            "formatOptions": ["bold", "italic", "underline", "link"],
+            "maxTextLength": 500,
+            "required": false
+          },
+          {
+            "name": "description",
+            "value": "",
+            "originalValue": "",
+            "type": "texteditor",
+            "label": "Description",
+            "moduleOptions": { "toolbar": [["bold", "italic", "underline"], ["link"]]},
+            "formatOptions": ["bold", "italic", "underline", "link"],
+            "maxTextLength": 500,
+            "required": false
+          },
+          {
+            "name": "longDescription",
+            "value": "",
+            "originalValue": "",
+            "type": "texteditor",
+            "label": "Long Description",
+            "moduleOptions": { "toolbar": [["bold", "italic", "underline"], ["link"]]},
+            "formatOptions": ["bold", "italic", "underline", "link"],
+            "maxTextLength": 500,
+            "required": false
+          }
+    ]
+}

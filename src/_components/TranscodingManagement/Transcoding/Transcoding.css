@@ -1,0 +1,34 @@
+.tsco-list.relatedcontent-block .whitebox.list-profile-box {
+  padding: 12px;
+}
+.tsco-list.relatedcontent-block .whitebox .left-block {
+  padding-left: 0;
+  width: 100%;
+}
+.tsco-list .list-profile-box .info-block {
+  padding-left: 0;
+  width: 100%;
+}
+.tsco-list .status-text .label {
+  max-width: 150px; 
+}
+.tsco-list .status-text .text {
+  width: calc(100% - 163px);
+}
+.tsco-list .right-block { 
+  width: 35%; 
+}
+.tsco-list .right-block > .flex { 
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media(max-width: 991px) {
+  .tsco-list .right-block { 
+    width: 100%; 
+  }
+}
+
+.rc-time-picker-panel {
+  z-index: 9999;
+}

@@ -1,0 +1,297 @@
+{
+  "title_summary": [
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "text",
+      "label": "Title",
+      "errorText": "",
+      "validation": {
+        "maxLength": 250,
+        "required": true,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "shortDescription",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "subtype",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "label": "Sub Type",
+      "keyText": "title",
+      "path": "/master/MovieSubtype",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "category",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "label": "Content Category",
+      "keyText": "title",
+      "path": "/master/ContentCategory",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "primaryGenre",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "multiple": true,
+      "label": "Primary Genre",
+      "keyText": "title",
+      "path": "/master/MoviePrimaryGenre",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "dateZee5Published",
+      "type": "date",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "ZEE5 Release Date",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "duration",
+      "type": "time",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "label": "Video Duration",
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "audioLanguages",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": true,
+      "label": "Audio Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "primaryLanguage",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "label": "Primary Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "dubbedLanguageTitle",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "multiple": true,
+      "label": "Dubbed Language Title",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "originalLanguage",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "label": "Original Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "contentVersion",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "label": "Content Version",
+      "keyText": "title",
+      "path": "/master/ContentVersion",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "groupWiseTitle": [
+    [
+      {
+        "name": "groupCountry",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Group / Country",
+        "keyText": "title",
+        "path": "/master/Country",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "dateRelease",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "date",
+        "label": "ZEE5 Release Date",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "minDate" :"sameOrAfter"
+        }
+      },
+      {
+        "name": "subtitleLanguage",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-6",
+        "value": [],
+        "multiple": true,
+        "label": "Subtitle Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  ],
+  "classification": [
+    {
+      "name": "contentOwner",
+      "value": null,
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Content Owner",
+      "keyText": "title",
+      "path": "/master/ContentOwner",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "certification",
+      "value": null,
+      "col": "col-md-6 col-lg-6",
+      "type": "dropdownAsync",
+      "multiple": false,
+      "label": "Certification",
+      "keyText": "title",
+      "path": "/master/Certification",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "groupWiseArr": [
+    {
+      "name": "groupCountry",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "multiple": true,
+      "label": "Group / Country",
+      "keyText": "title",
+      "path": "/master/Country",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "dateRelease",
+      "value": "",
+      "col": "col-md-6 col-lg-6",
+      "type": "date",
+      "label": "ZEE5 Release Date",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "minDate" :"sameOrAfter"
+      }
+    },
+    {
+      "name": "subtitleLanguage",
+      "type": "dropdownAsync",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "multiple": true,
+      "label": "Subtitle Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

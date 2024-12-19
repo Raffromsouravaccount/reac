@@ -1,0 +1,33 @@
+name: cdn-invalidation
+on:
+  workflow_dispatch:
+jobs:
+  infra-deploy:
+    runs-on: ubuntu-latest
+    environment: dev
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ap-south-1
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: cms-frontend
+          fetch-depth: '0'
+          ref: cdn-invalidation
+      - name: Setup SSH
+        uses: MrSquaare/ssh-setup-action@v1
+        with:
+          host: github.com
+          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Deploy Images in ECR
+        shell: bash
+        run: |
+          sudo pip3 install awscli
+          aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+          aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+          aws configure set region $AWS_DEFAULT_REGION --profile default
+          aws configure set profile.default.role_arn "arn:aws:iam::963788245243:role/z5x_jenkins"
+          aws configure set profile.default.source_profile default
+          aws cloudfront create-invalidation --distribution-id "E2HQ9EBA8GBVBT" --paths "/*" --profile default
+          

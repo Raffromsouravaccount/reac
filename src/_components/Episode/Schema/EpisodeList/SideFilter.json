@@ -1,0 +1,668 @@
+{
+  "StatusTypes": [
+    {
+      "label": "All",
+      "displayName": "All",
+      "active": true
+    },
+    {
+      "label": "Draft",
+      "displayName": "Draft"
+    },
+    {
+      "label": "Changed",
+      "displayName": "Changed"
+    },
+    {
+      "label": "Published",
+      "displayName": "Published"
+    },
+    {
+      "label": "Unpublished",
+      "displayName": "Unpublished"
+    },
+    {
+      "label": "Need Work",
+      "displayName": "Need Work"
+    },
+    {
+      "label": "Scheduled",
+      "displayName": "Scheduled"
+    },
+    {
+      "label": "Submitted to Review",
+      "displayName": "Submitted to Review"
+    },
+    {
+      "label": "Archived",
+      "displayName": "Archived"
+    }
+  ],
+  "setOrderFilters": [
+    {
+      "name":"mainSortType",
+      "label":"By Index No",
+      "for": "",
+      "sortKey":"mainSortKey",
+      "sortValue":"dateZee5Published",
+      "display": true,
+      "value": "",
+      "data": [
+        { "value": "ASC", "label": "Ascending to Descending" },
+        { "value": "DESC", "label": "Descending to Ascending" }
+      ]
+    }
+  ],
+  "sortingFilters": [
+    {
+      "name":"subSortType",
+      "label":"Original Telecast Date",
+      "for": "",
+      "sortKey":"subSortKey",
+      "sortValue":"telecastDate",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "asc", "label": "Ascending to Descending" },
+        { "value": "desc", "label": "Descending to Ascending" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "for": "Draft",
+      "label":"By Created",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Changed",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Changed",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Published",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Published",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Unpublished",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Unpublished",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Reviewed",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Need Work",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Scheduled",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Scheduled",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Submitted",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "Submitted to Review",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Archived",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for":"Archived",
+      "display": false,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    },
+    {
+      "name":"subSortType",
+      "label":"By Modified",
+      "sortKey":"subSortKey",
+      "sortValue":"lastModifiedOn",
+      "for": "All",
+      "display": true,
+      "value": "",
+      "data": [
+        { "value": "desc", "label": "Newest to Oldest" },
+        { "value": "asc", "label": "Oldest to Newest" }
+      ]
+    }
+  ],
+  "filterByDate": [
+    {
+      "name":"lastModifiedOn",
+      "label":"Modified On",
+      "for": "All",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastCreatedOn",
+      "label":"Created On",
+      "for": "Draft",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Changed On",
+      "for": "Changed",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Published On",
+      "for": "Published",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Unpublished On",
+      "for": "Unpublished",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Reviewed On",
+      "for": "Need Work",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Scheduled On",
+      "for": "Scheduled",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Submitted On",
+      "for": "Submitted to Review",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"lastModifiedOn",
+      "label":"Archived On",
+      "for": "Archived",
+      "display": false,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    }
+  ],
+  "sideSelectFilters": [
+      {
+        "name": "primaryGenre",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Primary Genre",
+        "path": "/master/TvShowPrimaryGenre",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "secondaryGenre",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Secondary Genre",
+        "path": "/master/TvShowPrimaryGenre",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "thematicGenre",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Thematic Genre",
+        "path": "/master/TvShowThematicGenre",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "settingGenre",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Setting Genre",
+        "path": "/master/TvShowSettingGenre",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "actor",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "data": [],
+        "errorText": "",
+        "col": "",
+        "multiple":true,
+        "value": null,
+        "createPrefix": "Use",
+        "path": "",
+        "display": true,
+        "label": "Actor",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "subType",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "path": "/master/EpisodeSubType",
+        "display": true,
+        "label": "Episode Sub Type",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentCategory",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Content Category",
+        "path": "/master/ContentCategory",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "rcsCategory",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "RCS Category",
+        "path": "/master/RcsCategory",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "theme",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Theme",
+        "path": "/master/Theme",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "targetAudience",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Target Audience",
+        "path": "/master/TargetAudience",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "licenseGroupCountries",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "groupBy":"group",
+        "label": "License Group/Countries",
+        "path": "/master/CountryGroup",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "ageRating",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Age Rating",
+        "path": "/master/AgeRating",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "businessType",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Business Type",
+        "path": "/master/BusinessType",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentRating",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "path": "/master/ContentRating",
+        "display": true,
+        "label": "Content Rating",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "contentOwner",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "path": "/master/ContentOwner",
+        "display": true,
+        "label": "Content Owner",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "audioLanguage",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "path": "/master/Language",
+        "display": true,
+        "label": "Audio Language",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "originalLanguage",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Original Language",
+        "path": "/master/Language",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "tags",
+        "type": "SearchableWithCreate",
+        "col": "",
+        "keyText": "title",
+        "value": null,
+        "createPrefix": "Use",
+        "multiple": true,
+        "label": "Tags",
+        "data": [],
+        "display": true,
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "translationLanguage",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Translation Language",
+        "path": "/master/Language",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "translationStatus",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "type": "dropdownAsync",
+        "display": false,
+        "label": "Translation’s Language Status",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "moodEmotion",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "multiple": true,
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "Mood Emotion",
+        "path": "/master/EmotionTitle",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "broadcastState",
+        "keyText": "title",
+        "value": [],
+        "col": "",
+        "limitTags": 1,
+        "type": "dropdownAsync",
+        "display": true,
+        "label": "TvShow Broadcasted",
+        "path": "/master/TvShowBroadcast",
+        "data": [],
+        "validation": {
+          "required": false
+        }
+      }
+  ]
+}

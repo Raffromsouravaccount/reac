@@ -1,0 +1,192 @@
+.episode-head .eps-temp {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: normal;
+  color: #bb3e8c;
+}
+.episode-xml-message.redText{
+  color: #f46a6a;
+}
+.episode-xml-message.greenText{
+  color: #34c28f;
+}
+.episode-xml-message.orangeText{
+  color: #f59526;
+}
+.episode-xml-message.blueText{
+  color: #6698c2;
+}
+.episode-head .eps-temp svg {
+  margin-right: 6px;
+}
+.episode-xml-message{
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.75;
+  font-style: normal;
+}
+.episode-search input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.25;
+  color: #333333;
+  width: 294px;
+  max-width: 100%;
+  height: 38px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgb(34 37 41 / 6%);
+  border: solid 1px #d4d4d4;
+  background-color: #ffffff;
+}
+.episode-search input[type="text"]:focus { outline: 1px; border-color: #333333; }
+.episode-title {
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: #4b4b4b;
+}
+.episode-select-all .MuiFormControlLabel-root {
+  margin-left: 0;
+}
+.episode-select-all .MuiTypography-body1 {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #4b4b4b;
+}
+.s-form .action-cta .short-btn, .s-form .action-cta .filter-btn, .s-form .order-act-cta .short-btn { height: 38px; }
+.action-cta .upload-btn, .order-act-cta .upload-btn { line-height: 1.5; }
+.episode-box .mov-info-box .movie-img {
+  margin-right: 12px;
+  width: 54px;
+  height: 54px;
+}
+.episode-box .mov-info-box .movie-img img {
+  width: 54px;
+  height: 54px;
+}
+.episode-box .mov-info-box .info {
+  width: calc(100% - 103px);
+}
+.episode-box .mov-l-box .mov-link-btn {
+  cursor: default;
+}
+.mov-l-box .checkbox-div {
+  margin-right: 12px;
+  height: 24px;
+  width: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mov-l-box .checkbox-div .MuiFormControlLabel-root {
+  margin: 0;
+}
+
+.data-list {
+  padding: 12px 15px;
+  border-radius: 4px;
+  box-shadow: 0 0 12px 0 rgba(70, 78, 88, 0.15);
+  border: solid 1px #2c0b2d;
+  background-color: #ffffff;
+}
+.data-list .set-title { 
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 1.5;
+  color: #2e0130;
+ }
+.data-list .g-cou-r-name { 
+  font-weight: 400; 
+}
+.data-list .left-sec {
+  width: calc(100% - 150px);
+}
+.data-list .right-sec {
+  width: 150px;
+}
+.data-list .right-sec .icon {
+  position: relative;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+.data-list .right-sec .icon:last-child {
+  margin-right: 0;
+}
+.data-list .right-sec .edit {
+  background-color: #e7f2fe;
+}
+.data-list .right-sec .remove {
+  background-color: #fef0f0;
+}
+.data-list .link-dropdown {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.data-list .link-dropdown .MuiButton-root {
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    opacity: 0;
+}
+.data-list .link-dropdown .label-text {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0f1c21;
+  opacity: 1;
+  border-bottom: 1px solid #ececec;
+  margin-top: -5px;
+}
+
+
+@media (max-width: 1199px) {
+  .episode-search input[type="text"] {
+    width: 250px;
+  }  
+  .s-form .action-cta .short-btn, .s-form .action-cta .filter-btn, .s-form .order-act-cta .short-btn {
+    min-width: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .episode-search input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .s-form .action-cta .short-btn, .s-form .action-cta .filter-btn, .s-form .order-act-cta .short-btn {
+    margin: 0 10px 10px 0;
+  }
+  .action-cta .upload-btn, .order-act-cta .upload-btn {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 576px) {
+  
+}

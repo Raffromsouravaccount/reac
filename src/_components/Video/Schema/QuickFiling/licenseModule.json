@@ -1,0 +1,141 @@
+
+  {
+    "manual_section": [
+      {
+        "name": "fromDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "License From Date",
+        "minDate": "sameOrAfter",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "toDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "License To Date",
+        "minDate": "sameOrAfter",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "country",
+        "type": "dropdown",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "groupBy": "group",
+        "path": "user/country-group",
+        "keyText": "title",
+        "label": "Country / Group",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "businessType",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "multiple": false,
+        "path": "/master/BusinessType",
+        "keyText": "title",
+        "label": "Business Type",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "search_filter_section": [
+      {
+        "name": "fromDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "label": "License From Date",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "toDate",
+        "type": "date",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "label": "License To Date",
+        "disablePast": true,
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "businessType",
+        "type": "dropdown",
+        "value": "",
+        "col": "col-md-12 col-lg-12",
+        "multiple": false,
+        "path": "/master/BusinessType",
+        "keyText": "title",
+        "label": "Business Type",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "display": true,
+        "col": "",
+        "name": "status",
+        "label": "Status",
+        "areaLabel": "status",
+        "labelPlacement": "end",
+        "value": null,
+        "type": "radio",
+        "data": [
+          {
+            "label": "Active",
+            "value": "1"
+          },
+          {
+            "label": "Inactive",
+            "value": "0"
+          }
+        ],
+        "validation": {}
+      }
+    ],
+    "commonmodel_section": [
+      {
+        "name": "reason",
+        "type": "dropdown",
+        "value": [],
+        "col": "col-md-12 col-lg-12",
+        "path": "/master/ReasonType",
+        "keyText": "title",
+        "multiple": false,
+        "label": "Reason",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      }
+    ]
+  }

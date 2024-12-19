@@ -1,0 +1,224 @@
+{
+  "profile": [
+    {
+      "name": "section",
+      "type": "sectionMultiple",
+      "multipleKey": "file",
+      "label": "Uplaod Profile Image"
+    },
+    {
+      "name": "castName",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Profile Name",
+      "errorText": "",
+      "validation": {
+        "isChar": true,
+        "required": true,
+        "minLength": 5,
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "castKnownAs",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Also known as",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "castTag",
+      "type": "dropdown",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "path": "/master/TagBadge",
+      "multiple": true,
+      "label": "Tag/Badge",
+      "keyText": "title",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "castType",
+      "type": "dropdown",
+      "col": "col-md-6 col-lg-6",
+      "value": [],
+      "path": "/master/CastType",
+      "multiple": true,
+      "label": "Cast Type",
+      "keyText": "title",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "castBirthday",
+      "type": "date",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Birthday",
+      "minDate":"before",
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "castBirthPlace",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Birthplace",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "isChar": true
+      }
+    },
+    {
+      "name": "castCareer",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Career",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isAlphaNumericWithSpecialChars": true
+      }
+    },
+    {
+      "name": "castAwards",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Awards & Notification",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isAlphaNumeric": true
+      }
+    },
+    {
+      "name": "castTrivia",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Trivia",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    },
+    {
+      "name": "castBackground",
+      "type": "text",
+      "col": "col-md-6 col-lg-6",
+      "value": "",
+      "label": "Background",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500,
+        "isAlphaNumeric": true
+      }
+    },
+    {
+      "name": "castProfileBio",
+      "type": "textEditor",
+      "col": "col-md-12 col-lg-12",
+      "value": "",
+      "moduleOptions": {
+        "toolbar": [["bold", "italic", "underline"], ["link"]]
+      },
+      "formatOptions": ["bold", "italic", "underline", "link"],
+      "placeHolder": "This user will be responsible for creating/Curating the content",
+      "label": "Profile Bio",
+      "errorText": "",
+      "validation": {
+        "required": false,
+        "maxLength": 500
+      }
+    }
+  ],
+  "relation": [
+    [
+      {
+        "name": "castProfileId",
+        "type": "autocreate",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "path": "",
+        "label": "Related To",
+        "keyText": "castName",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "relation",
+        "type": "dropdown",
+        "col": "col-md-6 col-lg-6",
+        "value": null,
+        "multiple": false,
+        "path": "/master/Relation",
+        "label": "Relation",
+        "keyText": "title",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ]
+  ],
+  "relationArr": [
+    {
+      "name": "castProfileId",
+      "type": "autocreate",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "path": "",
+      "label": "Related To",
+      "keyText": "castName",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "relation",
+      "type": "dropdown",
+      "col": "col-md-6 col-lg-6",
+      "value": null,
+      "multiple": false,
+      "path": "/master/Relation",
+      "label": "Relation",
+      "keyText": "title",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

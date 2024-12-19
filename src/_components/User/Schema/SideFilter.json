@@ -1,0 +1,62 @@
+{
+  "sideSelectFilters": [
+    {
+      "name": "role",
+      "keyText": "name",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Role Name",
+      "path": "/roles",
+      "data": [],
+      "validation": {}
+    },
+    {
+      "name": "group",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Country Group",
+      "groupBy":"group",
+      "path": "/master/CountryGroup",
+      "data": [],
+      "validation": {}
+    },
+    {
+      "name": "language",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdownAsync",
+      "display": true,
+      "label": "Translation Language",
+      "path": "/master/Language",
+      "data": [],
+      "validation": {}
+    },
+    {
+      "display": true,
+      "col": "",
+      "name": "userStatus",
+      "label": "Status",
+      "areaLabel": "status",
+      "labelPlacement": "end",
+      "value": null,
+      "type": "radio",
+      "data": [
+        {"label": "Active", "value": "1"}, 
+        {"label": "Inactive", "value": "2"}
+      ],
+      "validation": {}
+    }
+  ]
+}

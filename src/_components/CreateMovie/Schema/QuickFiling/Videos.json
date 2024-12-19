@@ -1,0 +1,64 @@
+[
+  {
+    "sectionKey": "createEditMovie",
+    "section": [
+      {
+        "name": "relativePublishStoragePath",
+        "type": "text",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "DASH Root Folder",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "manifestFileName",
+        "type": "text",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "DASH Manifest",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "hlsRelativePublishStoragePath",
+        "type": "text",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "HLS Root Folder",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "hlsManifestFileName",
+        "type": "text",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "HLS Manifest",
+        "errorText": "",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "name": "id",
+        "type": "text",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "label": "Mediathek File UID",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250,
+          "isAlphaNumericWithSpecialChars":true
+        }
+      }
+    ]
+  }
+]

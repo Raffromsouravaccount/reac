@@ -1,0 +1,112 @@
+.ingestion-loading{
+  opacity: 0.5;
+  cursor: wait;
+}
+.actions-btn .ref-link{
+font-size: 14px;
+font-weight: 600;
+line-height: 1.5;
+color: #bb3e8c;
+cursor: pointer;
+text-decoration: underline;
+}
+.actions-btn .st-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.actions-btn .st-icon svg {
+  display: block;
+}
+
+/* new design */
+.sidebarBox.remove-btn .middle-w .inner {
+  height: calc(100vh - 85px);
+}
+.bystatus-filter.inge-link {
+  margin-bottom: 20px;
+}
+.bystatus-filter.inge-link .bystatus-col {
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+.bystatus-filter.inge-link .bystatus-f-cta {
+  font-weight: 400;
+}
+.bystatus-filter.inge-link .bystatus-col:nth-child(1),
+.bystatus-filter.inge-link .bystatus-col:nth-child(2) {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.sidebarBox .ing-box:not(:first-child) {
+  margin-top: 15px;
+}
+.sidebarBox .ing-row .left {
+  width: 100px;
+}
+.sidebarBox .ing-row .right {
+  width: calc(100% - 100px);
+  padding-left: 8px;
+}
+.sidebarBox .ing-row .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.sidebarBox .ing-row [class*="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.sidebarBox .ing-box h6 {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #2c0b2d;  
+}
+.sidebarBox .date-time {
+  margin-bottom: 5px;
+  padding: 7px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #2c0b2d;
+  border-bottom: solid 1px rgba(112, 112, 112, 0.3);
+}
+.sidebarBox .ing-st-list {
+  padding: 0 12px 5px;
+}
+.sidebarBox .ing-row {
+  margin-bottom: 5px;
+}
+.sidebarBox .ing-row .label { 
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #858585;
+}
+.sidebarBox .ing-row .value { 
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #2c0b2d;
+}
+
+.master-table-block th.ing-view-btn {
+  min-width: 65px;
+  width: 65px; 
+}
+.master-table-block .bg-color { background: rgba(153, 153, 153, 0.1); }
+.master-table-block .border-l, 
+.master-table-block th.border-l { border-left: solid 1px #cfc3ca; }
+.master-table-block .border-r,
+.master-table-block th.border-r { border-right: solid 1px #cfc3ca; }
+.master-table-block .ing-action .actions-btn {
+  min-width: 55px;
+}
+.master-table-block .MuiTableRow-head th.ing-action {
+  min-width: 85px;
+  width: 85px;
+}

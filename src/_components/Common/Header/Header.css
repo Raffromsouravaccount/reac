@@ -1,0 +1,108 @@
+.h-wrap .MuiPaper-root {
+  padding: 0;
+}
+.h-wrap .MuiPaper-elevation4 {
+  box-shadow: none;
+}
+.h-wrap .s-logo img {
+  width: 58px;
+  display: block;
+}
+.h-wrap .MuiIconButton-root {
+  position: relative;
+}
+.h-wrap .u-name {
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.h-wrap .u-name:after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+} 
+
+.h-wrap .logout-link .MuiButton-root {
+  font-size: 0;
+  background: transparent;
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  bottom: 12px;
+  min-width: 25px;
+  width: 25px;
+  overflow: hidden;
+}
+
+.h-wrap .logout-link .drop-menu {
+  z-index: 10;
+  left: auto !important;
+  right: -5px;
+  top: calc(100% - 12px) !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+}
+.h-wrap .logout-link .drop-menu .MuiList-root {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.h-wrap .logout-link .drop-menu .MuiMenuItem-root {
+  padding: 5px 16px;
+  min-width: 95px;
+  justify-content: center;
+  min-height: auto;
+}
+.h-wrap .MuiIconButton-root .text {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.h-wrap .h-logout-btn {
+  position: relative;
+}
+.back-to-top {
+  position: fixed;
+  top: auto;
+  left: auto;
+  right: 20px;
+  bottom: 15px;
+  z-index: 999999;
+  width: 58px;
+  height: 58px;
+  cursor: pointer;
+}
+.back-to-top svg {
+  width: 58px;
+  height: 58px;
+}
+.back-to-top.hide { 
+  display: none !important;
+}
+@media (max-width: 991px) { 
+  .h-wrap .MuiToolbar-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+}
+@media (max-width: 767px) {
+  .h-wrap .u-name span {
+    display: block;
+    max-width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .h-wrap .MuiIconButton-root {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}

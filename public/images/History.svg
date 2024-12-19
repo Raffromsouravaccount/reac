@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g transform="translate(-1143 -362)">
+        <circle cx="12" cy="12" r="12" fill="#f6e3ef" transform="translate(1143 362)"/>
+        <g>
+            <path fill="#b83d8a" d="M275.482 172.228v2.2a.315.315 0 0 0 .092.223l1.576 1.576.445-.445-1.484-1.483v-2.072z" transform="translate(1150 334.555) translate(-270.445 -135.264)"/>
+            <path fill="#2c0b2d" d="M5.668 34.445a4.411 4.411 0 0 0-4.358 3.778H0L1.574 39.8l1.574-1.574h-1.2a3.772 3.772 0 1 1 .742 2.954l-.5.387a4.408 4.408 0 1 0 3.476-7.119z" transform="translate(1150 334.555)"/>
+        </g>
+    </g>
+</svg>

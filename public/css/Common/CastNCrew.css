@@ -1,0 +1,14 @@
+.actor-row {
+  position: relative;
+  padding-bottom: 20px;
+}
+.actor-row:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #ececec;
+  height: 1px;
+  left: -15px;
+  right: -15px;
+  bottom: 30px;
+}

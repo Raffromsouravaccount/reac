@@ -1,0 +1,95 @@
+{
+  "filterByDate": [
+    {
+      "name":"dateRange",
+      "label":"Date Range",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startDate",
+        "endDateKey": "endDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    },
+    {
+      "name":"dateRange",
+      "label":"Telecast Date",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "startTelecastDate",
+        "endDateKey": "endTelecastDate",
+        "startPlaceholder": "Start Telecast Date",
+        "endPlaceholder": "End Telecast Date"
+      }
+    }
+  ],
+  "filters": [
+    {
+      "name": "status",
+      "type": "dropdownAsync",
+      "col": "",
+      "value": [],
+      "multiple": true,
+      "keyText": "title",
+      "label": "Status",
+      "path": "/master/ContentState",
+      "data": [],
+      "validation": {}
+    },
+    {
+      "name": "subtype",
+      "type": "dropdownAsync",
+      "col": "",
+      "value": [],
+      "multiple": true,
+      "label": "Sub Type",
+      "keyText": "title",
+      "path": "/master/EpisodeSubType",
+      "data": [],
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "audioLanguages",
+      "type": "dropdownAsync",
+      "col": "",
+      "value": [],
+      "multiple": true,
+      "label": "Audio Language",
+      "keyText": "title",
+      "path": "/master/Language",
+      "data": [],
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "isBeforetvApplicable",
+      "type": "radio",
+      "col": "",
+      "label": "Is Before TV Applicable",
+      "areaLabel": "Is Before TV Applicable",
+      "labelPlacement": "end",
+      "value": null,
+      "data": [
+        {"label": "Yes", "value": "1"},
+        {"label": "No", "value": "0"}
+      ],
+      "errorText": "",
+      "validation": {}
+    },
+    {
+      "name": "showAirTime",
+      "type": "time",
+      "col": "",
+      "value": null,
+      "label": "Show Air Time",
+      "errorText": "",
+      "display": false,
+      "validation": {}
+    }
+  ]
+}

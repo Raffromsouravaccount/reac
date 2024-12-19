@@ -1,0 +1,24 @@
+{
+    "createEditMovie": [
+        {
+            "name": "dashSuffixes",
+            "type": "dropDown",
+            "label": "DASH suffixes",
+            "required": false,
+            "multiple": true,
+            "path": "/master",
+            "data": [],
+            "value": []
+        },
+        {
+            "name": "hlsSuffixes",
+            "type": "dropDown",
+            "label": "DASH suffixes",
+            "required": false,
+            "multiple": true,
+            "path": "/master",
+            "data": [],
+            "value": []
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+.ingestion-loading{
+  opacity: 0.5;
+  cursor: wait;
+}
+.actions-btn .ref-link{
+font-size: 14px;
+font-weight: 600;
+line-height: 1.5;
+color: #bb3e8c;
+cursor: pointer;
+text-decoration: underline;
+}
+.actions-btn .st-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.actions-btn .st-icon svg {
+  display: block;
+}
+.green-col{
+  color: #34c28f !important;
+}
+.orange-col{
+  color: #f59526 !important;
+}
+.darkred-col{
+  color: #c41212 !important;
+}
+.blue-col{
+  color: #6698c2 !important;
+}

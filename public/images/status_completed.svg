@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-2{fill:#34c28f}
+        </style>
+    </defs>
+    <g id="Group_7887" transform="translate(-1141 -274)">
+        <g id="Group_319" transform="translate(1114 274.5)">
+            <rect id="Rectangle_273" width="28" height="28" fill="#f3fffb" rx="5" transform="translate(27 -.5)"/>
+        </g>
+        <g id="comment_1_" transform="translate(1149 284.332)">
+            <path id="Path_2599" d="M10.019-1.332H1.6A1.6 1.6 0 0 0 0 .265v5.154a1.6 1.6 0 0 0 1.591 1.6v2.335l3.361-2.338h5.066a1.6 1.6 0 0 0 1.6-1.6V.265a1.6 1.6 0 0 0-1.599-1.597zm.916 6.751a.917.917 0 0 1-.916.916h-5.28L2.272 8.052V6.335H1.6a.917.917 0 0 1-.916-.916V.265A.917.917 0 0 1 1.6-.651h8.422a.917.917 0 0 1 .916.916zm0 0" class="cls-2"/>
+            <path id="Path_2600" d="M171.293 131.172h5.4v.681h-5.4zm0 0" class="cls-2" transform="translate(-168.184 -130.099)"/>
+            <path id="Path_2601" d="M171.293 211.172h5.4v.681h-5.4zm0 0" class="cls-2" transform="translate(-168.184 -208.647)"/>
+            <path id="Path_2602" d="M171.293 291.172h5.4v.681h-5.4zm0 0" class="cls-2" transform="translate(-168.184 -287.195)"/>
+        </g>
+    </g>
+</svg>

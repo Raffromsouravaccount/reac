@@ -1,0 +1,14 @@
+[
+  {
+      "label": "Default Order",
+      "name": "defaultorder",
+      "contentIdKey": "seasonId",
+      "noItemsText": "No seasons have been found"
+  },
+  {
+    "label": "Set Ordering",
+    "name": "setordering",
+    "contentIdKey": "seasonId",
+    "noItemsText": "No seasons have been found"
+  }
+]

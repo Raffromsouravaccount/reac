@@ -1,0 +1,15 @@
+[
+    {
+      "name": "DisplayName",
+      "value": "",
+      "col": "col-md-6 col-lg-4",
+      "type": "text",
+      "label": "Template Title",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "minLength":5,
+        "maxLength": 250
+      }
+    }
+]

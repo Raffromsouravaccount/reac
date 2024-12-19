@@ -1,0 +1,119 @@
+{
+    "select_content_type_status": [
+      {
+        "label": "Cast & Crew",
+        "name": "Cast & Crew"
+      },
+      {
+        "label": "Movies",
+        "name": "Movies"
+      },
+      {
+        "label": "Videos",
+        "name": "Videos"
+      },
+      {
+        "label": "Tv Shows",
+        "name": "Tv Shows"
+      },
+      {
+        "label": "Episode",
+        "name": "Episode"
+
+      },
+      {
+        "label": "Collections",
+        "name": "Collections"
+      }
+    ],
+
+    "select_filter": [
+      {
+        "name": "fromReleaseDate",
+        "type": "date",
+        "col": "col-md-6 col-lg-4 col-xl-3",
+        "value": "",
+        "placeholder": "From Date",
+        "minDateValue": "",
+        "helperText": "",
+        "errorText": "",
+        "minDate": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "toReleaseDate",
+        "type": "date",
+        "placeholder": "To Date",
+        "value": "",
+        "col": "col-md-6 col-lg-4 col-xl-3",
+        "label": "",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "audioLanguages",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-4 col-xl-3",
+        "value": null,
+        "multiple": true,
+        "label": "Audio Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "select_fields": [
+      {
+        "name": "contentProperties",
+        "type": "dropdownAsync",
+        "col": "col-md-6 col-lg-4 col-xl-3",
+        "value": null,
+        "multiple": false,
+        "label": "Content Properties",
+        "keyText": "title",
+        "path": "/master/Language",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+
+    ],
+    "contentProperties":[
+      {
+        "id": "1",
+       "status": "1",
+        "title": "Certification"
+      },
+      {
+        "id": "2",
+       "status": "1",
+        "title": "Content Descriptors"
+      }
+    ],
+    "contentTypesList":[
+      {
+        "title": "Tv Show",
+        "value":"tvShow",
+        "status": "1",
+        "id": "2"
+
+      },
+      {
+        "title": "Episode",
+        "value": "episode",
+        "status": "1",
+        "id": "3"
+
+      }
+      ]
+  }

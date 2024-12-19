@@ -1,0 +1,52 @@
+.create-movie-image-section .item-box {
+  overflow: initial;
+  text-align: center;
+}
+.create-movie-image-section .item-box .drop-menu {
+  z-index: 1;
+}
+.create-movie-image-section .upload-block {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+.create-movie-image-section  .item-box .item-img {
+  position: relative;
+}
+.create-movie-image-section  .item-box .info-icon {
+  left: auto;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.create-movie-image-section  .item-box .item-img .avatar-icon {
+  position: initial;
+  height: 140px;
+  width: fit-content;
+}
+
+.create-movie-image-section .item-mandatory {
+  font-size: 12px;
+  letter-spacing: normal;
+  color: #f46a6a;
+}
+.invalid-image .tooltip-sec {
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+  left: auto;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.invalid-image .tooltip-box {
+  left: -28px;
+}
+.invalid-image .tooltip-box:before {
+  top: -10px;
+  left: 88%;
+}
+.wrap-edit-img .no-img-icon {
+  height: 150px;
+}

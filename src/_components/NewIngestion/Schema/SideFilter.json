@@ -1,0 +1,41 @@
+{
+  "filterByDate": [
+    {
+      "name":"",
+      "label":"Modified On",
+      "for": "All",
+      "display": true,
+      "date": {
+        "startDate": "",
+        "endDate": "",
+        "startDateKey": "fromDate",
+        "endDateKey": "toDate",
+        "startPlaceholder": "Start Date",
+        "endPlaceholder": "End Date"
+      }
+    }
+  ],
+  "sideSelectFilters": [
+    {
+      "name": "contentType",
+      "keyText": "title",
+      "value": [],
+      "col": "",
+      "multiple": true,
+      "limitTags": 1,
+      "type": "dropdown",
+      "display": true,
+      "label": "Content Type",
+      "data": [
+        {"title": "Episode", "id": "Episode"},
+        {"title": "Movie",  "id": "Movie"},
+        {"title": "Season", "id": "Season"},
+        {"title": "TV Show", "id": "TvShow"},
+        {"title": "Video",  "id": "Video"}
+      ],
+      "validation": {
+        "required": false
+      }
+    }
+  ]
+}

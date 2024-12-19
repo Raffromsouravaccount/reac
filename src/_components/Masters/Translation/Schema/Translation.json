@@ -1,0 +1,244 @@
+[
+  {
+    "name": "ar",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Arabic",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "as",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Assamese",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "id",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Bahasa (Indonesia)",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "bn",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Bengali",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "hr",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Bhojpuri",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "fr",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "French",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "de",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "German",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "gu",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Gujarati",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "hi",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Hindi",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "km",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Kannada",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "ko",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Korean",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "ms",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Malay",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "ml",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Malayalam",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "zh",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Mandarin",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "mr",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Marathi",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "or",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Odia",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "pa",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Punjabi",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "ru",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Russian",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "es",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Spanish",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "ta",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Tamil",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "te",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Telugu",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  },
+  {
+    "name": "th",
+    "value": "",
+    "col": "col-md-6 col-lg-4",
+    "type": "text",
+    "moreText": "Thai",
+    "errorText": "",
+    "validation": {
+      "maxLength" : 100
+    }
+  }
+]

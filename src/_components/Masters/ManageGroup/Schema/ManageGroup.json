@@ -1,0 +1,27 @@
+[
+    {
+      "name": "title",
+      "value": "",
+      "col": "col-md-6 col-lg-4",
+      "type": "text",
+      "label": "Group Name",
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "isCharUnderscore" : true,
+        "minLength":5,
+        "maxLength": 250
+      }
+    },
+    {
+      "name": "description",
+      "value": "",
+      "col": "col-md-6 col-lg-4",
+      "type": "text",
+      "label": "Description",
+      "errorText": "",
+      "validation": {
+        "maxLength": 500
+      }
+    }
+]

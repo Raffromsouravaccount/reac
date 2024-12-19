@@ -1,0 +1,143 @@
+[
+  {
+    "name": "sefUrl",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "URL Structure Edit",
+    "helperText":"",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "maxLength": 100,
+      "isAlphaNumericWithSpecialChars": true
+    }
+  },
+  {
+    "name": "titleTag",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "SEO Title Tag",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "maxLength": 100,
+      "isAlphaNumericWithSpecialChars": true
+    }
+  },
+  {
+    "name": "metaDescription",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "textarea",
+    "label": "SEO Meta Description",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "maxLength": 250,
+      "isAlphaNumericWithSpecialChars": true
+    }
+  },
+  {
+    "name": "metaSynopsis",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "textarea",
+    "label": "SEO Meta Synopsis for collection pages",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "maxLength": 500
+    }
+  },
+  {
+    "name": "h1Heading",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "H1 Heading",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "maxLength": 500,
+      "isAlphaNumericWithSpecialChars": true
+    }
+  },
+  {
+    "name": "h2Heading",
+    "value": "",
+    "col": "col-md-6 col-lg-6",
+    "type": "text",
+    "label": "H2 Heading",
+    "errorText": "",
+    "validation": {
+      "required": false,
+      "maxLength": 500,
+      "isAlphaNumericWithSpecialChars": true
+    }
+  },
+  {
+    "name": "videoObjectSchema",
+    "value": false,
+    "col": "col-md-6 col-lg-6 col-xl-4",
+    "type": "checkbox",
+    "label": "Video Object Schema",
+    "labelPlacement": "end",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "websiteSchema",
+    "value": false,
+    "col": "col-md-6 col-lg-6 col-xl-4",
+    "type": "checkbox",
+    "label": "Website Schema",
+    "labelPlacement": "end",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "breadcrumListSchema",
+    "value": false,
+    "col": "col-md-6 col-lg-6 col-xl-4",
+    "type": "checkbox",
+    "label": "Breadcrum List Schema",
+    "labelPlacement": "end",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "imageObjectSchema",
+    "value": false,
+    "col": "col-md-6 col-lg-6 col-xl-4",
+    "type": "checkbox",
+    "label": "Image Object Schema",
+    "labelPlacement": "end",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  },
+  {
+    "name": "organizationSchema",
+    "value": false,
+    "col": "col-md-6 col-lg-6 col-xl-4",
+    "type": "checkbox",
+    "label": "Organization Schema",
+    "labelPlacement": "end",
+    "errorText": "",
+    "validation": {
+      "required": false
+    }
+  }
+
+
+  
+]

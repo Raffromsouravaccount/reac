@@ -1,0 +1,26 @@
+.movieForm-tab {
+  margin-top: -2px;
+}
+.con-field-wrap .label-text, .con-field-wrap .label-val {
+  margin-bottom: 20px;
+}
+.movie-f-wrap .section{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px;
+  margin-top: -20px;
+}
+.movie-f-wrap .section-border-top {
+  border-top: solid 1px #ececec;
+}
+.movie-f-wrap .section-head {
+  border-bottom: solid 1px #ececec;
+  padding: 10px 15px;
+}
+.movie-f-wrap .section-head h4{
+  margin: 0px;
+}
+.view-global-wrap .view-global-row:not(:first-child) {
+  border-top: solid 1px #ececec;
+  padding-top: 16px;
+}

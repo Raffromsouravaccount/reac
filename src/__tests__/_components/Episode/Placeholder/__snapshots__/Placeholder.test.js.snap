@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placeholder Component Should Render Placeholder Component 1`] = `
+<div
+  className="d-wrap c-n"
+  data-test="placeholderWrapper"
+>
+  <BreadcrumbsComp
+    links={
+      Array [
+        Object {
+          "color": "inherit",
+          "route": "/dashboard",
+          "text": "Dashboard",
+        },
+        Object {
+          "color": "inherit",
+          "route": "/tvshow",
+          "text": "TV Shows",
+        },
+        Object {
+          "color": "inherit",
+          "route": "/tvshow/edit/undefined",
+          "text": "Update TV Show",
+        },
+        Object {
+          "color": "inherit",
+          "route": "/tvshow/edit/undefined/season",
+          "text": "Seasons",
+        },
+        Object {
+          "color": "inherit",
+          "route": "/tvshow/edit/undefined/season/undefined",
+          "text": "Update Season",
+        },
+      ]
+    }
+    typography={
+      Array [
+        Object {
+          "color": "textPrimary",
+          "text": "Placeholder",
+        },
+      ]
+    }
+  />
+  <div
+    className="profile-head flex align-items-center justify-content-between"
+    data-test="headingWrapper"
+  >
+    <div
+      className="back-user-btn"
+    >
+      <span
+        onClick={[Function]}
+      >
+        <test-file-stub />
+      </span>
+      <strong>
+        <span
+          data-test="placeholderHeading"
+        >
+          Placeholder
+        </span>
+      </strong>
+    </div>
+  </div>
+  <div
+    className="col-12"
+    data-test="episodePropertyWrapper"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="whitebox col-md-9 col-lg-9 col-xl-10"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="ccm-head w-100 flex align-items-center justify-content-between m-b-30"
+          >
+            <h4
+              data-test="episodePropertiesHeading"
+            >
+              Episode Properties
+            </h4>
+          </div>
+        </div>
+        <div
+          className="episode-properties"
+        >
+          <div
+            className="row input-space-35"
+          >
+            <FormRender
+              data-test="episodePropertiesForm"
+              form={
+                Array [
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "data": Array [],
+                    "errorText": "",
+                    "keyText": "title",
+                    "label": "Asset Type",
+                    "multiple": false,
+                    "name": "assetType",
+                    "path": "/master/EpisodeSubType",
+                    "touched": 0,
+                    "type": "dropdownAsync",
+                    "valid": true,
+                    "validation": Object {
+                      "required": true,
+                    },
+                    "value": null,
+                  },
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "errorText": "",
+                    "helperText": "Your Next episode no. should be  11",
+                    "label": "Episode No start from",
+                    "name": "episodeNoStartFrom",
+                    "touched": 0,
+                    "type": "text",
+                    "valid": true,
+                    "validation": Object {
+                      "charCountLimit": 250,
+                      "isAlphaNumericWithSpecialChars": true,
+                      "isDigit": true,
+                      "maxLength": 300,
+                      "minValue": 2,
+                      "required": true,
+                    },
+                    "value": "",
+                  },
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "data": Array [
+                      Object {
+                        "group": "weekdays",
+                        "id": "monday",
+                        "title": "Monday",
+                      },
+                      Object {
+                        "group": "weekdays",
+                        "id": "tuesday",
+                        "title": "Tuesday",
+                      },
+                      Object {
+                        "group": "weekdays",
+                        "id": "wednesday",
+                        "title": "Wednesday",
+                      },
+                      Object {
+                        "group": "weekdays",
+                        "id": "thursday",
+                        "title": "Thursday",
+                      },
+                      Object {
+                        "group": "weekdays",
+                        "id": "friday",
+                        "title": "Friday",
+                      },
+                      Object {
+                        "group": "weekend",
+                        "id": "saturday",
+                        "title": "Saturday",
+                      },
+                      Object {
+                        "group": "weekend",
+                        "id": "sunday",
+                        "title": "Sunday",
+                      },
+                    ],
+                    "errorText": "",
+                    "groupBy": "group",
+                    "helperText": "If not selected, release date will be same for all Assets",
+                    "keyText": "title",
+                    "label": "Day Part",
+                    "multiple": true,
+                    "name": "dayPart",
+                    "touched": 0,
+                    "type": "dropdown",
+                    "valid": true,
+                    "validation": Object {
+                      "required": true,
+                    },
+                    "value": Array [],
+                  },
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "errorText": "",
+                    "label": "Number of Assets",
+                    "name": "numberOfAssets",
+                    "touched": 0,
+                    "type": "text",
+                    "valid": true,
+                    "validation": Object {
+                      "charCountLimit": 250,
+                      "isAlphaNumericWithSpecialChars": true,
+                      "isDigit": true,
+                      "maxLength": 300,
+                      "required": true,
+                    },
+                    "value": "",
+                  },
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "errorText": "",
+                    "helperText": "Your next release date should be 23 Mar 2021",
+                    "label": "Release Date",
+                    "minDateValue": "2021-03-23",
+                    "name": "releaseDate",
+                    "touched": 0,
+                    "type": "date",
+                    "valid": true,
+                    "validation": Object {
+                      "required": true,
+                    },
+                    "value": "",
+                  },
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "errorText": "",
+                    "label": "Generate XML",
+                    "labelPlacement": "end",
+                    "name": "generateXml",
+                    "touched": 0,
+                    "type": "checkbox",
+                    "valid": true,
+                    "validation": Object {
+                      "required": false,
+                    },
+                    "value": false,
+                  },
+                  Object {
+                    "col": "col-md-6 col-lg-6",
+                    "errorText": "",
+                    "label": "Do you want to create duplicate of the asset",
+                    "labelPlacement": "end",
+                    "name": "duplicate",
+                    "touched": 0,
+                    "type": "checkbox",
+                    "valid": true,
+                    "validation": Object {
+                      "required": false,
+                    },
+                    "value": false,
+                  },
+                ]
+              }
+              handleAutoCreateInput={[Function]}
+              handleBlur={[Function]}
+              isDisable={false}
+              onChange={[Function]}
+              selectGroup={[Function]}
+              setSelectDataArr={[Function]}
+            />
+          </div>
+          <div
+            className="global-wrap"
+            data-test="globalPropertyWrapper"
+          >
+            <div
+              className="placeholder-title"
+            >
+              Global Fields
+            </div>
+            <div
+              className="global-row"
+              key="0"
+            >
+              <div
+                className="add-plush-row top-title"
+              >
+                <div
+                  className="top-text"
+                  data-test="globalPropertyHeading"
+                >
+                  Global Field Placeholder Set 
+                  1
+                </div>
+                <div
+                  className="add-another-f-btn create-btn"
+                >
+                  <div
+                    className="auto-button-add add-btn-field flex align-items-center"
+                    id="addRemoveMultipleFieldsBtn"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="plush-icon-btn"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row input-space-35"
+              >
+                <FormRender
+                  data-test="globalPropertiesForm"
+                  form={
+                    Array [
+                      Object {
+                        "col": "col-md-4 col-lg-4",
+                        "data": Array [],
+                        "errorText": "",
+                        "groupBy": "group",
+                        "keyText": "title",
+                        "label": "Group / Country",
+                        "multiple": true,
+                        "name": "country",
+                        "path": "user/country-group",
+                        "type": "dropdownAsync",
+                        "validation": Object {
+                          "required": false,
+                        },
+                        "value": Array [],
+                      },
+                      Object {
+                        "col": "col-md-4 col-lg-4",
+                        "data": Array [
+                          Object {
+                            "group": "weekdays",
+                            "id": "monday",
+                            "title": "Monday",
+                          },
+                          Object {
+                            "group": "weekdays",
+                            "id": "tuesday",
+                            "title": "Tuesday",
+                          },
+                          Object {
+                            "group": "weekdays",
+                            "id": "wednesday",
+                            "title": "Wednesday",
+                          },
+                          Object {
+                            "group": "weekdays",
+                            "id": "thursday",
+                            "title": "Thursday",
+                          },
+                          Object {
+                            "group": "weekdays",
+                            "id": "friday",
+                            "title": "Friday",
+                          },
+                          Object {
+                            "group": "weekend",
+                            "id": "saturday",
+                            "title": "Saturday",
+                          },
+                          Object {
+                            "group": "weekend",
+                            "id": "sunday",
+                            "title": "Sunday",
+                          },
+                        ],
+                        "errorText": "",
+                        "groupBy": "group",
+                        "keyText": "title",
+                        "label": "Day Part",
+                        "multiple": true,
+                        "name": "dayPart",
+                        "type": "dropdown",
+                        "validation": Object {
+                          "required": false,
+                        },
+                        "value": null,
+                      },
+                      Object {
+                        "col": "col-md-4 col-lg-4",
+                        "errorText": "",
+                        "label": "Release Date",
+                        "name": "globalEpisodeReleaseDate",
+                        "type": "date",
+                        "validation": Object {
+                          "required": true,
+                        },
+                        "value": "",
+                      },
+                    ]
+                  }
+                  groupIndex={0}
+                  handleAutoCreateInput={[Function]}
+                  handleBlur={[Function]}
+                  isDisable={false}
+                  onChange={[Function]}
+                  selectGroup={[Function]}
+                  setSelectDataArr={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <ButtonField
+            buttonText="Save"
+            className="zee-btn-field zee-half"
+            color="primary"
+            disabled={true}
+            onClick={[Function]}
+            variant="contained"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-3 col-lg-3 col-xl-2"
+      >
+        <QuickLinks
+          className=""
+          customText="You can Multiple Assets from this Section"
+          header_text="Quick Links"
+          showTips={true}
+        />
+      </div>
+    </div>
+  </div>
+  <CommonModel
+    btn1Action={[Function]}
+    btn1Text="Yes"
+    btn2Action={[Function]}
+    className="popup-wrap status-popup"
+    des=""
+    showBtn1={true}
+    showBtn2={true}
+    showDes={true}
+    showIcon={false}
+    showTitle={true}
+    state={false}
+  />
+</div>
+`;

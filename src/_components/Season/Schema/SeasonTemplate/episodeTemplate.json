@@ -1,0 +1,97 @@
+{
+  "templateContent": [
+    {
+      "name": "mapCollectionId",
+      "type": "SearchableWithCreate",
+      "value": [],
+      "withoutCreate": true,
+      "col": "col-md-6 col-lg-6",
+      "multiple": true,
+      "keyText": "title",
+      "label": "Collections",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "name": "digitalLongDescriptionWeb",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Web Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "maxLength": 550
+      }
+    }
+  ],
+  "globalFields": [
+    {
+      "name": "Country",
+      "type": "dropdown",
+      "value": [],
+      "col": "col-md-6 col-lg-6",
+      "multiple": true,
+      "groupBy": "group",
+      "path": "user/country-group",
+      "keyText": "title",
+      "label": "Country Group",
+      "data": [],
+      "errorText": "",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "name": "shortDescriptionGlobal",
+      "value": "",
+      "col": "col-md-12 col-lg-12",
+      "type": "textEditor",
+      "label": "Short Description",
+      "moduleOptions": {
+        "toolbar": [
+          [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          [
+            "link"
+          ]
+        ]
+      },
+      "formatOptions": [
+        "bold",
+        "italic",
+        "underline",
+        "link"
+      ],
+      "errorText": "",
+      "validation": {
+        "required": true,
+        "maxLength": 550
+      }
+    }
+  ]
+}

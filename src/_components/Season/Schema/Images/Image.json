@@ -1,0 +1,164 @@
+{
+  "menuItems": [
+    {
+      "label": "View"
+    },
+    {
+      "label": "Edit"
+    },
+    {
+      "label": "Delete"
+    }
+  ],
+  "addEditImage": [
+    {
+      "name": "imageTitle",
+      "value": "",
+      "col": "",
+      "type": "text",
+      "label": "Image Title",
+      "errorText": "",
+      "validation": {
+        "charCountLimit": 250,
+        "maxLength": 300,
+        "required": true
+      }
+    },
+    {
+      "name": "imageDescription",
+      "value": "",
+      "col": "",
+      "type": "textarea",
+      "label": "Description",
+      "errorText": "",
+      "validation": {
+        "charCountLimit": 500,
+        "maxLength": 550
+      }
+    }
+  ],
+  "createSet": {
+    "fields": [
+      {
+        "name": "setName",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Set Name",
+        "errorText": "",
+        "validation": {
+          "required": true,
+          "maxLength": 300,
+          "charCountLimit": 250,
+          "isAlphaNumericWithSpecialChars": true
+        }
+      },
+      {
+        "name": "GroupCountry",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "groupBy": "group",
+        "label": "Country / Group",
+        "keyText": "title",
+        "path": "user/country-group",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "Platform",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "label": "Select Platform",
+        "keyText": "title",
+        "path": "/master/Platform",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "gender",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "label": "Gender",
+        "keyText": "title",
+        "path": "/master/Gender",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "genre",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "label": "Genre",
+        "keyText": "title",
+        "path": "/master/Genre",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "ageGroup",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "label": "Age Group",
+        "keyText": "title",
+        "path": "/master/AgeGroup",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "language",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "type": "dropdown",
+        "data": [],
+        "multiple": true,
+        "label": "Language",
+        "keyText": "title",
+        "path": "/master/Language",
+        "errorText": "",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "name": "others",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "label": "Others",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "maxLength": 250,
+          "isalphanumericValidateWithComma": true
+        }
+      }
+    ]
+  }
+}

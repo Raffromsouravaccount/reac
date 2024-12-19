@@ -1,0 +1,493 @@
+{
+  "others": {
+    "attributes": [
+      {
+        "name": "42c1e2b7-0578-4e5f-b805-c2601fddee28",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Performer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "72dab561-6c03-4634-ab6f-f5268f716211",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Host/Anchorman",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "d7d7bdab-3a6e-47d6-8be1-50d99535a98e",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Singer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "88a65fb3-ee63-42ad-97ba-53e340120800",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Lyricist",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "37b661a0-c72a-4114-ae68-01e42dcbf149",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Director",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "e5293be6-f107-4e5f-83ce-4de5176a0638",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Cinematography/DOP",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "d1958a0d-9593-4b42-9aa4-45f21e4e008c",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Producer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "67d360dc-91a4-4076-97a8-6bcad057fbef",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Executive Producer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "ff299957-95e9-4893-8ddc-7773a19ca8f3",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Music Director",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "d6d9417c-487b-4721-b835-1c6bc8a26419",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Choreographer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "86bf9076-5e85-439b-8c56-72466547f4f6",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Title Theme Music",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "01f0b5bc-b4e0-47a9-a771-6d1441327051",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Background Score",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "36055682-92b5-4a06-8d1f-7bee5091a2e9",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Story Writer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "4b36aec2-b1d9-41a1-932d-afb4167e31ed",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Screen Play",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "f61f9a2c-06fe-46ba-873e-be8ec6250eee",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Dialogue Writer",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "7a54e245-1ed3-4cf3-8239-836e3e31c496",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Film Editing",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "72a18e11-afc7-4fde-a610-690b447e64b7",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Casting",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "cbe6285a-c4c9-4326-843e-19f4edcc6c80",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Production Design",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "ce6c59af-85bb-41b2-b39c-4fdb95571b14",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Art Direction",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "4cf637af-cd57-4f2d-9743-796fda296f64",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Set Decoration",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "99f58b87-fd54-48b4-8514-33c443cd0290",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Costume Design",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "8184d837-d622-4ac9-82bb-1b1a8fb7143f",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Production Co",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "afecd044-82ec-463f-a681-da564d2d9ab0",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Presenter",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "79c5dd74-6912-48f8-b0da-60c24b5fa917",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Guest",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "d9e1fb0d-b368-46df-a53e-49c1473ce8ff",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Participant",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "a7420fdc-43b8-49dc-98ea-2db61fdfa8db",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Judges",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "ba9e3b38-5269-43dc-ab50-701380281461",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Narrator",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "cdad2189-ffbe-41c2-914a-cb92ffb457a5",
+        "value": "",
+        "col": "col-md-6 col-lg-6",
+        "type": "text",
+        "multiple": true,
+        "label": "Sponsor",
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "305cb138-0ef4-4068-9a13-ab96eb7be36c",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Graphics",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      },
+      {
+        "name": "7a5893e2-b4ea-4c55-99af-f50cd7a949e2",
+        "type": "SearchableWithCreate",
+        "keyText": "castName",
+        "value": [],
+        "col": "col-md-6 col-lg-6",
+        "multiple": true,
+        "label": "Vocalist",
+        "data": [],
+        "errorText": "",
+        "validation": {
+          "required": false,
+          "isChar": true
+        }
+      }
+    ]
+  },
+  "actors": {
+    "label": "Actors",
+    "name": "3bb64421-f15f-4dda-adec-03c324c140a3",
+    "multiple": true,
+    "attributes": [
+      {
+        "actor": {
+          "name": "actor",
+          "type": "SearchableWithCreate",
+          "keyText": "castName",
+          "value": null,
+          "col": "col-md-6 col-lg-6",
+          "multiple": false,
+          "label": "Actor",
+          "data": [],
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isAlphaNumericWithSpecialChars": true
+          }
+        },
+        "character": {
+          "name": "character",
+          "value": "",
+          "col": "col-md-6 col-lg-6",
+          "type": "text",
+          "multiple": false,
+          "maxLength": 250,
+          "label": "Character",
+          "errorText": "",
+          "validation": {
+            "required": false,
+            "isChar": true,
+            "maxLength": 250
+          }
+        }
+      }
+    ]
+  }
+}

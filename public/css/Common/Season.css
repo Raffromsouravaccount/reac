@@ -1,0 +1,82 @@
+.season-search input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.25;
+  color: #333333;
+  width: 294px;
+  max-width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(34, 37, 41, 0.06);
+  border: solid 1px #d4d4d4;
+  background-color: #ffffff;
+}
+.season-search input[type="text"]:focus { outline: 1px; border-color: #333333; }
+.title-h4 {
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: #4b4b4b;
+}
+.mov-l-box .drop-icon {
+  margin-right: 12px;
+  background: #e7f2fe;
+  height: 28px;
+  width: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.season-box .mov-info-box .movie-img {
+  margin-right: 12px;
+  width: 54px;
+  height: 54px;
+}
+.season-box .mov-info-box .movie-img img {
+  width: 54px;
+  height: 54px;
+}
+.season-box .mov-info-box .info {
+  width: calc(100% - 107px);
+}
+.season-box .mov-l-box .mov-link-btn {
+  cursor: default;
+}
+.set-order-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: #4b4b4b;
+}
+.set-order-wrap .answer-list { 
+  padding-left: 20px;
+}
+.g-cou-l-name, .g-cou-r-name {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: normal;
+
+}
+.g-cou-l-name {
+  margin-right: 15px;
+  color: #999999;
+}
+.g-cou-r-name {
+  color: #4b4b4b;
+}
+
+@media (max-width: 767px) {
+  
+}
+@media (max-width: 576px) {
+  .season-search input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .set-order-title {
+    margin-bottom: 10px;
+  }
+}
